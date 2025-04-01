@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://modqas8vkbob"]
+
+[ext_resource type="PackedScene" uid="uid://ds3q5xfjtv4nm" path="res://roulette_dungeon/play/player/player_scenes/player.tscn" id="1_6pib2"]
+[ext_resource type="Script" uid="uid://dqx5km2p7mp6r" path="res://roulette_dungeon/play/player/player_scripts/default.gd" id="2_2b2u2"]
+
+[node name="default" instance=ExtResource("1_6pib2")]
+script = ExtResource("2_2b2u2")
