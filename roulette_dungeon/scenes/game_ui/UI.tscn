@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgvciycwqvqr6"]
+
+[ext_resource type="Script" uid="uid://dd3gwb3bj71uv" path="res://roulette_dungeon/scripts/game_ui/UI.gd" id="1_e58sq"]
+[ext_resource type="Texture2D" uid="uid://b0qr1nhylyydo" path="res://roulette_dungeon/assets/user_interface/icons_online/tile_0123.png" id="1_gi3ex"]
+
+[node name="ui_ingame" type="CanvasLayer"]
+process_mode = 3
+script = ExtResource("1_e58sq")
+
+[node name="pause_button" type="Button" parent="."]
+offset_left = 47.0
+offset_top = 102.0
+offset_right = 122.0
+offset_bottom = 177.0
+action_mode = 0
+icon = ExtResource("1_gi3ex")
+expand_icon = true
+
+[connection signal="pressed" from="pause_button" to="." method="_on_pause_button_pressed"]

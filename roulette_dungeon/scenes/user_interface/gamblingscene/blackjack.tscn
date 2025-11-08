@@ -1,0 +1,4180 @@
+[gd_scene load_steps=726 format=3 uid="uid://crc145563flix"]
+
+[ext_resource type="Script" uid="uid://r4gq7kj6hd7k" path="res://roulette_dungeon/scripts/user_interface/gamblingscene/blackjack.gd" id="1_78qoo"]
+[ext_resource type="Texture2D" uid="uid://dco7kxhtjels" path="res://roulette_dungeon/assets/user_interface/gamblingscene/dealertest2.png" id="2_b5hds"]
+[ext_resource type="Texture2D" uid="uid://dk5hbtvkmpuwi" path="res://roulette_dungeon/assets/user_interface/gamblingscene/CardsPacket.png" id="3_oy8ak"]
+[ext_resource type="Texture2D" uid="uid://hcjnjqpaaoqs" path="res://roulette_dungeon/assets/user_interface/gamblingscene/exit2.png" id="4_gxclu"]
+[ext_resource type="Script" uid="uid://dx38jphe6o8da" path="res://roulette_dungeon/scripts/user_interface/buttons/UI.gd" id="5_wuc4u"]
+[ext_resource type="StyleBox" uid="uid://d3dxvfjn2xj5t" path="res://roulette_dungeon/assets/tres/gamblinggoods.tres" id="6_sx44t"]
+[ext_resource type="Script" uid="uid://bw0x0ywdwnpul" path="res://roulette_dungeon/scripts/user_interface/buttons/goods/energy.gd" id="7_63uel"]
+[ext_resource type="Texture2D" uid="uid://l0o12txmjflj" path="res://roulette_dungeon/assets/user_interface/mainUI/luck1-export-export-export.png" id="8_ivk2w"]
+[ext_resource type="Script" uid="uid://l8e38gyiiccs" path="res://roulette_dungeon/scripts/user_interface/buttons/goods/gold.gd" id="9_mk7ma"]
+[ext_resource type="Texture2D" uid="uid://ct5mxiexpayhs" path="res://roulette_dungeon/assets/user_interface/mainUI/pokeeeeerr.png" id="10_fsn4x"]
+[ext_resource type="Texture2D" uid="uid://b5lr5rpb7clss" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip1.png" id="11_kdufa"]
+[ext_resource type="Texture2D" uid="uid://devkcdhqkvveu" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip2.png" id="12_y0mku"]
+[ext_resource type="Texture2D" uid="uid://ohtavk3gemr6" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip3.png" id="13_y37x0"]
+[ext_resource type="Texture2D" uid="uid://c66i15gqfvuqh" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip4.png" id="14_elfn4"]
+[ext_resource type="Texture2D" uid="uid://ls87xicg5fca" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip5.png" id="15_ixuye"]
+[ext_resource type="Texture2D" uid="uid://j3nvwn6p03x7" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip6.png" id="16_6vair"]
+[ext_resource type="Texture2D" uid="uid://caqptwfas8g0m" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip7.png" id="17_56m0h"]
+[ext_resource type="Texture2D" uid="uid://vwf1hrvx2eqo" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip8.png" id="18_x1avr"]
+[ext_resource type="Texture2D" uid="uid://c34hp161ek8u2" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip9.png" id="19_mujci"]
+[ext_resource type="Texture2D" uid="uid://bb88s7qf1bn4g" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip10.png" id="20_bjlsk"]
+[ext_resource type="Texture2D" uid="uid://brxseqemmjbvo" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip11.png" id="21_hob73"]
+[ext_resource type="Texture2D" uid="uid://dwqwyjcc8n5m5" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip12.png" id="22_urf7g"]
+[ext_resource type="Texture2D" uid="uid://b0ludedhmo7or" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip13.png" id="23_b4n35"]
+[ext_resource type="Texture2D" uid="uid://c84o2onr8k6xr" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip14.png" id="24_0o14c"]
+[ext_resource type="Texture2D" uid="uid://dj2cqjiyhb8my" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip15.png" id="25_c2llv"]
+[ext_resource type="Texture2D" uid="uid://dusjhonwujqki" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip16.png" id="26_lu5qx"]
+[ext_resource type="Texture2D" uid="uid://bdqhgkhxxj3yf" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip17.png" id="27_dtg4r"]
+[ext_resource type="Texture2D" uid="uid://n3x1sjat008d" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip18.png" id="28_0th2a"]
+[ext_resource type="Texture2D" uid="uid://dhbmplaa8adyw" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip19.png" id="29_krydi"]
+[ext_resource type="Texture2D" uid="uid://bdvmo432ov1oc" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip20.png" id="30_24xy8"]
+[ext_resource type="Texture2D" uid="uid://c5wpy8tdcayeq" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip21.png" id="31_2gh0y"]
+[ext_resource type="Texture2D" uid="uid://cacrwo5lknxn8" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip22.png" id="32_o61tw"]
+[ext_resource type="Texture2D" uid="uid://lt8o3djuffex" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip23.png" id="33_fpjwv"]
+[ext_resource type="Texture2D" uid="uid://bmerp88now7vf" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip24.png" id="34_jyx7j"]
+[ext_resource type="Texture2D" uid="uid://b4175mrwlw65r" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip25.png" id="35_453ag"]
+[ext_resource type="Texture2D" uid="uid://cgwcx1i14df2q" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip26.png" id="36_njgyt"]
+[ext_resource type="Texture2D" uid="uid://cg63gl4js8f4o" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip27.png" id="37_q1mmr"]
+[ext_resource type="Texture2D" uid="uid://dj5ko8uh1rnf7" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip28.png" id="38_pckr0"]
+[ext_resource type="Texture2D" uid="uid://du0x1ocm2al65" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip29.png" id="39_7c2af"]
+[ext_resource type="Texture2D" uid="uid://dmuo02aplgtxv" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip30.png" id="40_14ijp"]
+[ext_resource type="Texture2D" uid="uid://db658875o8sqy" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip31.png" id="41_ecl1w"]
+[ext_resource type="Texture2D" uid="uid://t6veay5l1g67" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip32.png" id="42_hijq6"]
+[ext_resource type="Texture2D" uid="uid://ba552cokx2rnl" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip33.png" id="43_dwlis"]
+[ext_resource type="Texture2D" uid="uid://ca3gf02jnxekj" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip34.png" id="44_1k5ah"]
+[ext_resource type="Texture2D" uid="uid://1agwh7qb3pqe" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip35.png" id="45_6vqak"]
+[ext_resource type="Texture2D" uid="uid://iwwmf356xh4x" path="res://roulette_dungeon/assets/user_interface/mainUI/coin_anim/coinflip36.png" id="46_td67l"]
+[ext_resource type="Script" uid="uid://dcuohjeqhs0w4" path="res://roulette_dungeon/scripts/user_interface/buttons/goods/poker_coin.gd" id="47_fgstw"]
+[ext_resource type="Texture2D" uid="uid://dfji5xpkt2qfq" path="res://roulette_dungeon/assets/user_interface/mainUI/dollar1-00.png" id="48_r7v64"]
+[ext_resource type="Script" uid="uid://btlpie5ocjdkm" path="res://roulette_dungeon/scripts/user_interface/gamblingscene/highlow/bets.gd" id="49_n7i2q"]
+[ext_resource type="Texture2D" uid="uid://omqfmmfaaway" path="res://roulette_dungeon/assets/user_interface/gamblingscene/Heart-export.png" id="50_habbw"]
+[ext_resource type="StyleBox" uid="uid://bu8ybki6qbvxg" path="res://roulette_dungeon/assets/tres/playbutttonhighlow.tres" id="51_t017a"]
+[ext_resource type="Texture2D" uid="uid://c1nsj3668expo" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/10carreau/10carreau1.png" id="52_tradd"]
+[ext_resource type="Texture2D" uid="uid://c3rtqep13q1xv" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/10carreau/10carreau2.png" id="53_1f4ky"]
+[ext_resource type="Texture2D" uid="uid://bg7gb70n7a5nw" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/10carreau/10carreau3.png" id="54_y2eyt"]
+[ext_resource type="Texture2D" uid="uid://ojmfkyj20q8d" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/10carreau/10carreau4.png" id="55_nqwfa"]
+[ext_resource type="Texture2D" uid="uid://bu2osgkius5bl" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/10carreau/10carreau5.png" id="56_ns0er"]
+[ext_resource type="Texture2D" uid="uid://dr3piv65pyqmv" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/10carreau/10carreau6.png" id="57_0ge6c"]
+[ext_resource type="Texture2D" uid="uid://b7s0bl6yammxs" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/10carreau/10carreau7.png" id="58_dentp"]
+[ext_resource type="Texture2D" uid="uid://bi1sjdnb5qv6" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/10carreau/10carreau8.png" id="59_qt2gg"]
+[ext_resource type="Texture2D" uid="uid://d1h3mauwj0lse" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/10carreau/10carreau9.png" id="60_hqdxy"]
+[ext_resource type="Texture2D" uid="uid://dv5vs6y16kje7" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/10carreau/10carreau10.png" id="61_fga1e"]
+[ext_resource type="Texture2D" uid="uid://mo36d303jrrq" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/10carreau/10carreau11.png" id="62_5sp3w"]
+[ext_resource type="Texture2D" uid="uid://da75w5aewuv2f" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/10carreau/10carreau12.png" id="63_ixf8p"]
+[ext_resource type="Texture2D" uid="uid://buewifjfsrrm0" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/10coeur/10coeur1.png" id="64_wlrwb"]
+[ext_resource type="Texture2D" uid="uid://7350k64qq54x" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/10coeur/10coeur2.png" id="65_xuig8"]
+[ext_resource type="Texture2D" uid="uid://dd87hw1f748un" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/10coeur/10coeur3.png" id="66_ii457"]
+[ext_resource type="Texture2D" uid="uid://cjcxkd7cor2v5" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/10coeur/10coeur4.png" id="67_ioxw6"]
+[ext_resource type="Texture2D" uid="uid://dty7jwpodnro2" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/10coeur/10coeur5.png" id="68_pt0b3"]
+[ext_resource type="Texture2D" uid="uid://cx0lltkcw72pm" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/10coeur/10coeur6.png" id="69_jof34"]
+[ext_resource type="Texture2D" uid="uid://de5uh4qitx5b5" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/10coeur/10coeur7.png" id="70_wjs0i"]
+[ext_resource type="Texture2D" uid="uid://3bis8p34fpew" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/10coeur/10coeur8.png" id="71_322mh"]
+[ext_resource type="Texture2D" uid="uid://bg1u8vutsj5er" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/10coeur/10coeur9.png" id="72_dl3md"]
+[ext_resource type="Texture2D" uid="uid://dyqodi7boj6an" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/10coeur/10coeur10.png" id="73_pmgsp"]
+[ext_resource type="Texture2D" uid="uid://doeftyxowgeon" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/10coeur/10coeur11.png" id="74_qwpkx"]
+[ext_resource type="Texture2D" uid="uid://kprh6g1ij7wf" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/10coeur/10coeur12.png" id="75_0dqtx"]
+[ext_resource type="Texture2D" uid="uid://c475i6w0gicto" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/10pique/10pique1.png" id="76_nhwyn"]
+[ext_resource type="Texture2D" uid="uid://kp34hp3l1o1w" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/10pique/10pique2.png" id="77_w8log"]
+[ext_resource type="Texture2D" uid="uid://bcya5uxhwwh0f" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/10pique/10pique3.png" id="78_1yixl"]
+[ext_resource type="Texture2D" uid="uid://dowgmqeb6tk3k" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/10pique/10pique4.png" id="79_oxuwf"]
+[ext_resource type="Texture2D" uid="uid://cnqoim48r0b7q" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/10pique/10pique5.png" id="80_jk66j"]
+[ext_resource type="Texture2D" uid="uid://cke5sncpyrevw" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/10pique/10pique6.png" id="81_wjqcw"]
+[ext_resource type="Texture2D" uid="uid://bqopm80lcj21e" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/10pique/10pique7.png" id="82_btplr"]
+[ext_resource type="Texture2D" uid="uid://4k6gwedskiou" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/10pique/10pique8.png" id="83_66h2k"]
+[ext_resource type="Texture2D" uid="uid://or1xwfhh4khh" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/10pique/10pique9.png" id="84_yndrh"]
+[ext_resource type="Texture2D" uid="uid://ejl0j061ju8n" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/10pique/10pique10.png" id="85_vrg33"]
+[ext_resource type="Texture2D" uid="uid://c81yiobllsjr3" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/10trefle/10trefle1.png" id="86_dbyh3"]
+[ext_resource type="Texture2D" uid="uid://crtyxjtlp8isp" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/10trefle/10trefle2.png" id="87_li3gh"]
+[ext_resource type="Texture2D" uid="uid://dyasi5bux7062" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/10trefle/10trefle3.png" id="88_qmd5o"]
+[ext_resource type="Texture2D" uid="uid://f385a3xgvbbf" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/10trefle/10trefle4.png" id="89_if8vn"]
+[ext_resource type="Texture2D" uid="uid://cg1lbkimlmrjc" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/10trefle/10trefle5.png" id="90_xolp4"]
+[ext_resource type="Texture2D" uid="uid://qf2hqcou4jtp" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/10trefle/10trefle6.png" id="91_ua4s4"]
+[ext_resource type="Texture2D" uid="uid://dhhh7kvvl54wl" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/10trefle/10trefle7.png" id="92_0vg00"]
+[ext_resource type="Texture2D" uid="uid://2udhwi3fgrcg" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/10trefle/10trefle8.png" id="93_yg4ob"]
+[ext_resource type="Texture2D" uid="uid://cvrpi1adesjnp" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/10trefle/10trefle9.png" id="94_8tyyg"]
+[ext_resource type="Texture2D" uid="uid://dix6nl0acs20" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/10trefle/10trefle10.png" id="95_6shuo"]
+[ext_resource type="Texture2D" uid="uid://ooh5wa5quskj" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/10trefle/10trefle11.png" id="96_i61u1"]
+[ext_resource type="Texture2D" uid="uid://d0v5mqyrq1w6v" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/10trefle/10trefle12.png" id="97_74fjn"]
+[ext_resource type="Texture2D" uid="uid://c8yk6kvs3q7vr" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/2carreau/2carreau1.png" id="98_upvjd"]
+[ext_resource type="Texture2D" uid="uid://dq6dnc3txmhhh" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/2carreau/2carreau2.png" id="99_ye1ib"]
+[ext_resource type="Texture2D" uid="uid://bqfmu4g1xscry" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/2carreau/2carreau3.png" id="100_twyh8"]
+[ext_resource type="Texture2D" uid="uid://ttwa1208kppm" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/2carreau/2carreau4.png" id="101_4hfxk"]
+[ext_resource type="Texture2D" uid="uid://cl0x3e6xrh2o7" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/2carreau/2carreau5.png" id="102_1oear"]
+[ext_resource type="Texture2D" uid="uid://cmw47aeltja34" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/2carreau/2carreau6.png" id="103_obgrw"]
+[ext_resource type="Texture2D" uid="uid://yaobsys1oqj8" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/2carreau/2carreau7.png" id="104_nmbtj"]
+[ext_resource type="Texture2D" uid="uid://dnchmthssffcs" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/2carreau/2carreau8.png" id="105_lj7ap"]
+[ext_resource type="Texture2D" uid="uid://bqqs5g2h6relp" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/2carreau/2carreau9.png" id="106_rkj3j"]
+[ext_resource type="Texture2D" uid="uid://cajd08isvq73q" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/2carreau/2carreau10.png" id="107_74qm6"]
+[ext_resource type="Texture2D" uid="uid://cjpewm7lyf82l" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/2carreau/2carreau11.png" id="108_k36l4"]
+[ext_resource type="Texture2D" uid="uid://dx1k0plp6mqyh" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/2carreau/2carreau12.png" id="109_jgmei"]
+[ext_resource type="Texture2D" uid="uid://dxin6pmj4q4so" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/2coeur/2coeur1.png" id="110_hqs4q"]
+[ext_resource type="Texture2D" uid="uid://dsitdqb5soda4" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/2coeur/2coeur2.png" id="111_5t556"]
+[ext_resource type="Texture2D" uid="uid://bmxwtuslhc7h1" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/2coeur/2coeur3.png" id="112_i43p6"]
+[ext_resource type="Texture2D" uid="uid://ypnvqonrmp66" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/2coeur/2coeur4.png" id="113_cly8m"]
+[ext_resource type="Texture2D" uid="uid://bgha3tg4u5luu" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/2coeur/2coeur5.png" id="114_e1wkx"]
+[ext_resource type="Texture2D" uid="uid://bklo563bvtgdi" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/2coeur/2coeur6.png" id="115_yebud"]
+[ext_resource type="Texture2D" uid="uid://bnaiweek0cjtp" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/2coeur/2coeur7.png" id="116_dpvd7"]
+[ext_resource type="Texture2D" uid="uid://bdx82fbe5mxpn" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/2coeur/2coeur8.png" id="117_tw6nv"]
+[ext_resource type="Texture2D" uid="uid://cojdsc8e0ad7e" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/2coeur/2coeur9.png" id="118_i7mr5"]
+[ext_resource type="Texture2D" uid="uid://4iyty5jwvif0" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/2coeur/2coeur10.png" id="119_w4clm"]
+[ext_resource type="Texture2D" uid="uid://dmk85sdjn017o" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/2coeur/2coeur11.png" id="120_iqe0p"]
+[ext_resource type="Texture2D" uid="uid://b7br4ygx77qqe" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/2coeur/2coeur12.png" id="121_siy5c"]
+[ext_resource type="Texture2D" uid="uid://7bqamkpygly3" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/2pique/2pique1.png" id="122_6vc27"]
+[ext_resource type="Texture2D" uid="uid://c2wmstu84e383" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/2pique/2pique2.png" id="123_tfscm"]
+[ext_resource type="Texture2D" uid="uid://b5jvsytxlkfak" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/2pique/2pique3.png" id="124_swshv"]
+[ext_resource type="Texture2D" uid="uid://du0vaqmtgohrx" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/2pique/2pique4.png" id="125_wii26"]
+[ext_resource type="Texture2D" uid="uid://q6bqdlknjjs6" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/2pique/2pique5.png" id="126_bwvqc"]
+[ext_resource type="Texture2D" uid="uid://bwyfqnlafrxbr" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/2pique/2pique6.png" id="127_m1kld"]
+[ext_resource type="Texture2D" uid="uid://dj0i8ru3b4aba" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/2pique/2pique7.png" id="128_2maxs"]
+[ext_resource type="Texture2D" uid="uid://c8822ggd8fx5q" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/2pique/2pique8.png" id="129_sg7k0"]
+[ext_resource type="Texture2D" uid="uid://b06uwevrhasmj" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/2pique/2pique9.png" id="130_uutrt"]
+[ext_resource type="Texture2D" uid="uid://cgcjtd7uxf0fk" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/2pique/2pique10.png" id="131_pfids"]
+[ext_resource type="Texture2D" uid="uid://pu2q8orv24la" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/2pique/2pique11.png" id="132_6mdvl"]
+[ext_resource type="Texture2D" uid="uid://dfoe8sprq4enk" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/2pique/2pique12.png" id="133_t1ahd"]
+[ext_resource type="Texture2D" uid="uid://cqj74ivw0r745" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/2trefle/2trefle1.png" id="134_042lh"]
+[ext_resource type="Texture2D" uid="uid://dt3tlmbr6vwor" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/2trefle/2trefle2.png" id="135_e5ch6"]
+[ext_resource type="Texture2D" uid="uid://cr0c6k6768bbf" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/2trefle/2trefle3.png" id="136_5gs60"]
+[ext_resource type="Texture2D" uid="uid://vlj4lpnbqu2c" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/2trefle/2trefle4.png" id="137_mk02k"]
+[ext_resource type="Texture2D" uid="uid://yahpu12nsrxi" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/2trefle/2trefle5.png" id="138_vqk3u"]
+[ext_resource type="Texture2D" uid="uid://mtv86pv3pjlb" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/2trefle/2trefle6.png" id="139_wk3ij"]
+[ext_resource type="Texture2D" uid="uid://dsyj4fuxnjycu" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/2trefle/2trefle7.png" id="140_82ug0"]
+[ext_resource type="Texture2D" uid="uid://cvqxi0b7d3nsy" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/2trefle/2trefle8.png" id="141_sww3b"]
+[ext_resource type="Texture2D" uid="uid://bkgpi3sdm3iq" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/2trefle/2trefle9.png" id="142_oxyol"]
+[ext_resource type="Texture2D" uid="uid://bywm3oohx2y1y" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/2trefle/2trefle10.png" id="143_2bjq3"]
+[ext_resource type="Texture2D" uid="uid://bi3urx1m5nwr3" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/2trefle/2trefle11.png" id="144_hcj5m"]
+[ext_resource type="Texture2D" uid="uid://k3j10u71113" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/2trefle/2trefle12.png" id="145_2kjy3"]
+[ext_resource type="Texture2D" uid="uid://dqxefvydgshdj" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/3carreau/3carreau1.png" id="146_rhcph"]
+[ext_resource type="Texture2D" uid="uid://ci4spxnki072u" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/3carreau/3carreau2.png" id="147_51r61"]
+[ext_resource type="Texture2D" uid="uid://b5phyvd2u1tms" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/3carreau/3carreau3.png" id="148_rmm3k"]
+[ext_resource type="Texture2D" uid="uid://xvhg52mdl1rh" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/3carreau/3carreau4.png" id="149_mhqp1"]
+[ext_resource type="Texture2D" uid="uid://dp7qcq45wpvsg" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/3carreau/3carreau5.png" id="150_wdhdg"]
+[ext_resource type="Texture2D" uid="uid://cs74uexg7g836" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/3carreau/3carreau6.png" id="151_r6lbr"]
+[ext_resource type="Texture2D" uid="uid://b4v5sof6kb4sx" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/3carreau/3carreau7.png" id="152_kg5sb"]
+[ext_resource type="Texture2D" uid="uid://blpraw24awsb2" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/3carreau/3carreau8.png" id="153_xf5yu"]
+[ext_resource type="Texture2D" uid="uid://bkyrcdmucaqsq" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/3carreau/3carreau9.png" id="154_iv8yr"]
+[ext_resource type="Texture2D" uid="uid://bo431io22spnb" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/3carreau/3carreau10.png" id="155_k7ctk"]
+[ext_resource type="Texture2D" uid="uid://3me84h7gk7ev" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/3carreau/3carreau11.png" id="156_cunhy"]
+[ext_resource type="Texture2D" uid="uid://cq4xs3332g0uy" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/3carreau/3carreau12.png" id="157_gliu0"]
+[ext_resource type="Texture2D" uid="uid://dmhdw840o1ikf" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/3coeur/3coeur1.png" id="158_l3d1p"]
+[ext_resource type="Texture2D" uid="uid://ceb5moamuo0sf" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/3coeur/3coeur2.png" id="159_gvojj"]
+[ext_resource type="Texture2D" uid="uid://b72y0badyv70y" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/3coeur/3coeur3.png" id="160_3fhqb"]
+[ext_resource type="Texture2D" uid="uid://cf8bo7mgaonyt" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/3coeur/3coeur4.png" id="161_06jsp"]
+[ext_resource type="Texture2D" uid="uid://bfgsfbsw1ep1k" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/3coeur/3coeur5.png" id="162_avsyd"]
+[ext_resource type="Texture2D" uid="uid://xyhnjcgntrxv" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/3coeur/3coeur6.png" id="163_6jw24"]
+[ext_resource type="Texture2D" uid="uid://ct1x40ljcdmfi" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/3coeur/3coeur7.png" id="164_c0to5"]
+[ext_resource type="Texture2D" uid="uid://ciob0dpm41bv7" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/3coeur/3coeur8.png" id="165_wsik0"]
+[ext_resource type="Texture2D" uid="uid://ceqkkp7qg523v" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/3coeur/3coeur9.png" id="166_5osu3"]
+[ext_resource type="Texture2D" uid="uid://cn68e4g62ci3h" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/3coeur/3coeur10.png" id="167_65ysk"]
+[ext_resource type="Texture2D" uid="uid://rmhps8vuwbg0" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/3coeur/3coeur11.png" id="168_messt"]
+[ext_resource type="Texture2D" uid="uid://b3dbyifhlsk3f" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/3coeur/3coeur12.png" id="169_1hcy0"]
+[ext_resource type="Texture2D" uid="uid://h6iwqj3835l0" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/3pique/3pique1.png" id="170_sleht"]
+[ext_resource type="Texture2D" uid="uid://iplqbnp0vvuk" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/3pique/3pique2.png" id="171_376d3"]
+[ext_resource type="Texture2D" uid="uid://b15rvgdcydftj" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/3pique/3pique3.png" id="172_a07xr"]
+[ext_resource type="Texture2D" uid="uid://cvs0swaikihi2" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/3pique/3pique4.png" id="173_3l5i0"]
+[ext_resource type="Texture2D" uid="uid://o6df3j4k0mqx" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/3pique/3pique5.png" id="174_jyyfl"]
+[ext_resource type="Texture2D" uid="uid://ci4xxn7e3hl06" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/3pique/3pique6.png" id="175_loldr"]
+[ext_resource type="Texture2D" uid="uid://dwgq35ng7ctlm" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/3pique/3pique7.png" id="176_bl4q3"]
+[ext_resource type="Texture2D" uid="uid://k1cfgy8hagc0" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/3pique/3pique8.png" id="177_ipmfd"]
+[ext_resource type="Texture2D" uid="uid://bfnmdf8vqj4bb" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/3pique/3pique9.png" id="178_jr13x"]
+[ext_resource type="Texture2D" uid="uid://b6d8pe4xshbdv" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/3pique/3pique10.png" id="179_ckk30"]
+[ext_resource type="Texture2D" uid="uid://booy2adcc0nal" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/3pique/3pique11.png" id="180_gdt46"]
+[ext_resource type="Texture2D" uid="uid://b5iue1fwat1sf" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/3pique/3pique12.png" id="181_nnykc"]
+[ext_resource type="Texture2D" uid="uid://37sfg7gh365j" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/3trefle/3trefle1.png" id="182_vap4t"]
+[ext_resource type="Texture2D" uid="uid://oi1ln3usmbap" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/3trefle/3trefle2.png" id="183_scjmo"]
+[ext_resource type="Texture2D" uid="uid://c8fermr6s6p1v" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/3trefle/3trefle3.png" id="184_jqg48"]
+[ext_resource type="Texture2D" uid="uid://b8smcwdnv4sxr" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/3trefle/3trefle4.png" id="185_gbmeh"]
+[ext_resource type="Texture2D" uid="uid://dosvb65hbftow" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/3trefle/3trefle5.png" id="186_6dylw"]
+[ext_resource type="Texture2D" uid="uid://donmhang58f0y" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/3trefle/3trefle6.png" id="187_3bl1y"]
+[ext_resource type="Texture2D" uid="uid://dea6bfwvjfh6a" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/3trefle/3trefle7.png" id="188_usv06"]
+[ext_resource type="Texture2D" uid="uid://dc5cbtsaicggp" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/3trefle/3trefle8.png" id="189_brcuh"]
+[ext_resource type="Texture2D" uid="uid://bfh41tpdygy46" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/3trefle/3trefle9.png" id="190_2i1qy"]
+[ext_resource type="Texture2D" uid="uid://bo1jlix1tmh6" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/3trefle/3trefle10.png" id="191_e4qdw"]
+[ext_resource type="Texture2D" uid="uid://ba6o2qrm87ee2" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/3trefle/3trefle11.png" id="192_xjqks"]
+[ext_resource type="Texture2D" uid="uid://suef7tw6wtrg" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/3trefle/3trefle12.png" id="193_x0b6m"]
+[ext_resource type="Texture2D" uid="uid://bkscub5u5hwa8" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/4carreau/4carreau1.png" id="194_nsk8k"]
+[ext_resource type="Texture2D" uid="uid://dkxena5iqw44l" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/4carreau/4carreau2.png" id="195_cjyds"]
+[ext_resource type="Texture2D" uid="uid://xon02dobm8e7" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/4carreau/4carreau3.png" id="196_q4mn2"]
+[ext_resource type="Texture2D" uid="uid://ctrpp4a44qaw3" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/4carreau/4carreau4.png" id="197_vbhhg"]
+[ext_resource type="Texture2D" uid="uid://dwcegq4p2rrqj" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/4carreau/4carreau5.png" id="198_pdflt"]
+[ext_resource type="Texture2D" uid="uid://bxm36psuighd8" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/4carreau/4carreau6.png" id="199_6outf"]
+[ext_resource type="Texture2D" uid="uid://4pmfikrmliol" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/4carreau/4carreau7.png" id="200_21ukq"]
+[ext_resource type="Texture2D" uid="uid://bo3m0m6j5j347" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/4carreau/4carreau8.png" id="201_0c012"]
+[ext_resource type="Texture2D" uid="uid://dpqq5vgk1mjcs" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/4carreau/4carreau9.png" id="202_up8r1"]
+[ext_resource type="Texture2D" uid="uid://c5wcdxnt72qj7" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/4carreau/4carreau10.png" id="203_3fmm3"]
+[ext_resource type="Texture2D" uid="uid://dbbbmqyi625tn" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/4carreau/4carreau11.png" id="204_pbv4p"]
+[ext_resource type="Texture2D" uid="uid://bg0jqk4cdxope" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/4carreau/4carreau12.png" id="205_ot6d2"]
+[ext_resource type="Texture2D" uid="uid://62d0an31ccwx" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/4coeur/4coeur1.png" id="206_dkw87"]
+[ext_resource type="Texture2D" uid="uid://ck52aybpfa6v8" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/4coeur/4coeur2.png" id="207_lklfv"]
+[ext_resource type="Texture2D" uid="uid://d3h8l03wahtdb" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/4coeur/4coeur3.png" id="208_q11wp"]
+[ext_resource type="Texture2D" uid="uid://br2wbyknrhuak" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/4coeur/4coeur4.png" id="209_5uctf"]
+[ext_resource type="Texture2D" uid="uid://bovxsuyjm32eb" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/4coeur/4coeur5.png" id="210_qgo6w"]
+[ext_resource type="Texture2D" uid="uid://dxrce0eh2qswg" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/4coeur/4coeur6.png" id="211_qatmi"]
+[ext_resource type="Texture2D" uid="uid://b0jouj33hukjg" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/4coeur/4coeur7.png" id="212_tekxj"]
+[ext_resource type="Texture2D" uid="uid://dkgr6q8biv8pj" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/4coeur/4coeur8.png" id="213_bxgml"]
+[ext_resource type="Texture2D" uid="uid://bmtt0kfmuwwml" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/4coeur/4coeur9.png" id="214_e6x2n"]
+[ext_resource type="Texture2D" uid="uid://pm7wxt70nmwm" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/4coeur/4coeur10.png" id="215_v5i06"]
+[ext_resource type="Texture2D" uid="uid://c106bm3v1rv58" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/4coeur/4coeur11.png" id="216_imosn"]
+[ext_resource type="Texture2D" uid="uid://c2jt1mw84acob" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/4coeur/4coeur12.png" id="217_mut5t"]
+[ext_resource type="Texture2D" uid="uid://bdoeancbnlt1o" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/4pique/4pique1.png" id="218_gi0l4"]
+[ext_resource type="Texture2D" uid="uid://cixsuugijyejt" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/4pique/4pique2.png" id="219_o385e"]
+[ext_resource type="Texture2D" uid="uid://bjfoq6jymib1c" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/4pique/4pique3.png" id="220_ilwdo"]
+[ext_resource type="Texture2D" uid="uid://d0dmrdp53djbb" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/4pique/4pique4.png" id="221_qmx6e"]
+[ext_resource type="Texture2D" uid="uid://cps2qrh778ion" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/4pique/4pique5.png" id="222_arsc1"]
+[ext_resource type="Texture2D" uid="uid://bwv0jh1b36yx1" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/4pique/4pique6.png" id="223_c5b8f"]
+[ext_resource type="Texture2D" uid="uid://che0cw4akooec" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/4pique/4pique7.png" id="224_yk3in"]
+[ext_resource type="Texture2D" uid="uid://boio087i54k1p" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/4pique/4pique8.png" id="225_07ng8"]
+[ext_resource type="Texture2D" uid="uid://cgj2qlww0y0xv" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/4pique/4pique9.png" id="226_cg5ns"]
+[ext_resource type="Texture2D" uid="uid://b0jerthkys2sp" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/4pique/4pique10.png" id="227_8nddi"]
+[ext_resource type="Texture2D" uid="uid://cb6sr7wjgnhfp" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/4pique/4pique11.png" id="228_pn86q"]
+[ext_resource type="Texture2D" uid="uid://7owr57reck8x" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/4pique/4pique12.png" id="229_c41ih"]
+[ext_resource type="Texture2D" uid="uid://bwf45i38h0ndv" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/4trefle/4treflet1.png" id="230_xdrtn"]
+[ext_resource type="Texture2D" uid="uid://duhqrqdgbu12n" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/4trefle/4treflet2.png" id="231_27eef"]
+[ext_resource type="Texture2D" uid="uid://cm1nuxc0f3lyr" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/4trefle/4treflet3.png" id="232_wwupr"]
+[ext_resource type="Texture2D" uid="uid://cbpc174fg0vc4" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/4trefle/4treflet4.png" id="233_ujyto"]
+[ext_resource type="Texture2D" uid="uid://dekehogv5t5r5" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/4trefle/4treflet5.png" id="234_a043q"]
+[ext_resource type="Texture2D" uid="uid://bkhwufenbxb5v" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/4trefle/4treflet6.png" id="235_0mhyt"]
+[ext_resource type="Texture2D" uid="uid://cwsfbblhb8ke3" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/4trefle/4treflet7.png" id="236_ijmp6"]
+[ext_resource type="Texture2D" uid="uid://bajf5xuitfdjq" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/4trefle/4treflet8.png" id="237_ocbrf"]
+[ext_resource type="Texture2D" uid="uid://dvv17amkg70bl" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/4trefle/4treflet9.png" id="238_t0aku"]
+[ext_resource type="Texture2D" uid="uid://cm2232u6q4xyj" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/4trefle/4treflet10.png" id="239_a2cmq"]
+[ext_resource type="Texture2D" uid="uid://b8ithnbvjp221" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/4trefle/4treflet11.png" id="240_xe2kg"]
+[ext_resource type="Texture2D" uid="uid://ot6eny3idnw0" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/4trefle/4treflet12.png" id="241_n3k4w"]
+[ext_resource type="Texture2D" uid="uid://djljumwtieywe" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/5carreau/5carreau1.png" id="242_vvitr"]
+[ext_resource type="Texture2D" uid="uid://n2fspnejnwji" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/5carreau/5carreau2.png" id="243_81be0"]
+[ext_resource type="Texture2D" uid="uid://bxhn44cyfximx" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/5carreau/5carreau3.png" id="244_mb2bb"]
+[ext_resource type="Texture2D" uid="uid://dg5qni3l4ssmj" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/5carreau/5carreau4.png" id="245_xgudt"]
+[ext_resource type="Texture2D" uid="uid://dna3esjip375e" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/5carreau/5carreau5.png" id="246_okvxa"]
+[ext_resource type="Texture2D" uid="uid://cvb62auoln0la" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/5carreau/5carreau6.png" id="247_0uex2"]
+[ext_resource type="Texture2D" uid="uid://dah2dedj5vw42" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/5carreau/5carreau7.png" id="248_0fs6q"]
+[ext_resource type="Texture2D" uid="uid://clvy10j6jfjr7" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/5carreau/5carreau8.png" id="249_jic8i"]
+[ext_resource type="Texture2D" uid="uid://cg8u7ulohwqs3" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/5carreau/5carreau9.png" id="250_qhiyi"]
+[ext_resource type="Texture2D" uid="uid://c541ijeory0dp" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/5carreau/5carreau10.png" id="251_a75gp"]
+[ext_resource type="Texture2D" uid="uid://mhupspid0vxc" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/5carreau/5carreau11.png" id="252_xixow"]
+[ext_resource type="Texture2D" uid="uid://xqxiev33yisd" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/5carreau/5carreau12.png" id="253_2lkag"]
+[ext_resource type="Texture2D" uid="uid://dshafhidvkn40" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/5coeur/5coeur1.png" id="254_2oyjv"]
+[ext_resource type="Texture2D" uid="uid://du5o3gf0cm7dv" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/5coeur/5coeur2.png" id="255_yffyp"]
+[ext_resource type="Texture2D" uid="uid://bt77bfhtdd0mp" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/5coeur/5coeur3.png" id="256_kj6dc"]
+[ext_resource type="Texture2D" uid="uid://dhx8ypdgha53g" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/5coeur/5coeur4.png" id="257_12el1"]
+[ext_resource type="Texture2D" uid="uid://bahieulm0kjex" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/5coeur/5coeur5.png" id="258_ub31y"]
+[ext_resource type="Texture2D" uid="uid://bswxvenaslvka" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/5coeur/5coeur6.png" id="259_jslfa"]
+[ext_resource type="Texture2D" uid="uid://coqjwe431684d" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/5coeur/5coeur7.png" id="260_igdr7"]
+[ext_resource type="Texture2D" uid="uid://kvr0ri3qh027" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/5coeur/5coeur8.png" id="261_qnbky"]
+[ext_resource type="Texture2D" uid="uid://cj8opwuyrsoa7" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/5coeur/5coeur9.png" id="262_84s0i"]
+[ext_resource type="Texture2D" uid="uid://dkhohoq3t07x5" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/5coeur/5coeur10.png" id="263_2fhub"]
+[ext_resource type="Texture2D" uid="uid://dnbsa8npq4dtc" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/5coeur/5coeur11.png" id="264_obxc7"]
+[ext_resource type="Texture2D" uid="uid://cc81wnkn4ppwq" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/5coeur/5coeur12.png" id="265_jaev8"]
+[ext_resource type="Texture2D" uid="uid://biyhaavhq6p5j" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/5pique/5pique1.png" id="266_23x1o"]
+[ext_resource type="Texture2D" uid="uid://clk4ju1vdhbv2" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/5pique/5pique2.png" id="267_k8yq2"]
+[ext_resource type="Texture2D" uid="uid://mxjvty0sql7d" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/5pique/5pique3.png" id="268_tr0jo"]
+[ext_resource type="Texture2D" uid="uid://cmfaij570e7ls" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/5pique/5pique4.png" id="269_qqloa"]
+[ext_resource type="Texture2D" uid="uid://m45xbrqfhda3" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/5pique/5pique5.png" id="270_1t1gw"]
+[ext_resource type="Texture2D" uid="uid://1fshd6ivhak8" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/5pique/5pique6.png" id="271_uy1qp"]
+[ext_resource type="Texture2D" uid="uid://c2g75t573r4wm" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/5pique/5pique7.png" id="272_82syw"]
+[ext_resource type="Texture2D" uid="uid://c0awm0rjs6s6f" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/5pique/5pique8.png" id="273_jcwiu"]
+[ext_resource type="Texture2D" uid="uid://bdxl1tlelaeun" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/5pique/5pique9.png" id="274_xoxcv"]
+[ext_resource type="Texture2D" uid="uid://d1odtci5enuoq" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/5pique/5pique10.png" id="275_dka8v"]
+[ext_resource type="Texture2D" uid="uid://djb4cd6orm1lv" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/5pique/5pique11.png" id="276_11gbb"]
+[ext_resource type="Texture2D" uid="uid://c6jfb5dswar17" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/5pique/5pique12.png" id="277_qajcf"]
+[ext_resource type="Texture2D" uid="uid://chix7030k64y" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/5trefle/5trefle1.png" id="278_g5742"]
+[ext_resource type="Texture2D" uid="uid://x27srvishm5b" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/5trefle/5trefle2.png" id="279_i6dvk"]
+[ext_resource type="Texture2D" uid="uid://cayiv1fhygnd" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/5trefle/5trefle3.png" id="280_rvsnp"]
+[ext_resource type="Texture2D" uid="uid://cw5auf5lwdluq" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/5trefle/5trefle4.png" id="281_dbclw"]
+[ext_resource type="Texture2D" uid="uid://c7akyn84kjj7a" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/5trefle/5trefle5.png" id="282_u0p22"]
+[ext_resource type="Texture2D" uid="uid://bpcu10x5t1x20" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/5trefle/5trefle6.png" id="283_0w2sh"]
+[ext_resource type="Texture2D" uid="uid://26xdysxeferj" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/5trefle/5trefle7.png" id="284_b6nug"]
+[ext_resource type="Texture2D" uid="uid://bxg88bmy4wkyd" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/5trefle/5trefle8.png" id="285_qfkj2"]
+[ext_resource type="Texture2D" uid="uid://fnhnk64a0n5x" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/5trefle/5trefle9.png" id="286_ohyr0"]
+[ext_resource type="Texture2D" uid="uid://c8ufgse1hp8n4" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/5trefle/5trefle10.png" id="287_j2cqm"]
+[ext_resource type="Texture2D" uid="uid://b7gveq26ribhy" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/5trefle/5trefle11.png" id="288_mv8bp"]
+[ext_resource type="Texture2D" uid="uid://7yjhoh4etjqg" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/5trefle/5trefle12.png" id="289_vi5ui"]
+[ext_resource type="Texture2D" uid="uid://i5arpcl5xmbi" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/6carreau/6carreau1.png" id="290_g0nnv"]
+[ext_resource type="Texture2D" uid="uid://cystq8ml0ndcy" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/6carreau/6carreau2.png" id="291_2vipn"]
+[ext_resource type="Texture2D" uid="uid://c1iknmnylgpqb" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/6carreau/6carreau3.png" id="292_43h0j"]
+[ext_resource type="Texture2D" uid="uid://ceamlvqyi2ysn" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/6carreau/6carreau4.png" id="293_fc4hc"]
+[ext_resource type="Texture2D" uid="uid://5rkcx4b54mn1" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/6carreau/6carreau5.png" id="294_3kif4"]
+[ext_resource type="Texture2D" uid="uid://oi87nfymi7w6" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/6carreau/6carreau6.png" id="295_flqmk"]
+[ext_resource type="Texture2D" uid="uid://d4nmt0blksiml" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/6carreau/6carreau7.png" id="296_e5l6h"]
+[ext_resource type="Texture2D" uid="uid://cx6mj67782j1w" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/6carreau/6carreau8.png" id="297_5m0nb"]
+[ext_resource type="Texture2D" uid="uid://ox58rrxt1pye" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/6carreau/6carreau9.png" id="298_kyqld"]
+[ext_resource type="Texture2D" uid="uid://blu3vatlvqvyw" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/6carreau/6carreau10.png" id="299_42bxe"]
+[ext_resource type="Texture2D" uid="uid://c4381v34miaxk" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/6carreau/6carreau11.png" id="300_py408"]
+[ext_resource type="Texture2D" uid="uid://dw0sgks7vk2rg" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/6carreau/6carreau12.png" id="301_nxv80"]
+[ext_resource type="Texture2D" uid="uid://dkkdlsreprfn3" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/6coeur/6coeur1.png" id="302_hqvjp"]
+[ext_resource type="Texture2D" uid="uid://bqw6n62v030c5" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/6coeur/6coeur2.png" id="303_e6nwm"]
+[ext_resource type="Texture2D" uid="uid://cm1uyyrcsi1h" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/6coeur/6coeur3.png" id="304_lrmr8"]
+[ext_resource type="Texture2D" uid="uid://d0w01bleoopam" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/6coeur/6coeur4.png" id="305_y0yms"]
+[ext_resource type="Texture2D" uid="uid://4yxbdkws6lf7" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/6coeur/6coeur5.png" id="306_wf7tu"]
+[ext_resource type="Texture2D" uid="uid://dgb4uihhyeo45" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/6coeur/6coeur6.png" id="307_kotiq"]
+[ext_resource type="Texture2D" uid="uid://b85vbiur51cyp" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/6coeur/6coeur7.png" id="308_f3lvc"]
+[ext_resource type="Texture2D" uid="uid://c2w0urr6vmxq5" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/6coeur/6coeur8.png" id="309_cdub3"]
+[ext_resource type="Texture2D" uid="uid://cpersiidjk1rq" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/6coeur/6coeur9.png" id="310_klel2"]
+[ext_resource type="Texture2D" uid="uid://dqcciaykaw1ah" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/6coeur/6coeur10.png" id="311_vk7hd"]
+[ext_resource type="Texture2D" uid="uid://bka6fgbnhaq6v" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/6coeur/6coeur11.png" id="312_boypj"]
+[ext_resource type="Texture2D" uid="uid://dhjl0eglasmui" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/6coeur/6coeur12.png" id="313_q5fq8"]
+[ext_resource type="Texture2D" uid="uid://cwyhxixciyhf5" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/6pique/6pique1.png" id="314_dm2x5"]
+[ext_resource type="Texture2D" uid="uid://blk5qhmu60hm2" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/6pique/6pique2.png" id="315_n5d6p"]
+[ext_resource type="Texture2D" uid="uid://oeepsox5rgxu" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/6pique/6pique3.png" id="316_3hjo7"]
+[ext_resource type="Texture2D" uid="uid://c68lja3msceq2" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/6pique/6pique4.png" id="317_x00g0"]
+[ext_resource type="Texture2D" uid="uid://cqr6jnro6oag0" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/6pique/6pique5.png" id="318_ncc8c"]
+[ext_resource type="Texture2D" uid="uid://2ti62oedvwgo" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/6pique/6pique6.png" id="319_62jhw"]
+[ext_resource type="Texture2D" uid="uid://daqbvrqbn0hoh" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/6pique/6pique7.png" id="320_f7gl8"]
+[ext_resource type="Texture2D" uid="uid://bytpaqxykld40" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/6pique/6pique8.png" id="321_mgsch"]
+[ext_resource type="Texture2D" uid="uid://b3fepv4mrh786" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/6pique/6pique9.png" id="322_8i3gd"]
+[ext_resource type="Texture2D" uid="uid://ds2e37f230wqs" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/6pique/6pique10.png" id="323_jcaoa"]
+[ext_resource type="Texture2D" uid="uid://lfrib8ahulef" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/6pique/6pique11.png" id="324_je55e"]
+[ext_resource type="Texture2D" uid="uid://cilea3muqpyox" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/6pique/6pique12.png" id="325_vmadw"]
+[ext_resource type="Texture2D" uid="uid://c2yll36ymc78t" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/6trefle/6trefle1.png" id="326_0u13u"]
+[ext_resource type="Texture2D" uid="uid://da6km21ho43j" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/6trefle/6trefle2.png" id="327_eclk1"]
+[ext_resource type="Texture2D" uid="uid://cul7chei037b2" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/6trefle/6trefle3.png" id="328_nt2ch"]
+[ext_resource type="Texture2D" uid="uid://cb4cc55r7hx71" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/6trefle/6trefle4.png" id="329_5ir54"]
+[ext_resource type="Texture2D" uid="uid://d4a0kos725hnx" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/6trefle/6trefle5.png" id="330_7g3le"]
+[ext_resource type="Texture2D" uid="uid://dcjrptebl73vb" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/6trefle/6trefle6.png" id="331_4g4at"]
+[ext_resource type="Texture2D" uid="uid://dgynb6ivf7bou" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/6trefle/6trefle7.png" id="332_hbppn"]
+[ext_resource type="Texture2D" uid="uid://cbrygb3ojbree" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/6trefle/6trefle8.png" id="333_05iya"]
+[ext_resource type="Texture2D" uid="uid://bi48j0o2bfavl" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/6trefle/6trefle9.png" id="334_lve7x"]
+[ext_resource type="Texture2D" uid="uid://e7ugfkc1w3vy" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/6trefle/6trefle10.png" id="335_4obl2"]
+[ext_resource type="Texture2D" uid="uid://bo5fxfsm4nxd" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/6trefle/6trefle11.png" id="336_uq2u4"]
+[ext_resource type="Texture2D" uid="uid://iwr7fjd8vkyo" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/6trefle/6trefle12.png" id="337_asfpv"]
+[ext_resource type="Texture2D" uid="uid://dfcl1nompw5kj" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/7carreau/7carreau1.png" id="338_0v1ki"]
+[ext_resource type="Texture2D" uid="uid://dviuxbrxndhpj" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/7carreau/7carreau2.png" id="339_ri7fi"]
+[ext_resource type="Texture2D" uid="uid://ccgfkxuo17uxo" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/7carreau/7carreau3.png" id="340_j6ea8"]
+[ext_resource type="Texture2D" uid="uid://bujbiv8nlhx1x" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/7carreau/7carreau4.png" id="341_125fo"]
+[ext_resource type="Texture2D" uid="uid://b0gt2dpvw1mdy" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/7carreau/7carreau5.png" id="342_djwhq"]
+[ext_resource type="Texture2D" uid="uid://duimimou2slup" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/7carreau/7carreau6.png" id="343_2c1i7"]
+[ext_resource type="Texture2D" uid="uid://c8f22pdddfe7l" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/7carreau/7carreau7.png" id="344_mwrtb"]
+[ext_resource type="Texture2D" uid="uid://dwwuul36mtx3u" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/7carreau/7carreau8.png" id="345_5svdj"]
+[ext_resource type="Texture2D" uid="uid://ceaksmsjqd2rd" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/7carreau/7carreau9.png" id="346_i6g1b"]
+[ext_resource type="Texture2D" uid="uid://b48g088n1epn3" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/7carreau/7carreau10.png" id="347_i4vnj"]
+[ext_resource type="Texture2D" uid="uid://bwd0ukulpvbep" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/7carreau/7carreau11.png" id="348_12661"]
+[ext_resource type="Texture2D" uid="uid://l5wov1csdgxc" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/7carreau/7carreau12.png" id="349_ju5sr"]
+[ext_resource type="Texture2D" uid="uid://bfbxcietpp77v" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/7coeur/7coeur1.png" id="350_b3hpi"]
+[ext_resource type="Texture2D" uid="uid://c5mbk2oxtl7b4" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/7coeur/7coeur2.png" id="351_aprc4"]
+[ext_resource type="Texture2D" uid="uid://dcyuxxhf0vbjh" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/7coeur/7coeur3.png" id="352_b8vuc"]
+[ext_resource type="Texture2D" uid="uid://c5ft5b5or3d1x" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/7coeur/7coeur4.png" id="353_nn7q4"]
+[ext_resource type="Texture2D" uid="uid://bhselk82bawyk" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/7coeur/7coeur5.png" id="354_54hjf"]
+[ext_resource type="Texture2D" uid="uid://utxb1jswqfub" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/7coeur/7coeur6.png" id="355_2y84a"]
+[ext_resource type="Texture2D" uid="uid://cxq760t7udb64" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/7coeur/7coeur7.png" id="356_wptii"]
+[ext_resource type="Texture2D" uid="uid://de613bobv5qnl" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/7coeur/7coeur8.png" id="357_dflaj"]
+[ext_resource type="Texture2D" uid="uid://bdyonuwoc3a2b" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/7coeur/7coeur9.png" id="358_ahks1"]
+[ext_resource type="Texture2D" uid="uid://djbh8uutwk1qn" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/7coeur/7coeur10.png" id="359_vtpa6"]
+[ext_resource type="Texture2D" uid="uid://pclwux3lpxm4" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/7coeur/7coeur11.png" id="360_on7xh"]
+[ext_resource type="Texture2D" uid="uid://hs1gaq5fvr1" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/7coeur/7coeur12.png" id="361_ak4b3"]
+[ext_resource type="Texture2D" uid="uid://bj3y0f73fhc7e" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/7pique/7pique1.png" id="362_vmj27"]
+[ext_resource type="Texture2D" uid="uid://cogahimcrnk3" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/7pique/7pique2.png" id="363_cdesl"]
+[ext_resource type="Texture2D" uid="uid://di8sq0g771nxo" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/7pique/7pique3.png" id="364_7x1nn"]
+[ext_resource type="Texture2D" uid="uid://cuidlmnklcjmq" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/7pique/7pique4.png" id="365_b2t0f"]
+[ext_resource type="Texture2D" uid="uid://cbmoi6kg3yof2" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/7pique/7pique5.png" id="366_ownxi"]
+[ext_resource type="Texture2D" uid="uid://blqyxcu333we7" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/7pique/7pique6.png" id="367_n5kgu"]
+[ext_resource type="Texture2D" uid="uid://b0rpvqyeplu26" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/7pique/7pique7.png" id="368_755yo"]
+[ext_resource type="Texture2D" uid="uid://jrmxr6oxc78g" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/7pique/7pique8.png" id="369_6aeqx"]
+[ext_resource type="Texture2D" uid="uid://d0w56meh6k7ro" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/7pique/7pique9.png" id="370_v5f8y"]
+[ext_resource type="Texture2D" uid="uid://dmcomfxtp61lo" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/7pique/7pique10.png" id="371_qpdd6"]
+[ext_resource type="Texture2D" uid="uid://e4rt0hlumh5h" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/7pique/7pique11.png" id="372_htgay"]
+[ext_resource type="Texture2D" uid="uid://gr4gc350eepu" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/7pique/7pique12.png" id="373_f4sjk"]
+[ext_resource type="Texture2D" uid="uid://cma561kgdvot0" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/7trefle/7trefle1.png" id="374_1than"]
+[ext_resource type="Texture2D" uid="uid://blw250n7a2750" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/7trefle/7trefle2.png" id="375_p0wit"]
+[ext_resource type="Texture2D" uid="uid://djl0jc50oc8ex" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/7trefle/7trefle3.png" id="376_rigdp"]
+[ext_resource type="Texture2D" uid="uid://bm6km58ovfh2g" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/7trefle/7trefle4.png" id="377_s1nfd"]
+[ext_resource type="Texture2D" uid="uid://bfoviplbgx4xm" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/7trefle/7trefle5.png" id="378_1selc"]
+[ext_resource type="Texture2D" uid="uid://cls2ord6vnnv8" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/7trefle/7trefle6.png" id="379_ut4yp"]
+[ext_resource type="Texture2D" uid="uid://byxrganh5g5np" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/7trefle/7trefle7.png" id="380_iddpy"]
+[ext_resource type="Texture2D" uid="uid://bqieu0kknyic1" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/7trefle/7trefle8.png" id="381_h4flk"]
+[ext_resource type="Texture2D" uid="uid://djcadfrihcise" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/7trefle/7trefle9.png" id="382_kapw4"]
+[ext_resource type="Texture2D" uid="uid://bcvekojm03qo6" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/7trefle/7trefle10.png" id="383_c42w3"]
+[ext_resource type="Texture2D" uid="uid://cr8g1mdkxv7qy" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/7trefle/7trefle11.png" id="384_sctoe"]
+[ext_resource type="Texture2D" uid="uid://pvj557hqp1sb" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/7trefle/7trefle12.png" id="385_1bntb"]
+[ext_resource type="Texture2D" uid="uid://bl68bwxei1utt" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/8carreau/8carreau1.png" id="386_a5fjo"]
+[ext_resource type="Texture2D" uid="uid://bw3i3j4fyij7y" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/8carreau/8carreau2.png" id="387_6w0d8"]
+[ext_resource type="Texture2D" uid="uid://bcwh24nem6g23" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/8carreau/8carreau3.png" id="388_p4rkc"]
+[ext_resource type="Texture2D" uid="uid://b0pwxukenu1if" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/8carreau/8carreau4.png" id="389_rlusb"]
+[ext_resource type="Texture2D" uid="uid://brbepknngydos" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/8carreau/8carreau5.png" id="390_4n8r0"]
+[ext_resource type="Texture2D" uid="uid://b4nitsrnduiht" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/8carreau/8carreau6.png" id="391_yln87"]
+[ext_resource type="Texture2D" uid="uid://dhb6ouj5gmgvf" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/8carreau/8carreau7.png" id="392_vsp67"]
+[ext_resource type="Texture2D" uid="uid://bv85cftjoc7y0" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/8carreau/8carreau8.png" id="393_ej404"]
+[ext_resource type="Texture2D" uid="uid://d6cg0y10dx2e" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/8carreau/8carreau9.png" id="394_jh3s5"]
+[ext_resource type="Texture2D" uid="uid://chjf2y3easdg" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/8carreau/8carreau10.png" id="395_g8p31"]
+[ext_resource type="Texture2D" uid="uid://bfcomjh1xq7k3" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/8carreau/8carreau11.png" id="396_w8uds"]
+[ext_resource type="Texture2D" uid="uid://umk75oo1ytdf" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/8carreau/8carreau12.png" id="397_8b5gp"]
+[ext_resource type="Texture2D" uid="uid://c0y75hwgn3jmv" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/8coeur/8coeur1.png" id="398_ol3yv"]
+[ext_resource type="Texture2D" uid="uid://bhxnau3v6dwbl" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/8coeur/8coeur2.png" id="399_8v5dn"]
+[ext_resource type="Texture2D" uid="uid://bvs5d7wf47o7o" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/8coeur/8coeur3.png" id="400_eoflf"]
+[ext_resource type="Texture2D" uid="uid://c00i1fhsxn7n6" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/8coeur/8coeur4.png" id="401_6xxm5"]
+[ext_resource type="Texture2D" uid="uid://ce2qcskfhh0sx" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/8coeur/8coeur5.png" id="402_r4uen"]
+[ext_resource type="Texture2D" uid="uid://b4hju45edfq7o" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/8coeur/8coeur6.png" id="403_f2vet"]
+[ext_resource type="Texture2D" uid="uid://csupxpmn1gtna" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/8coeur/8coeur7.png" id="404_54iep"]
+[ext_resource type="Texture2D" uid="uid://xkf65idjvcw3" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/8coeur/8coeur8.png" id="405_eb2pj"]
+[ext_resource type="Texture2D" uid="uid://e5ii5ktky3xb" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/8coeur/8coeur9.png" id="406_wk4y1"]
+[ext_resource type="Texture2D" uid="uid://cpqnh0h64m5ni" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/8coeur/8coeur10.png" id="407_8rfgf"]
+[ext_resource type="Texture2D" uid="uid://b0qq5n0hisf32" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/8coeur/8coeur11.png" id="408_23kaf"]
+[ext_resource type="Texture2D" uid="uid://dfiq5mci8rq1m" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/8coeur/8coeur12.png" id="409_ai3cc"]
+[ext_resource type="Texture2D" uid="uid://c2jfy7wasvs5n" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/8pique/8pique1.png" id="410_rgy1o"]
+[ext_resource type="Texture2D" uid="uid://q37247b01arg" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/8pique/8pique2.png" id="411_x8iew"]
+[ext_resource type="Texture2D" uid="uid://gyiou5m2u7x7" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/8pique/8pique3.png" id="412_q5m2l"]
+[ext_resource type="Texture2D" uid="uid://d0p06st3amdrg" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/8pique/8pique4.png" id="413_v6mqu"]
+[ext_resource type="Texture2D" uid="uid://dcgvcoy7cuudl" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/8pique/8pique5.png" id="414_m05ir"]
+[ext_resource type="Texture2D" uid="uid://4u8hwqxsbdkh" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/8pique/8pique6.png" id="415_ts12k"]
+[ext_resource type="Texture2D" uid="uid://b0cbw22sq35hr" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/8pique/8pique7.png" id="416_hct5g"]
+[ext_resource type="Texture2D" uid="uid://bol82kclpqx08" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/8pique/8pique8.png" id="417_kwwl3"]
+[ext_resource type="Texture2D" uid="uid://prldtrbnktr2" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/8pique/8pique9.png" id="418_6s7jx"]
+[ext_resource type="Texture2D" uid="uid://dffsoolvn7jt3" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/8pique/8pique10.png" id="419_uso6a"]
+[ext_resource type="Texture2D" uid="uid://ciqltd7ttiwel" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/8pique/8pique11.png" id="420_u2rig"]
+[ext_resource type="Texture2D" uid="uid://cysp2fxash5p0" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/8pique/8pique12.png" id="421_b3o4m"]
+[ext_resource type="Texture2D" uid="uid://cgprshhkhpxtf" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/8trefle/8trefle1.png" id="422_uq1bg"]
+[ext_resource type="Texture2D" uid="uid://cg4aokbjyntaw" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/8trefle/8trefle2.png" id="423_fmbww"]
+[ext_resource type="Texture2D" uid="uid://b5ldd01014vwb" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/8trefle/8trefle3.png" id="424_5d15d"]
+[ext_resource type="Texture2D" uid="uid://dim7v40qm2i36" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/8trefle/8trefle4.png" id="425_rmfbu"]
+[ext_resource type="Texture2D" uid="uid://cggn5siwohwi5" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/8trefle/8trefle5.png" id="426_5bq7d"]
+[ext_resource type="Texture2D" uid="uid://dvlvk70yvlc46" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/8trefle/8trefle6.png" id="427_6ckf4"]
+[ext_resource type="Texture2D" uid="uid://bif1mghfygf1x" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/8trefle/8trefle7.png" id="428_8ff27"]
+[ext_resource type="Texture2D" uid="uid://c211wdtvt65jx" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/8trefle/8trefle8.png" id="429_4lj2b"]
+[ext_resource type="Texture2D" uid="uid://bty6x6icjvm1u" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/8trefle/8trefle9.png" id="430_o8rur"]
+[ext_resource type="Texture2D" uid="uid://bkxrnxeyujkst" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/8trefle/8trefle10.png" id="431_2hi7y"]
+[ext_resource type="Texture2D" uid="uid://dqit1l52mx38h" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/8trefle/8trefle11.png" id="432_w5ok0"]
+[ext_resource type="Texture2D" uid="uid://bv3jr14uqd8oc" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/8trefle/8trefle12.png" id="433_jbpuf"]
+[ext_resource type="Texture2D" uid="uid://bavcfyplfwme4" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/9carreau/9carreau1.png" id="434_e0ty6"]
+[ext_resource type="Texture2D" uid="uid://b3ohc6yksj2j4" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/9carreau/9carreau2.png" id="435_uveyu"]
+[ext_resource type="Texture2D" uid="uid://b6555ra4kivj5" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/9carreau/9carreau3.png" id="436_dwut2"]
+[ext_resource type="Texture2D" uid="uid://c7t23t2hga1cf" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/9carreau/9carreau4.png" id="437_0wipa"]
+[ext_resource type="Texture2D" uid="uid://s5o6ius4vu0j" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/9carreau/9carreau5.png" id="438_0xa7s"]
+[ext_resource type="Texture2D" uid="uid://cqtald4y1f3fx" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/9carreau/9carreau6.png" id="439_k7yj0"]
+[ext_resource type="Texture2D" uid="uid://dobf6k5fwfqug" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/9carreau/9carreau7.png" id="440_35vqt"]
+[ext_resource type="Texture2D" uid="uid://upsej7ef73cy" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/9carreau/9carreau8.png" id="441_1ulgb"]
+[ext_resource type="Texture2D" uid="uid://jreccdcbey4g" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/9carreau/9carreau9.png" id="442_r5ivh"]
+[ext_resource type="Texture2D" uid="uid://dg2dcyucs5r53" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/9carreau/9carreau10.png" id="443_2cmhe"]
+[ext_resource type="Texture2D" uid="uid://bhjkqxecvpg22" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/9carreau/9carreau11.png" id="444_cl26t"]
+[ext_resource type="Texture2D" uid="uid://ch8yxp0o3oauc" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/9carreau/9carreau12.png" id="445_ktuby"]
+[ext_resource type="Texture2D" uid="uid://d4nthiagvrs2q" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/9coeur/9coeur1.png" id="446_wi04s"]
+[ext_resource type="Texture2D" uid="uid://p22mx6jmjo55" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/9coeur/9coeur2.png" id="447_o245a"]
+[ext_resource type="Texture2D" uid="uid://ckjyxxy4wgtw1" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/9coeur/9coeur3.png" id="448_kfng6"]
+[ext_resource type="Texture2D" uid="uid://df3jqgnssaxqx" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/9coeur/9coeur4.png" id="449_xe8na"]
+[ext_resource type="Texture2D" uid="uid://v08wgyiaafdw" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/9coeur/9coeur5.png" id="450_jdfev"]
+[ext_resource type="Texture2D" uid="uid://bv4tspmsbh28k" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/9coeur/9coeur6.png" id="451_edw6n"]
+[ext_resource type="Texture2D" uid="uid://1rr3laxjbkpi" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/9coeur/9coeur7.png" id="452_u3pft"]
+[ext_resource type="Texture2D" uid="uid://b0srq0d4iapsl" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/9coeur/9coeur8.png" id="453_8idw6"]
+[ext_resource type="Texture2D" uid="uid://bmpgklbnw8dy" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/9coeur/9coeur9.png" id="454_3bmrd"]
+[ext_resource type="Texture2D" uid="uid://benncn6s06uhh" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/9coeur/9coeur10.png" id="455_b380g"]
+[ext_resource type="Texture2D" uid="uid://dp83m36331p6v" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/9coeur/9coeur11.png" id="456_jxide"]
+[ext_resource type="Texture2D" uid="uid://2ktdaumj3a6x" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/9coeur/9coeur12.png" id="457_gj1a4"]
+[ext_resource type="Texture2D" uid="uid://mj4q74h4bsad" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/9pique/9pique1.png" id="458_ddwdn"]
+[ext_resource type="Texture2D" uid="uid://d104p4m4uaf4m" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/9pique/9pique2.png" id="459_48xrj"]
+[ext_resource type="Texture2D" uid="uid://ct0vi7nayn57e" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/9pique/9pique3.png" id="460_fbquo"]
+[ext_resource type="Texture2D" uid="uid://huahk47f5eox" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/9pique/9pique4.png" id="461_32ymy"]
+[ext_resource type="Texture2D" uid="uid://dh3ew1d8klqgl" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/9pique/9pique5.png" id="462_extt4"]
+[ext_resource type="Texture2D" uid="uid://b55a5cphegmm" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/9pique/9pique6.png" id="463_7e2kj"]
+[ext_resource type="Texture2D" uid="uid://dftnvviyrouh2" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/9pique/9pique7.png" id="464_245dm"]
+[ext_resource type="Texture2D" uid="uid://cuwrhw4wv5ocx" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/9pique/9pique8.png" id="465_yhabd"]
+[ext_resource type="Texture2D" uid="uid://en43t1ikvj17" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/9pique/9pique9.png" id="466_kfeh6"]
+[ext_resource type="Texture2D" uid="uid://d4cu6ob4kjkpq" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/9pique/9pique10.png" id="467_wipic"]
+[ext_resource type="Texture2D" uid="uid://dqpnarudivfr1" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/9pique/9pique11.png" id="468_5gand"]
+[ext_resource type="Texture2D" uid="uid://ukhwm2e5u480" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/9pique/9pique12.png" id="469_iaurb"]
+[ext_resource type="Texture2D" uid="uid://dyyoilfgi02av" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/9trefle/9trefle1.png" id="470_ox02y"]
+[ext_resource type="Texture2D" uid="uid://b5wfbtiroqgha" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/9trefle/9trefle2.png" id="471_sljtd"]
+[ext_resource type="Texture2D" uid="uid://wmy3fxcxfr25" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/9trefle/9trefle3.png" id="472_4hl42"]
+[ext_resource type="Texture2D" uid="uid://b1nhvujoo8qt5" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/9trefle/9trefle4.png" id="473_2b8pq"]
+[ext_resource type="Texture2D" uid="uid://ctyuoy1773t5b" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/9trefle/9trefle5.png" id="474_807f1"]
+[ext_resource type="Texture2D" uid="uid://bv620137qhixo" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/9trefle/9trefle6.png" id="475_qfgtl"]
+[ext_resource type="Texture2D" uid="uid://cs4gbsprem4sa" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/9trefle/9trefle7.png" id="476_p61bc"]
+[ext_resource type="Texture2D" uid="uid://bc3bkanqs4m41" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/9trefle/9trefle8.png" id="477_8y4pw"]
+[ext_resource type="Texture2D" uid="uid://e6mepunjkmkl" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/9trefle/9trefle9.png" id="478_yisou"]
+[ext_resource type="Texture2D" uid="uid://dntnj3404deus" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/9trefle/9trefle10.png" id="479_avxwb"]
+[ext_resource type="Texture2D" uid="uid://cb3cdkqhcelkl" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/9trefle/9trefle11.png" id="480_2msme"]
+[ext_resource type="Texture2D" uid="uid://bpl2mwb0surv" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/9trefle/9trefle12.png" id="481_7gfut"]
+[ext_resource type="Texture2D" uid="uid://b1kuklwaa0ywr" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/acarreau/acarreau1.png" id="482_metwc"]
+[ext_resource type="Texture2D" uid="uid://cm8w377yndsdk" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/acarreau/acarreau2.png" id="483_uw0rl"]
+[ext_resource type="Texture2D" uid="uid://dnwan0h0qv3lf" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/acarreau/acarreau3.png" id="484_xd5k1"]
+[ext_resource type="Texture2D" uid="uid://cgx6n1385nuba" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/acarreau/acarreau4.png" id="485_vghjb"]
+[ext_resource type="Texture2D" uid="uid://csjm7ojngtkeo" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/acarreau/acarreau5.png" id="486_y1rv0"]
+[ext_resource type="Texture2D" uid="uid://c12u8h34wxxpr" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/acarreau/acarreau6.png" id="487_bjwcl"]
+[ext_resource type="Texture2D" uid="uid://b6cm2xcvi3vbc" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/acarreau/acarreau7.png" id="488_xi7l2"]
+[ext_resource type="Texture2D" uid="uid://dxq77f2fbg4n6" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/acarreau/acarreau8.png" id="489_t5f36"]
+[ext_resource type="Texture2D" uid="uid://btn5cl2pax1fw" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/acarreau/acarreau9.png" id="490_g5crg"]
+[ext_resource type="Texture2D" uid="uid://duld8sm0rodfm" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/acarreau/acarreau10.png" id="491_ct7be"]
+[ext_resource type="Texture2D" uid="uid://j20x7drlxjoc" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/acarreau/acarreau11.png" id="492_bkift"]
+[ext_resource type="Texture2D" uid="uid://dng6k2lawgnde" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/acarreau/acarreau12.png" id="493_v25cr"]
+[ext_resource type="Texture2D" uid="uid://chdkqjhkl5841" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/acoeur/acoeur1.png" id="494_6hlvq"]
+[ext_resource type="Texture2D" uid="uid://bdar4bmi6r0cu" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/acoeur/acoeur2.png" id="495_oc4d8"]
+[ext_resource type="Texture2D" uid="uid://xkr1k1of2fsp" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/acoeur/acoeur3.png" id="496_u7n28"]
+[ext_resource type="Texture2D" uid="uid://cv2ofevg1i4de" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/acoeur/acoeur4.png" id="497_ekkbk"]
+[ext_resource type="Texture2D" uid="uid://cl6u00m8415gm" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/acoeur/acoeur5.png" id="498_xx3pc"]
+[ext_resource type="Texture2D" uid="uid://dndu8fowclf22" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/acoeur/acoeur6.png" id="499_e4j84"]
+[ext_resource type="Texture2D" uid="uid://dw684rup6qups" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/acoeur/acoeur7.png" id="500_bkjql"]
+[ext_resource type="Texture2D" uid="uid://cwmltrrvgk4ec" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/acoeur/acoeur8.png" id="501_5lrs2"]
+[ext_resource type="Texture2D" uid="uid://dwtq2tiqrjv0w" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/acoeur/acoeur9.png" id="502_4lwir"]
+[ext_resource type="Texture2D" uid="uid://bprh27ixaw5xy" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/acoeur/acoeur10.png" id="503_ry2er"]
+[ext_resource type="Texture2D" uid="uid://dcq00tsfukear" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/acoeur/acoeur11.png" id="504_xaeuv"]
+[ext_resource type="Texture2D" uid="uid://lyipul65h2qi" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/acoeur/acoeur12.png" id="505_6fbu2"]
+[ext_resource type="Texture2D" uid="uid://csep8jd1x7djm" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/apique/apique1.png" id="506_0yrge"]
+[ext_resource type="Texture2D" uid="uid://ci78pea446box" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/apique/apique2.png" id="507_rf1xe"]
+[ext_resource type="Texture2D" uid="uid://blxttpq1xmshv" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/apique/apique3.png" id="508_pqg1g"]
+[ext_resource type="Texture2D" uid="uid://ccepyp3qgx4q4" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/apique/apique4.png" id="509_i6mec"]
+[ext_resource type="Texture2D" uid="uid://cu34faw8tars" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/apique/apique5.png" id="510_bf7d3"]
+[ext_resource type="Texture2D" uid="uid://cneb44g4tsxcs" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/apique/apique6.png" id="511_a6gdl"]
+[ext_resource type="Texture2D" uid="uid://bdg32sabmd34m" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/apique/apique7.png" id="512_etg7g"]
+[ext_resource type="Texture2D" uid="uid://vdw1kr66cky1" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/apique/apique8.png" id="513_lvacy"]
+[ext_resource type="Texture2D" uid="uid://bkcyrx7k7mcet" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/apique/apique9.png" id="514_mkin3"]
+[ext_resource type="Texture2D" uid="uid://btovroxvmm1pf" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/apique/apique10.png" id="515_jnvj6"]
+[ext_resource type="Texture2D" uid="uid://dv0pyrmfduavf" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/atrefle/atrefle1.png" id="516_1p8h2"]
+[ext_resource type="Texture2D" uid="uid://1a0fd6bjj2l0" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/atrefle/atrefle2.png" id="517_cnyus"]
+[ext_resource type="Texture2D" uid="uid://c2c6c72xle0pr" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/atrefle/atrefle3.png" id="518_li78i"]
+[ext_resource type="Texture2D" uid="uid://bc0443s6d3j2a" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/atrefle/atrefle4.png" id="519_lrfi7"]
+[ext_resource type="Texture2D" uid="uid://rx3g75unscye" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/atrefle/atrefle5.png" id="520_4vxx7"]
+[ext_resource type="Texture2D" uid="uid://qhl6bkhdpmwp" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/atrefle/atrefle6.png" id="521_rkfoi"]
+[ext_resource type="Texture2D" uid="uid://bkouqkpmtap51" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/atrefle/atrefle7.png" id="522_56d86"]
+[ext_resource type="Texture2D" uid="uid://b6nhhg1f1tvud" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/atrefle/atrefle8.png" id="523_cggbc"]
+[ext_resource type="Texture2D" uid="uid://yt8tqx13difo" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/atrefle/atrefle9.png" id="524_7eygi"]
+[ext_resource type="Texture2D" uid="uid://bixrsrfvt6idd" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/atrefle/atrefle10.png" id="525_7rmiv"]
+[ext_resource type="Texture2D" uid="uid://botb8f7f7vivv" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/atrefle/atrefle11.png" id="526_q8gpl"]
+[ext_resource type="Texture2D" uid="uid://3n3rgyhv764p" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/atrefle/atrefle12.png" id="527_qhm88"]
+[ext_resource type="Texture2D" uid="uid://shvngs6d128b" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/dcarreau/dcarreau1.png" id="528_k86eb"]
+[ext_resource type="Texture2D" uid="uid://o3etorbbwamf" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/dcarreau/dcarreau2.png" id="529_vjuh7"]
+[ext_resource type="Texture2D" uid="uid://c08jo5shqmddv" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/dcarreau/dcarreau3.png" id="530_oyy8p"]
+[ext_resource type="Texture2D" uid="uid://lk7nqp7lsldc" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/dcarreau/dcarreau4.png" id="531_ae23h"]
+[ext_resource type="Texture2D" uid="uid://sr5fw1sf20ff" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/dcarreau/dcarreau5.png" id="532_la85j"]
+[ext_resource type="Texture2D" uid="uid://ce5bo8uywt0tu" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/dcarreau/dcarreau6.png" id="533_tmhho"]
+[ext_resource type="Texture2D" uid="uid://78n1y5rky6r0" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/dcarreau/dcarreau7.png" id="534_56h5j"]
+[ext_resource type="Texture2D" uid="uid://clxfkem4hmo40" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/dcarreau/dcarreau8.png" id="535_b74qp"]
+[ext_resource type="Texture2D" uid="uid://dq0o0uy6mywhk" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/dcarreau/dcarreau9.png" id="536_occe2"]
+[ext_resource type="Texture2D" uid="uid://d37l305fhfhci" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/dcarreau/dcarreau10.png" id="537_pets6"]
+[ext_resource type="Texture2D" uid="uid://dgvrv2l3c7tq8" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/dcarreau/dcarreau11.png" id="538_qougg"]
+[ext_resource type="Texture2D" uid="uid://k2oqvu3d00ee" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/dcarreau/dcarreau12.png" id="539_ag8y7"]
+[ext_resource type="Texture2D" uid="uid://dfu4jumt7tvig" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/dcoeur/dcoeur1.png" id="540_jvi8i"]
+[ext_resource type="Texture2D" uid="uid://bwnjxfk62xhgf" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/dcoeur/dcoeur2.png" id="541_2pkny"]
+[ext_resource type="Texture2D" uid="uid://cqptmvuahik7e" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/dcoeur/dcoeur3.png" id="542_rwvij"]
+[ext_resource type="Texture2D" uid="uid://tou7dfqkow6c" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/dcoeur/dcoeur4.png" id="543_st7dg"]
+[ext_resource type="Texture2D" uid="uid://dgv7po4drcl3y" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/dcoeur/dcoeur5.png" id="544_nhnfr"]
+[ext_resource type="Texture2D" uid="uid://blnm6xd0t1wup" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/dcoeur/dcoeur6.png" id="545_8olql"]
+[ext_resource type="Texture2D" uid="uid://bytjmubxmm4ct" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/dcoeur/dcoeur7.png" id="546_kr2xp"]
+[ext_resource type="Texture2D" uid="uid://bv5r6dp6mgqwr" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/dcoeur/dcoeur8.png" id="547_akr6a"]
+[ext_resource type="Texture2D" uid="uid://bjktj22yctss1" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/dcoeur/dcoeur9.png" id="548_on3ae"]
+[ext_resource type="Texture2D" uid="uid://1lsefg3lt117" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/dcoeur/dcoeur10.png" id="549_inqdj"]
+[ext_resource type="Texture2D" uid="uid://bpsfdetrlbi5l" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/dcoeur/dcoeur11.png" id="550_0crcd"]
+[ext_resource type="Texture2D" uid="uid://blxowpro16t5t" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/dcoeur/dcoeur12.png" id="551_hppuj"]
+[ext_resource type="Texture2D" uid="uid://b6b32cx4384fw" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/dpique/dpique1.png" id="552_cj567"]
+[ext_resource type="Texture2D" uid="uid://b40d0usd3hxh7" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/dpique/dpique2.png" id="553_hvn8h"]
+[ext_resource type="Texture2D" uid="uid://b22wwth7vwvwr" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/dpique/dpique3.png" id="554_44yfo"]
+[ext_resource type="Texture2D" uid="uid://dbjcu5rpkxyid" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/dpique/dpique4.png" id="555_wnfxc"]
+[ext_resource type="Texture2D" uid="uid://c83ov0ab1imvc" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/dpique/dpique5.png" id="556_3wh6l"]
+[ext_resource type="Texture2D" uid="uid://do2qy4wwjaeo4" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/dpique/dpique6.png" id="557_r5tac"]
+[ext_resource type="Texture2D" uid="uid://dljrfar7pnncy" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/dpique/dpique7.png" id="558_6erew"]
+[ext_resource type="Texture2D" uid="uid://qikn7k546q7w" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/dpique/dpique8.png" id="559_fo12g"]
+[ext_resource type="Texture2D" uid="uid://cu26eqp0fbghx" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/dpique/dpique9.png" id="560_vrqmh"]
+[ext_resource type="Texture2D" uid="uid://ivsi7ujso0u4" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/dpique/dpique10.png" id="561_etgkj"]
+[ext_resource type="Texture2D" uid="uid://h00bnuy1jm2l" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/dtrefle/dtrefle1.png" id="562_qhhtw"]
+[ext_resource type="Texture2D" uid="uid://dqsws45666ylb" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/dtrefle/dtrefle2.png" id="563_opyj6"]
+[ext_resource type="Texture2D" uid="uid://b0nyp8u5etdg6" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/dtrefle/dtrefle3.png" id="564_pjelr"]
+[ext_resource type="Texture2D" uid="uid://jde13omv8usb" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/dtrefle/dtrefle4.png" id="565_ehqqq"]
+[ext_resource type="Texture2D" uid="uid://cv81pnukvxwbw" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/dtrefle/dtrefle5.png" id="566_2i4ux"]
+[ext_resource type="Texture2D" uid="uid://bhg5qst4g5g38" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/dtrefle/dtrefle6.png" id="567_tyo38"]
+[ext_resource type="Texture2D" uid="uid://q5aaj68xgg8t" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/dtrefle/dtrefle7.png" id="568_rvjus"]
+[ext_resource type="Texture2D" uid="uid://d0wyk0aoib3yp" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/dtrefle/dtrefle8.png" id="569_mws5u"]
+[ext_resource type="Texture2D" uid="uid://d1f35g0ri3xn2" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/dtrefle/dtrefle9.png" id="570_4xaht"]
+[ext_resource type="Texture2D" uid="uid://kmgqvxtolqxl" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/dtrefle/dtrefle10.png" id="571_vhsp0"]
+[ext_resource type="Texture2D" uid="uid://i0knhd804wsy" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/dtrefle/dtrefle11.png" id="572_yt4hm"]
+[ext_resource type="Texture2D" uid="uid://8mwrvyi0mqcx" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/dtrefle/dtrefle12.png" id="573_3q4ov"]
+[ext_resource type="Texture2D" uid="uid://cuksexskbghfo" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/jcarreau/jcarreau1.png" id="574_r3if1"]
+[ext_resource type="Texture2D" uid="uid://bs85ud85fst0l" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/jcarreau/jcarreau2.png" id="575_1vo5r"]
+[ext_resource type="Texture2D" uid="uid://0hxy1kvjaags" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/jcarreau/jcarreau3.png" id="576_8t6bo"]
+[ext_resource type="Texture2D" uid="uid://cxxom0xcyj62m" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/jcarreau/jcarreau4.png" id="577_rxeyk"]
+[ext_resource type="Texture2D" uid="uid://bg2vkfjjuxjew" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/jcarreau/jcarreau5.png" id="578_fu1hw"]
+[ext_resource type="Texture2D" uid="uid://cqulkiybouson" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/jcarreau/jcarreau6.png" id="579_xs8o3"]
+[ext_resource type="Texture2D" uid="uid://b884cn212l7y" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/jcarreau/jcarreau7.png" id="580_oa14m"]
+[ext_resource type="Texture2D" uid="uid://6fkcns5ga3lp" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/jcarreau/jcarreau8.png" id="581_tq5ik"]
+[ext_resource type="Texture2D" uid="uid://dsuwat27o6k7f" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/jcarreau/jcarreau9.png" id="582_jcjrq"]
+[ext_resource type="Texture2D" uid="uid://d0fmnu7kiisv6" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/jcarreau/jcarreau10.png" id="583_cjvks"]
+[ext_resource type="Texture2D" uid="uid://dk7jwcpli13yw" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/jcarreau/jcarreau11.png" id="584_k8s3v"]
+[ext_resource type="Texture2D" uid="uid://uppyi3ugtufn" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/jcarreau/jcarreau12.png" id="585_bb246"]
+[ext_resource type="Texture2D" uid="uid://c3g1j3j5mft24" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/jcoeur/jcoeur1.png" id="586_dtcpn"]
+[ext_resource type="Texture2D" uid="uid://b67deodjhorq8" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/jcoeur/jcoeur2.png" id="587_pyiwe"]
+[ext_resource type="Texture2D" uid="uid://pk4prf36lxse" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/jcoeur/jcoeur3.png" id="588_mlbwy"]
+[ext_resource type="Texture2D" uid="uid://bkcbttvqi1a56" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/jcoeur/jcoeur4.png" id="589_h6741"]
+[ext_resource type="Texture2D" uid="uid://btx0vdbvlyd0c" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/jcoeur/jcoeur5.png" id="590_fy2sg"]
+[ext_resource type="Texture2D" uid="uid://cxpsjieh0rfwj" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/jcoeur/jcoeur6.png" id="591_w2int"]
+[ext_resource type="Texture2D" uid="uid://dwrbwvgl6r34y" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/jcoeur/jcoeur7.png" id="592_2t5x0"]
+[ext_resource type="Texture2D" uid="uid://cocuy58qdnomd" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/jcoeur/jcoeur8.png" id="593_ci4yu"]
+[ext_resource type="Texture2D" uid="uid://dl72raetaqva3" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/jcoeur/jcoeur9.png" id="594_dx0ot"]
+[ext_resource type="Texture2D" uid="uid://p1wtoxpvqiea" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/jcoeur/jcoeur10.png" id="595_ptv3o"]
+[ext_resource type="Texture2D" uid="uid://ceiq0aqkdh7ct" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/jcoeur/jcoeur11.png" id="596_aa1w4"]
+[ext_resource type="Texture2D" uid="uid://b2ylw373755ch" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/jcoeur/jcoeur12.png" id="597_1ysvm"]
+[ext_resource type="Texture2D" uid="uid://2wx0cs6uts4f" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/jpique/jpique1.png" id="598_4ulnl"]
+[ext_resource type="Texture2D" uid="uid://gu4yqmkkjymr" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/jpique/jpique2.png" id="599_ufice"]
+[ext_resource type="Texture2D" uid="uid://b6xhr7fx2y7vl" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/jpique/jpique3.png" id="600_y4ol2"]
+[ext_resource type="Texture2D" uid="uid://cymgl2qnxcj18" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/jpique/jpique4.png" id="601_nauaw"]
+[ext_resource type="Texture2D" uid="uid://e6lhi0u58wd3" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/jpique/jpique5.png" id="602_0ykg6"]
+[ext_resource type="Texture2D" uid="uid://bxqccap7s6cr6" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/jpique/jpique6.png" id="603_ngehg"]
+[ext_resource type="Texture2D" uid="uid://cyrg1kths4717" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/jpique/jpique7.png" id="604_231nm"]
+[ext_resource type="Texture2D" uid="uid://dhs6rfvuv10if" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/jpique/jpique8.png" id="605_3imfn"]
+[ext_resource type="Texture2D" uid="uid://d05ma1nvdlht" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/jpique/jpique9.png" id="606_y0leg"]
+[ext_resource type="Texture2D" uid="uid://bwnvnbg4336bj" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/jpique/jpique10.png" id="607_4w2ax"]
+[ext_resource type="Texture2D" uid="uid://dh3lsvefshweo" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/jtrefle/jtrefle1.png" id="608_33jo6"]
+[ext_resource type="Texture2D" uid="uid://dr5of816li4yq" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/jtrefle/jtrefle2.png" id="609_wkyn8"]
+[ext_resource type="Texture2D" uid="uid://be7hj2imp774e" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/jtrefle/jtrefle3.png" id="610_kd8xf"]
+[ext_resource type="Texture2D" uid="uid://os46cecmlcmw" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/jtrefle/jtrefle4.png" id="611_fhxqc"]
+[ext_resource type="Texture2D" uid="uid://bxjlgdfk8qoeh" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/jtrefle/jtrefle5.png" id="612_47r1s"]
+[ext_resource type="Texture2D" uid="uid://bxs2mu8v2doxx" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/jtrefle/jtrefle6.png" id="613_titsl"]
+[ext_resource type="Texture2D" uid="uid://b5r602gxb741g" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/jtrefle/jtrefle7.png" id="614_p4wir"]
+[ext_resource type="Texture2D" uid="uid://kp3deisiyj5k" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/jtrefle/jtrefle8.png" id="615_haf72"]
+[ext_resource type="Texture2D" uid="uid://b3ojuj233pxct" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/jtrefle/jtrefle9.png" id="616_p7jvv"]
+[ext_resource type="Texture2D" uid="uid://mun4jnw3q333" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/jtrefle/jtrefle10.png" id="617_mespw"]
+[ext_resource type="Texture2D" uid="uid://caxdyl88yh6r3" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/jtrefle/jtrefle11.png" id="618_o65r7"]
+[ext_resource type="Texture2D" uid="uid://c7trdeuu1oxqr" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/jtrefle/jtrefle12.png" id="619_wjvja"]
+[ext_resource type="Texture2D" uid="uid://stly2jfjbij" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/rcarreau/kcarreau1.png" id="620_d0p7c"]
+[ext_resource type="Texture2D" uid="uid://djoutvqsv64tk" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/rcarreau/kcarreau2.png" id="621_ml5ab"]
+[ext_resource type="Texture2D" uid="uid://c1mwh1iq35fx" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/rcarreau/kcarreau3.png" id="622_kmj8p"]
+[ext_resource type="Texture2D" uid="uid://blgj8ah5w103b" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/rcarreau/kcarreau4.png" id="623_o7yh3"]
+[ext_resource type="Texture2D" uid="uid://3c2c8nuhwdxp" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/rcarreau/kcarreau5.png" id="624_0v77r"]
+[ext_resource type="Texture2D" uid="uid://dxj8481x0n3ug" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/rcarreau/kcarreau6.png" id="625_jboyd"]
+[ext_resource type="Texture2D" uid="uid://bnap8mnmewu8e" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/rcarreau/kcarreau7.png" id="626_gvwcr"]
+[ext_resource type="Texture2D" uid="uid://dyimfxspv77t3" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/rcarreau/kcarreau8.png" id="627_gutde"]
+[ext_resource type="Texture2D" uid="uid://djjh5lhknp7jd" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/rcarreau/kcarreau9.png" id="628_nakxv"]
+[ext_resource type="Texture2D" uid="uid://cjwujynf17bpc" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/rcarreau/kcarreau10.png" id="629_nqnyw"]
+[ext_resource type="Texture2D" uid="uid://b6h82636uueuk" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/rcarreau/kcarreau11.png" id="630_jwsnf"]
+[ext_resource type="Texture2D" uid="uid://dbnqjbiemj5ib" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/carreau/rcarreau/kcarreau12.png" id="631_1830u"]
+[ext_resource type="Texture2D" uid="uid://xqpl1hnwoypr" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/rcoeur/rcoeur1.png" id="632_31cpn"]
+[ext_resource type="Texture2D" uid="uid://disg5ihqeq2u8" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/rcoeur/rcoeur2.png" id="633_1cepe"]
+[ext_resource type="Texture2D" uid="uid://cxh6cnq8u2raw" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/rcoeur/rcoeur3.png" id="634_n3shx"]
+[ext_resource type="Texture2D" uid="uid://bpgs2mb3umgl5" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/rcoeur/rcoeur4.png" id="635_fgvh7"]
+[ext_resource type="Texture2D" uid="uid://skdh3cshfu6k" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/rcoeur/rcoeur5.png" id="636_fddty"]
+[ext_resource type="Texture2D" uid="uid://ul71sccq7npy" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/rcoeur/rcoeur6.png" id="637_b4kia"]
+[ext_resource type="Texture2D" uid="uid://bpge4utp1ee20" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/rcoeur/rcoeur7.png" id="638_ikrvg"]
+[ext_resource type="Texture2D" uid="uid://q58luqnfl3fl" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/rcoeur/rcoeur8.png" id="639_5gdfg"]
+[ext_resource type="Texture2D" uid="uid://gyyfiu3nnode" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/rcoeur/rcoeur9.png" id="640_0rxyr"]
+[ext_resource type="Texture2D" uid="uid://cqdngy8k12o70" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/rcoeur/rcoeur10.png" id="641_gc84w"]
+[ext_resource type="Texture2D" uid="uid://w38gxrgwvmes" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/rcoeur/rcoeur11.png" id="642_20r38"]
+[ext_resource type="Texture2D" uid="uid://d6inuf485fpu" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/coeur/rcoeur/rcoeur12.png" id="643_8ese7"]
+[ext_resource type="Texture2D" uid="uid://e1e45oqvh7pc" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/rpique/rpique1.png" id="644_kdjit"]
+[ext_resource type="Texture2D" uid="uid://22uwypprvtgu" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/rpique/rpique2.png" id="645_4y7cv"]
+[ext_resource type="Texture2D" uid="uid://bwd7wbt83po4r" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/rpique/rpique3.png" id="646_nnbxk"]
+[ext_resource type="Texture2D" uid="uid://c8wx07uijrqs" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/rpique/rpique4.png" id="647_narqc"]
+[ext_resource type="Texture2D" uid="uid://ec1dt7l48aw4" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/rpique/rpique5.png" id="648_wm7ko"]
+[ext_resource type="Texture2D" uid="uid://bohh545jrxcjr" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/rpique/rpique6.png" id="649_ypst0"]
+[ext_resource type="Texture2D" uid="uid://bw5aam3tecduf" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/rpique/rpique7.png" id="650_rsq6b"]
+[ext_resource type="Texture2D" uid="uid://di60ty2eu5uyy" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/rpique/rpique8.png" id="651_f0uyj"]
+[ext_resource type="Texture2D" uid="uid://4ufw34k3fr3w" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/rpique/rpique9.png" id="652_ktynp"]
+[ext_resource type="Texture2D" uid="uid://cij3rwvrcyl3s" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/pique/rpique/rpique10.png" id="653_fdcs3"]
+[ext_resource type="Texture2D" uid="uid://p0s2xifcg76w" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/rtrefle/rtrefle1.png" id="654_diegt"]
+[ext_resource type="Texture2D" uid="uid://g6c5vuugqnxk" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/rtrefle/rtrefle2.png" id="655_uqmle"]
+[ext_resource type="Texture2D" uid="uid://ec5y66r8r0ny" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/rtrefle/rtrefle3.png" id="656_k5ib2"]
+[ext_resource type="Texture2D" uid="uid://dbssmmxqt1sxy" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/rtrefle/rtrefle4.png" id="657_hm3or"]
+[ext_resource type="Texture2D" uid="uid://bt4kmhmdrsr3c" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/rtrefle/rtrefle5.png" id="658_f56se"]
+[ext_resource type="Texture2D" uid="uid://dhoxafqej3l0l" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/rtrefle/rtrefle6.png" id="659_arppp"]
+[ext_resource type="Texture2D" uid="uid://b5r22mkmhwrv6" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/rtrefle/rtrefle7.png" id="660_e42vl"]
+[ext_resource type="Texture2D" uid="uid://dmur3c3f7ptr8" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/rtrefle/rtrefle8.png" id="661_qrrkn"]
+[ext_resource type="Texture2D" uid="uid://b28n28q30m4c4" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/rtrefle/rtrefle9.png" id="662_0ex63"]
+[ext_resource type="Texture2D" uid="uid://b6vwdwaqks8pj" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/rtrefle/rtrefle10.png" id="663_h0dmk"]
+[ext_resource type="Texture2D" uid="uid://42703l74ow2h" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/rtrefle/rtrefle11.png" id="664_mhnnf"]
+[ext_resource type="Texture2D" uid="uid://b6r40b0ia4jfm" path="res://roulette_dungeon/assets/user_interface/gamblingscene/animations/trefle/rtrefle/rtrefle12.png" id="665_4ba4a"]
+[ext_resource type="Texture2D" uid="uid://bl73ll2mqgi74" path="res://roulette_dungeon/assets/user_interface/gamblingscene/hit.png" id="666_gt3xw"]
+[ext_resource type="Texture2D" uid="uid://7r4wt8o46pro" path="res://roulette_dungeon/assets/user_interface/gamblingscene/stand.png" id="667_o60lt"]
+[ext_resource type="Texture2D" uid="uid://deleeadd8jslv" path="res://roulette_dungeon/assets/user_interface/gamblingscene/laugh.png" id="676_d705r"]
+[ext_resource type="AudioStream" uid="uid://brr4wwhahdugg" path="res://roulette_dungeon/assets/user_interface/gamblingscene/Drawing Playing Cards Sound Effect.mp3" id="678_8wl3f"]
+[ext_resource type="AudioStream" uid="uid://rol4ag5s0s2b" path="res://roulette_dungeon/assets/user_interface/gamblingscene/final_flip.mp3" id="679_mh04v"]
+[ext_resource type="AudioStream" uid="uid://dvob7vqjjci7w" path="res://roulette_dungeon/assets/user_interface/gamblingscene/music2.mp3" id="680_jkxxx"]
+[ext_resource type="AudioStream" uid="uid://b5xidhwbh2b6f" path="res://roulette_dungeon/assets/user_interface/gamblingscene/Coins sound effect.mp3" id="681_rc0rt"]
+[ext_resource type="AudioStream" uid="uid://b8eifltxd3dsv" path="res://roulette_dungeon/assets/user_interface/gamblingscene/Sad Spongebob original meme sound effect.mp3" id="682_147m4"]
+[ext_resource type="AudioStream" uid="uid://btqx4hkjw8vr3" path="res://roulette_dungeon/assets/user_interface/bubble.mp3" id="683_v6v32"]
+[ext_resource type="AudioStream" uid="uid://x836lqbouuw1" path="res://roulette_dungeon/assets/user_interface/gamblingscene/wrong.mp3" id="684_rir32"]
+[ext_resource type="AudioStream" uid="uid://b2kyq5bluni46" path="res://roulette_dungeon/assets/user_interface/gamblingscene/win-101soundboards.mp3" id="685_gipqp"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_d57sx"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bq2kt"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 7
+border_width_top = 7
+border_width_right = 7
+border_width_bottom = 7
+border_color = Color(0.996078, 0.94902, 0.709804, 1)
+shadow_size = 1
+shadow_offset = Vector2(0, 10)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dlwih"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 7
+border_width_top = 7
+border_width_right = 7
+border_width_bottom = 7
+border_color = Color(0.996078, 0.94902, 0.709804, 1)
+shadow_size = 1
+shadow_offset = Vector2(0, 10)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v1cb1"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 7
+border_width_top = 7
+border_width_right = 7
+border_width_bottom = 7
+border_color = Color(0.996078, 0.94902, 0.709804, 1)
+shadow_size = 1
+shadow_offset = Vector2(0, 10)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7mll5"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.1, 0.1, 0.1, 0.3)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="Theme" id="Theme_fnaup"]
+Button/colors/icon_normal_color = Color(1, 1, 1, 1)
+Button/colors/icon_pressed_color = Color(1, 1, 1, 1)
+Button/styles/disabled = SubResource("StyleBoxFlat_7mll5")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4k8x8"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_iutjt"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6r64j"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wmp7y"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_b6g2j"]
+
+[sub_resource type="FontVariation" id="FontVariation_2700d"]
+spacing_glyph = 3
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ye4vt"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_77l1x"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7v4n2"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_goh0g"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wqlq4"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nfgra"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fjqsx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_kdufa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_y0mku")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_y37x0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_elfn4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ixuye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_6vair")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_56m0h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_x1avr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_mujci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_bjlsk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_hob73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_urf7g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_b4n35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_0o14c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_c2llv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_lu5qx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_dtg4r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_0th2a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_krydi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_24xy8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_2gh0y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_o61tw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_fpjwv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_jyx7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_453ag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_njgyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_q1mmr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_pckr0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_7c2af")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_14ijp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_ecl1w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_hijq6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_dwlis")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_1k5ah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_6vqak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_td67l")
+}],
+"loop": true,
+"name": &"default",
+"speed": 120.0
+}]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jocba"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dpogq"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_hufa3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kukam"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dsjc3"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1n7xf"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.996074, 0.949483, 0.7085, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fnaup"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dck20"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.968627, 0.717647, 0.133333, 1)
+corner_radius_top_left = 200
+corner_radius_top_right = 200
+corner_radius_bottom_right = 200
+corner_radius_bottom_left = 200
+shadow_size = 5
+shadow_offset = Vector2(0, 10)
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fnaup"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4k8x8"]
+content_margin_left = 10.0
+content_margin_right = 10.0
+bg_color = Color(0.698039, 0.133333, 0.133333, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.698039, 0.133333, 0.133333, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iutjt"]
+bg_color = Color(0.698039, 0.133333, 0.133333, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.698039, 0.133333, 0.133333, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2700d"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6r64j"]
+bg_color = Color(0.360784, 0.627451, 0.490196, 1)
+border_width_left = 7
+border_width_top = 7
+border_width_right = 7
+border_width_bottom = 7
+border_color = Color(0.996078, 0.94902, 0.709804, 1)
+shadow_size = 1
+shadow_offset = Vector2(0, 13)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ee3e1"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_p0lan"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("52_tradd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_1f4ky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_y2eyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_nqwfa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_ns0er")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_0ge6c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_dentp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_qt2gg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_hqdxy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_fga1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_5sp3w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_ixf8p")
+}],
+"loop": false,
+"name": &"10carreau",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("64_wlrwb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_xuig8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_ii457")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_ioxw6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_pt0b3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_jof34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_wjs0i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_322mh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_dl3md")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_pmgsp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_qwpkx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_0dqtx")
+}],
+"loop": false,
+"name": &"10coeur",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("76_nhwyn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_w8log")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_1yixl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_oxuwf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_jk66j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_wjqcw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_btplr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_66h2k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_yndrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_vrg33")
+}],
+"loop": false,
+"name": &"10pique",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("86_dbyh3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_li3gh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_qmd5o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_if8vn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_xolp4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_ua4s4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_0vg00")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_yg4ob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_8tyyg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_6shuo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_i61u1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_74fjn")
+}],
+"loop": false,
+"name": &"10trefle",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("98_upvjd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_ye1ib")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_twyh8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_4hfxk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_1oear")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_obgrw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_nmbtj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_lj7ap")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_rkj3j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_74qm6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_k36l4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_jgmei")
+}],
+"loop": false,
+"name": &"2carreau",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("110_hqs4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_5t556")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_i43p6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_cly8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_e1wkx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_yebud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_dpvd7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_tw6nv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_i7mr5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_w4clm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_iqe0p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_siy5c")
+}],
+"loop": false,
+"name": &"2coeur",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("122_6vc27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_tfscm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_swshv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_wii26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_bwvqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_m1kld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_2maxs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_sg7k0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_uutrt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_pfids")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_6mdvl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_t1ahd")
+}],
+"loop": false,
+"name": &"2pique",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("134_042lh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_e5ch6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_5gs60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_mk02k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_vqk3u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_wk3ij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_82ug0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_sww3b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_oxyol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_2bjq3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_hcj5m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_2kjy3")
+}],
+"loop": false,
+"name": &"2trefle",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("146_rhcph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_51r61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_rmm3k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_mhqp1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_wdhdg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_r6lbr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_kg5sb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_xf5yu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_iv8yr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_k7ctk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_cunhy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_gliu0")
+}],
+"loop": false,
+"name": &"3carreau",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("158_l3d1p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_gvojj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_3fhqb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_06jsp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_avsyd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_6jw24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_c0to5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_wsik0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_5osu3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_65ysk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_messt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_1hcy0")
+}],
+"loop": false,
+"name": &"3coeur",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("170_sleht")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_376d3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_a07xr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_3l5i0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_jyyfl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_loldr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_bl4q3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_ipmfd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_jr13x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_ckk30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_gdt46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_nnykc")
+}],
+"loop": false,
+"name": &"3pique",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("182_vap4t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_scjmo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_jqg48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_gbmeh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_6dylw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_3bl1y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_usv06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_brcuh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_2i1qy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_e4qdw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_xjqks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_x0b6m")
+}],
+"loop": false,
+"name": &"3trefle",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("194_nsk8k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_cjyds")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_q4mn2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_vbhhg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_pdflt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_6outf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_21ukq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_0c012")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_up8r1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_3fmm3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_pbv4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_ot6d2")
+}],
+"loop": false,
+"name": &"4carreau",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("206_dkw87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_lklfv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_q11wp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_5uctf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_qgo6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_qatmi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_tekxj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_bxgml")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_e6x2n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_v5i06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_imosn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_mut5t")
+}],
+"loop": false,
+"name": &"4coeur",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("218_gi0l4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_o385e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_ilwdo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_qmx6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_arsc1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_c5b8f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_yk3in")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_07ng8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226_cg5ns")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_8nddi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_pn86q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_c41ih")
+}],
+"loop": false,
+"name": &"4pique",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("230_xdrtn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_27eef")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_wwupr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233_ujyto")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234_a043q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_0mhyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_ijmp6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_ocbrf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_t0aku")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_a2cmq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240_xe2kg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241_n3k4w")
+}],
+"loop": false,
+"name": &"4trefle",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("242_vvitr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243_81be0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244_mb2bb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245_xgudt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246_okvxa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247_0uex2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248_0fs6q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249_jic8i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250_qhiyi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251_a75gp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252_xixow")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253_2lkag")
+}],
+"loop": false,
+"name": &"5carreau",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("254_2oyjv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255_yffyp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256_kj6dc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257_12el1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("258_ub31y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259_jslfa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260_igdr7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261_qnbky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("262_84s0i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("263_2fhub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("264_obxc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("265_jaev8")
+}],
+"loop": false,
+"name": &"5coeur",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("266_23x1o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("267_k8yq2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("268_tr0jo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("269_qqloa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("270_1t1gw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("271_uy1qp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("272_82syw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("273_jcwiu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("274_xoxcv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("275_dka8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("276_11gbb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("277_qajcf")
+}],
+"loop": false,
+"name": &"5pique",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("278_g5742")
+}, {
+"duration": 1.0,
+"texture": ExtResource("279_i6dvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("280_rvsnp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("281_dbclw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("282_u0p22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("283_0w2sh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("284_b6nug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("285_qfkj2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("286_ohyr0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("287_j2cqm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("288_mv8bp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("289_vi5ui")
+}],
+"loop": false,
+"name": &"5trefle",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("290_g0nnv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("291_2vipn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("292_43h0j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("293_fc4hc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("294_3kif4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("295_flqmk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("296_e5l6h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("297_5m0nb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("298_kyqld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("299_42bxe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("300_py408")
+}, {
+"duration": 1.0,
+"texture": ExtResource("301_nxv80")
+}],
+"loop": false,
+"name": &"6carreau",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("302_hqvjp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("303_e6nwm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("304_lrmr8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("305_y0yms")
+}, {
+"duration": 1.0,
+"texture": ExtResource("306_wf7tu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("307_kotiq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("308_f3lvc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("309_cdub3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("310_klel2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("311_vk7hd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("312_boypj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("313_q5fq8")
+}],
+"loop": false,
+"name": &"6coeur",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("314_dm2x5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("315_n5d6p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("316_3hjo7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("317_x00g0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("318_ncc8c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("319_62jhw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("320_f7gl8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("321_mgsch")
+}, {
+"duration": 1.0,
+"texture": ExtResource("322_8i3gd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("323_jcaoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("324_je55e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("325_vmadw")
+}],
+"loop": false,
+"name": &"6pique",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("326_0u13u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("327_eclk1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("328_nt2ch")
+}, {
+"duration": 1.0,
+"texture": ExtResource("329_5ir54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("330_7g3le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("331_4g4at")
+}, {
+"duration": 1.0,
+"texture": ExtResource("332_hbppn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("333_05iya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("334_lve7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("335_4obl2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("336_uq2u4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("337_asfpv")
+}],
+"loop": false,
+"name": &"6trefle",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("338_0v1ki")
+}, {
+"duration": 1.0,
+"texture": ExtResource("339_ri7fi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("340_j6ea8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("341_125fo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("342_djwhq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("343_2c1i7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("344_mwrtb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("345_5svdj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("346_i6g1b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("347_i4vnj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("348_12661")
+}, {
+"duration": 1.0,
+"texture": ExtResource("349_ju5sr")
+}],
+"loop": false,
+"name": &"7carreau",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("350_b3hpi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("351_aprc4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("352_b8vuc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("353_nn7q4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("354_54hjf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("355_2y84a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("356_wptii")
+}, {
+"duration": 1.0,
+"texture": ExtResource("357_dflaj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("358_ahks1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("359_vtpa6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("360_on7xh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("361_ak4b3")
+}],
+"loop": false,
+"name": &"7coeur",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("362_vmj27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("363_cdesl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("364_7x1nn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("365_b2t0f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("366_ownxi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("367_n5kgu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("368_755yo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("369_6aeqx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("370_v5f8y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("371_qpdd6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("372_htgay")
+}, {
+"duration": 1.0,
+"texture": ExtResource("373_f4sjk")
+}],
+"loop": false,
+"name": &"7pique",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("374_1than")
+}, {
+"duration": 1.0,
+"texture": ExtResource("375_p0wit")
+}, {
+"duration": 1.0,
+"texture": ExtResource("376_rigdp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("377_s1nfd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("378_1selc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("379_ut4yp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("380_iddpy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("381_h4flk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("382_kapw4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("383_c42w3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("384_sctoe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("385_1bntb")
+}],
+"loop": false,
+"name": &"7trefle",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("386_a5fjo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("387_6w0d8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("388_p4rkc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("389_rlusb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("390_4n8r0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("391_yln87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("392_vsp67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("393_ej404")
+}, {
+"duration": 1.0,
+"texture": ExtResource("394_jh3s5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("395_g8p31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("396_w8uds")
+}, {
+"duration": 1.0,
+"texture": ExtResource("397_8b5gp")
+}],
+"loop": false,
+"name": &"8carreau",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("398_ol3yv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("399_8v5dn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("400_eoflf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("401_6xxm5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("402_r4uen")
+}, {
+"duration": 1.0,
+"texture": ExtResource("403_f2vet")
+}, {
+"duration": 1.0,
+"texture": ExtResource("404_54iep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("405_eb2pj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("406_wk4y1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("407_8rfgf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("408_23kaf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("409_ai3cc")
+}],
+"loop": false,
+"name": &"8coeur",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("410_rgy1o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("411_x8iew")
+}, {
+"duration": 1.0,
+"texture": ExtResource("412_q5m2l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("413_v6mqu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("414_m05ir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("415_ts12k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("416_hct5g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("417_kwwl3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("418_6s7jx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("419_uso6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("420_u2rig")
+}, {
+"duration": 1.0,
+"texture": ExtResource("421_b3o4m")
+}],
+"loop": false,
+"name": &"8pique",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("422_uq1bg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("423_fmbww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("424_5d15d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("425_rmfbu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("426_5bq7d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("427_6ckf4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("428_8ff27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("429_4lj2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("430_o8rur")
+}, {
+"duration": 1.0,
+"texture": ExtResource("431_2hi7y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("432_w5ok0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("433_jbpuf")
+}],
+"loop": false,
+"name": &"8trefle",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("434_e0ty6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("435_uveyu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("436_dwut2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("437_0wipa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("438_0xa7s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("439_k7yj0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("440_35vqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("441_1ulgb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("442_r5ivh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("443_2cmhe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("444_cl26t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("445_ktuby")
+}],
+"loop": false,
+"name": &"9carreau",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("446_wi04s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("447_o245a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("448_kfng6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("449_xe8na")
+}, {
+"duration": 1.0,
+"texture": ExtResource("450_jdfev")
+}, {
+"duration": 1.0,
+"texture": ExtResource("451_edw6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("452_u3pft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("453_8idw6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("454_3bmrd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("455_b380g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("456_jxide")
+}, {
+"duration": 1.0,
+"texture": ExtResource("457_gj1a4")
+}],
+"loop": false,
+"name": &"9coeur",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("458_ddwdn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("459_48xrj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("460_fbquo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("461_32ymy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("462_extt4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("463_7e2kj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("464_245dm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("465_yhabd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("466_kfeh6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("467_wipic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("468_5gand")
+}, {
+"duration": 1.0,
+"texture": ExtResource("469_iaurb")
+}],
+"loop": false,
+"name": &"9pique",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("470_ox02y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("471_sljtd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("472_4hl42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("473_2b8pq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("474_807f1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("475_qfgtl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("476_p61bc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("477_8y4pw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("478_yisou")
+}, {
+"duration": 1.0,
+"texture": ExtResource("479_avxwb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("480_2msme")
+}, {
+"duration": 1.0,
+"texture": ExtResource("481_7gfut")
+}],
+"loop": false,
+"name": &"9trefle",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("482_metwc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("483_uw0rl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("484_xd5k1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("485_vghjb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("486_y1rv0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("487_bjwcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("488_xi7l2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("489_t5f36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("490_g5crg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("491_ct7be")
+}, {
+"duration": 1.0,
+"texture": ExtResource("492_bkift")
+}, {
+"duration": 1.0,
+"texture": ExtResource("493_v25cr")
+}],
+"loop": false,
+"name": &"acarreau",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("494_6hlvq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("495_oc4d8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("496_u7n28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("497_ekkbk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("498_xx3pc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("499_e4j84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("500_bkjql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("501_5lrs2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("502_4lwir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("503_ry2er")
+}, {
+"duration": 1.0,
+"texture": ExtResource("504_xaeuv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("505_6fbu2")
+}],
+"loop": false,
+"name": &"acoeur",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("506_0yrge")
+}, {
+"duration": 1.0,
+"texture": ExtResource("507_rf1xe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("508_pqg1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("509_i6mec")
+}, {
+"duration": 1.0,
+"texture": ExtResource("510_bf7d3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("511_a6gdl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("512_etg7g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("513_lvacy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("514_mkin3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("515_jnvj6")
+}],
+"loop": false,
+"name": &"apique",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("516_1p8h2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("517_cnyus")
+}, {
+"duration": 1.0,
+"texture": ExtResource("518_li78i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("519_lrfi7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("520_4vxx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("521_rkfoi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("522_56d86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("523_cggbc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("524_7eygi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("525_7rmiv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("526_q8gpl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("527_qhm88")
+}],
+"loop": false,
+"name": &"atrefle",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("528_k86eb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("529_vjuh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("530_oyy8p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("531_ae23h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("532_la85j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("533_tmhho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("534_56h5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("535_b74qp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("536_occe2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("537_pets6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("538_qougg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("539_ag8y7")
+}],
+"loop": false,
+"name": &"dcarreau",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("540_jvi8i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("541_2pkny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("542_rwvij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("543_st7dg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("544_nhnfr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("545_8olql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("546_kr2xp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("547_akr6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("548_on3ae")
+}, {
+"duration": 1.0,
+"texture": ExtResource("549_inqdj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("550_0crcd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("551_hppuj")
+}],
+"loop": false,
+"name": &"dcoeur",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("552_cj567")
+}, {
+"duration": 1.0,
+"texture": ExtResource("553_hvn8h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("554_44yfo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("555_wnfxc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("556_3wh6l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("557_r5tac")
+}, {
+"duration": 1.0,
+"texture": ExtResource("558_6erew")
+}, {
+"duration": 1.0,
+"texture": ExtResource("559_fo12g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("560_vrqmh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("561_etgkj")
+}],
+"loop": false,
+"name": &"dpique",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("562_qhhtw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("563_opyj6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("564_pjelr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("565_ehqqq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("566_2i4ux")
+}, {
+"duration": 1.0,
+"texture": ExtResource("567_tyo38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("568_rvjus")
+}, {
+"duration": 1.0,
+"texture": ExtResource("569_mws5u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("570_4xaht")
+}, {
+"duration": 1.0,
+"texture": ExtResource("571_vhsp0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("572_yt4hm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("573_3q4ov")
+}],
+"loop": false,
+"name": &"dtrefle",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("574_r3if1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("575_1vo5r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("576_8t6bo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("577_rxeyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("578_fu1hw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("579_xs8o3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("580_oa14m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("581_tq5ik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("582_jcjrq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("583_cjvks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("584_k8s3v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("585_bb246")
+}],
+"loop": false,
+"name": &"jcarreau",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("586_dtcpn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("587_pyiwe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("588_mlbwy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("589_h6741")
+}, {
+"duration": 1.0,
+"texture": ExtResource("590_fy2sg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("591_w2int")
+}, {
+"duration": 1.0,
+"texture": ExtResource("592_2t5x0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("593_ci4yu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("594_dx0ot")
+}, {
+"duration": 1.0,
+"texture": ExtResource("595_ptv3o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("596_aa1w4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("597_1ysvm")
+}],
+"loop": false,
+"name": &"jcoeur",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("598_4ulnl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("599_ufice")
+}, {
+"duration": 1.0,
+"texture": ExtResource("600_y4ol2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("601_nauaw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("602_0ykg6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("603_ngehg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("604_231nm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("605_3imfn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("606_y0leg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("607_4w2ax")
+}],
+"loop": false,
+"name": &"jpique",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("608_33jo6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("609_wkyn8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("610_kd8xf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("611_fhxqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("612_47r1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("613_titsl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("614_p4wir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("615_haf72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("616_p7jvv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("617_mespw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("618_o65r7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("619_wjvja")
+}],
+"loop": false,
+"name": &"jtrefle",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("620_d0p7c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("621_ml5ab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("622_kmj8p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("623_o7yh3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("624_0v77r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("625_jboyd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("626_gvwcr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("627_gutde")
+}, {
+"duration": 1.0,
+"texture": ExtResource("628_nakxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("629_nqnyw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("630_jwsnf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("631_1830u")
+}],
+"loop": false,
+"name": &"rcarreau",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("632_31cpn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("633_1cepe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("634_n3shx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("635_fgvh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("636_fddty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("637_b4kia")
+}, {
+"duration": 1.0,
+"texture": ExtResource("638_ikrvg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("639_5gdfg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("640_0rxyr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("641_gc84w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("642_20r38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("643_8ese7")
+}],
+"loop": false,
+"name": &"rcoeur",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("644_kdjit")
+}, {
+"duration": 1.0,
+"texture": ExtResource("645_4y7cv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("646_nnbxk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("647_narqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("648_wm7ko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("649_ypst0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("650_rsq6b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("651_f0uyj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("652_ktynp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("653_fdcs3")
+}],
+"loop": false,
+"name": &"rpique",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("654_diegt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("655_uqmle")
+}, {
+"duration": 1.0,
+"texture": ExtResource("656_k5ib2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("657_hm3or")
+}, {
+"duration": 1.0,
+"texture": ExtResource("658_f56se")
+}, {
+"duration": 1.0,
+"texture": ExtResource("659_arppp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("660_e42vl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("661_qrrkn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("662_0ex63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("663_h0dmk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("664_mhnnf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("665_4ba4a")
+}],
+"loop": false,
+"name": &"rtrefle",
+"speed": 30.0
+}]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5sje3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_h75oj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_71hcn"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vgl5r"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6lmhw"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_60tjx"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jvy1y"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_b5hds"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_oy8ak"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gxclu"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wuc4u"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sx44t"]
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jyu1d"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_88uwn"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w71b8"]
+bg_color = Color(0, 0, 0, 0.784314)
+corner_radius_top_left = 100
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+
+[node name="blackjack" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(540, 960)
+script = ExtResource("1_78qoo")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.207843, 0.396078, 0.301961, 1)
+
+[node name="dealer_hands" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -39.0
+offset_top = -92.0
+offset_right = 1156.0
+offset_bottom = 493.0
+texture = ExtResource("2_b5hds")
+
+[node name="Exit_button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -297.0
+offset_top = 382.0
+offset_right = -30.0
+offset_bottom = 520.0
+grow_horizontal = 0
+pivot_offset = Vector2(92.5, 92.5)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_d57sx")
+theme_override_styles/hover = SubResource("StyleBoxFlat_bq2kt")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_dlwih")
+theme_override_styles/normal = SubResource("StyleBoxFlat_v1cb1")
+icon = ExtResource("4_gxclu")
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("5_wuc4u")
+
+[node name="goods" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 56.0
+offset_top = 186.0
+offset_right = -28.0
+offset_bottom = 256.0
+grow_horizontal = 2
+theme_override_constants/separation = 40
+alignment = 1
+
+[node name="Energy" type="Button" parent="goods"]
+custom_minimum_size = Vector2(200, 70)
+layout_mode = 2
+size_flags_vertical = 0
+theme = SubResource("Theme_fnaup")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_4k8x8")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_iutjt")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_6r64j")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_wmp7y")
+action_mode = 0
+expand_icon = true
+metadata/_edit_use_anchors_ = true
+
+[node name="Button" type="Button" parent="goods/Energy"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(118, 35)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_b6g2j")
+theme_override_styles/hover = ExtResource("6_sx44t")
+theme_override_styles/pressed = ExtResource("6_sx44t")
+theme_override_styles/normal = ExtResource("6_sx44t")
+script = ExtResource("7_63uel")
+
+[node name="TextureRect" type="TextureRect" parent="goods/Energy/Button"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 2.0
+offset_top = 1.0
+offset_right = 2.0
+offset_bottom = 1.0
+grow_vertical = 2
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("8_ivk2w")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="Label" type="Label" parent="goods/Energy/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.944915
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = SubResource("FontVariation_2700d")
+theme_override_font_sizes/font_size = 32
+text = "3/3"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="-" type="Label" parent="goods/Energy"]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -13.0
+offset_top = 26.0
+offset_right = 57.0
+offset_bottom = 66.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.545098, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "-1"
+autowrap_mode = 2
+
+[node name="Gold" type="Button" parent="goods"]
+custom_minimum_size = Vector2(250, 70)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+theme = SubResource("Theme_fnaup")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ye4vt")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_77l1x")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_7v4n2")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_goh0g")
+action_mode = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="Button" type="Button" parent="goods/Gold"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(118, 35)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_wqlq4")
+theme_override_styles/hover = ExtResource("6_sx44t")
+theme_override_styles/pressed = ExtResource("6_sx44t")
+theme_override_styles/normal = ExtResource("6_sx44t")
+script = ExtResource("9_mk7ma")
+
+[node name="TextureRect" type="TextureRect" parent="goods/Gold/Button"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -0.999992
+offset_bottom = -0.999992
+grow_vertical = 2
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("10_fsn4x")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="Label" type="Label" parent="goods/Gold/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.00847458
+anchor_right = 0.949153
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = SubResource("FontVariation_2700d")
+theme_override_font_sizes/font_size = 32
+text = "100005"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="+" type="Label" parent="goods/Gold"]
+visible = false
+z_index = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -45.0
+offset_top = 25.0
+offset_right = 117.0
+offset_bottom = 65.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.968627, 0.717647, 0.133333, 1)
+theme_override_font_sizes/font_size = 40
+text = "+100"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Panel" type="Panel" parent="goods/Gold"]
+z_index = 1
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 142.0
+offset_right = 228.0
+offset_bottom = 88.0
+pivot_offset = Vector2(43, 43)
+theme_override_styles/panel = SubResource("StyleBoxEmpty_nfgra")
+
+[node name="coin_flip" type="AnimatedSprite2D" parent="goods/Gold/Panel"]
+visible = false
+position = Vector2(70.0001, 44)
+scale = Vector2(0.07, 0.07)
+sprite_frames = SubResource("SpriteFrames_fjqsx")
+frame_progress = 0.0132686
+
+[node name="PokerCoin" type="Button" parent="goods"]
+custom_minimum_size = Vector2(190, 70)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+theme = SubResource("Theme_fnaup")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_jocba")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_dpogq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_hufa3")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_kukam")
+action_mode = 0
+
+[node name="Button" type="Button" parent="goods/PokerCoin"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(118, 35)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_dsjc3")
+theme_override_styles/hover = ExtResource("6_sx44t")
+theme_override_styles/pressed = ExtResource("6_sx44t")
+theme_override_styles/normal = ExtResource("6_sx44t")
+script = ExtResource("47_fgstw")
+
+[node name="TextureRect" type="TextureRect" parent="goods/PokerCoin/Button"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 15.0
+offset_top = -4.0
+offset_right = 15.0
+offset_bottom = -4.0
+grow_vertical = 2
+scale = Vector2(0.11, 0.11)
+texture = ExtResource("48_r7v64")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="Label" type="Label" parent="goods/PokerCoin/Button"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -14.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = SubResource("FontVariation_2700d")
+theme_override_font_sizes/font_size = 32
+text = "  100"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="BLACKJACK" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -350.0
+offset_top = -150.0
+offset_right = 350.0
+offset_bottom = 150.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1n7xf")
+
+[node name="Label" type="Label" parent="BLACKJACK"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -55.0
+offset_top = -8.0
+offset_right = 55.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.996078, 0.94902, 0.709804, 1)
+theme_override_font_sizes/font_size = 64
+text = "BLACKJACK"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="BLACKJACK"]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -55.0
+offset_top = -8.0
+offset_right = 55.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.996078, 0.94902, 0.709804, 1)
+theme_override_font_sizes/font_size = 64
+text = "BLACKJACK"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Bets" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -426.0
+offset_top = 223.0
+offset_right = 426.0
+offset_bottom = 723.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_fnaup")
+script = ExtResource("49_n7i2q")
+
+[node name="Bet" type="Label" parent="Bets"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -96.0
+offset_top = -222.0
+offset_right = 96.0
+offset_bottom = -158.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.968627, 0.717647, 0.133333, 1)
+theme_override_constants/outline_size = 24
+theme_override_font_sizes/font_size = 64
+text = "BET!"
+
+[node name="Panel" type="Panel" parent="Bets"]
+layout_mode = 0
+offset_left = 190.0
+offset_top = 144.0
+offset_right = 675.0
+offset_bottom = 223.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_dck20")
+
+[node name="bet_slider" type="HSlider" parent="Bets"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -227.0
+offset_top = -106.0
+offset_right = -71.0
+offset_bottom = -79.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(3, 3)
+focus_mode = 0
+theme_override_constants/center_grabber = 16384
+theme_override_icons/grabber = ExtResource("50_habbw")
+theme_override_icons/grabber_highlight = ExtResource("50_habbw")
+theme_override_styles/slider = SubResource("StyleBoxFlat_fnaup")
+theme_override_styles/grabber_area = SubResource("StyleBoxFlat_4k8x8")
+theme_override_styles/grabber_area_highlight = SubResource("StyleBoxFlat_iutjt")
+min_value = 100.0
+step = 100.0
+value = 100.0
+
+[node name="money" type="Label" parent="Bets"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -158.0
+offset_top = 32.0
+offset_right = 34.0
+offset_bottom = 96.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.968627, 0.717647, 0.133333, 1)
+theme_override_constants/outline_size = 24
+theme_override_font_sizes/font_size = 64
+text = "100"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="Bets"]
+layout_mode = 0
+offset_left = 470.0
+offset_top = 264.0
+offset_right = 570.0
+offset_bottom = 364.0
+texture = ExtResource("10_fsn4x")
+expand_mode = 1
+
+[node name="play_button" type="Button" parent="Bets"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -232.0
+offset_top = 137.0
+offset_right = 233.0
+offset_bottom = 337.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(201, 200)
+theme_override_colors/font_disabled_color = Color(0.968627, 0.717647, 0.133333, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.968627, 0.717647, 0.133333, 1)
+theme_override_colors/font_hover_color = Color(0.968627, 0.717647, 0.133333, 1)
+theme_override_colors/font_outline_color = Color(0.968627, 0.717647, 0.133333, 1)
+theme_override_colors/font_color = Color(0.968627, 0.717647, 0.133333, 1)
+theme_override_colors/font_focus_color = Color(0.968627, 0.717647, 0.133333, 1)
+theme_override_colors/font_pressed_color = Color(0.968627, 0.717647, 0.133333, 1)
+theme_override_font_sizes/font_size = 64
+theme_override_styles/focus = SubResource("StyleBoxEmpty_2700d")
+theme_override_styles/hover = ExtResource("51_t017a")
+theme_override_styles/pressed = ExtResource("51_t017a")
+theme_override_styles/normal = ExtResource("51_t017a")
+text = "GAMBLE"
+icon_alignment = 1
+script = ExtResource("5_wuc4u")
+
+[node name="TotalBet" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 55.0
+offset_top = 363.0
+offset_right = 398.0
+offset_bottom = 532.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_6r64j")
+
+[node name="Label" type="Label" parent="TotalBet"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -136.0
+offset_top = 43.0
+offset_right = 136.0
+offset_bottom = 75.0
+grow_horizontal = 2
+theme_override_constants/outline_size = 14
+theme_override_font_sizes/font_size = 32
+text = "TOTAL BET"
+
+[node name="TotalBet" type="Label" parent="TotalBet"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -93.5
+offset_top = 15.5
+offset_right = 26.5
+offset_bottom = 55.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.968627, 0.717647, 0.133333, 1)
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 40
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="TotalBet"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.487
+anchor_top = 0.479
+anchor_right = 0.487
+anchor_bottom = 0.479
+offset_left = -0.0410004
+offset_top = 0.048996
+offset_right = 74.959
+offset_bottom = 75.049
+texture = ExtResource("10_fsn4x")
+expand_mode = 1
+
+[node name="+" type="Label" parent="TotalBet"]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -79.5
+offset_top = 88.5
+offset_right = 80.5
+offset_bottom = 128.5
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(80, 20)
+theme_override_colors/font_color = Color(1, 0.794667, 0.12, 1)
+theme_override_font_sizes/font_size = 40
+text = "+100"
+
+[node name="-" type="Label" parent="TotalBet"]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -69.5
+offset_top = 88.5
+offset_right = 80.5
+offset_bottom = 128.5
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(75, 20)
+theme_override_colors/font_color = Color(0.662745, 0.266667, 0.258824, 1)
+theme_override_font_sizes/font_size = 40
+text = "-100"
+
+[node name="Panel" type="Panel" parent="TotalBet"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 103.5
+offset_top = 60.5
+offset_right = 189.5
+offset_bottom = 148.5
+pivot_offset = Vector2(43, 43)
+theme_override_styles/panel = SubResource("StyleBoxEmpty_nfgra")
+
+[node name="coin_flip" type="AnimatedSprite2D" parent="TotalBet/Panel"]
+visible = false
+position = Vector2(43, 44)
+scale = Vector2(0.1, 0.1)
+sprite_frames = SubResource("SpriteFrames_fjqsx")
+frame_progress = 0.0132686
+
+[node name="CardPacket" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -484.0
+offset_top = -377.0
+offset_right = -304.0
+offset_bottom = -77.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_oy8ak")
+
+[node name="dealer_first_card" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -484.0
+offset_top = -377.0
+offset_right = -304.0
+offset_bottom = -117.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_ee3e1")
+
+[node name="dealer_first_card" type="AnimatedSprite2D" parent="dealer_first_card"]
+position = Vector2(88, 130)
+scale = Vector2(4, 4.0459)
+sprite_frames = SubResource("SpriteFrames_p0lan")
+animation = &"10carreau"
+
+[node name="dealer_second_card" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -484.0
+offset_top = -377.0
+offset_right = -304.0
+offset_bottom = -117.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_ee3e1")
+
+[node name="dealer_second_card" type="AnimatedSprite2D" parent="dealer_second_card"]
+position = Vector2(88, 130)
+scale = Vector2(4, 4.0459)
+sprite_frames = SubResource("SpriteFrames_p0lan")
+animation = &"10carreau"
+
+[node name="our_first_card" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -484.0
+offset_top = -377.0
+offset_right = -304.0
+offset_bottom = -117.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_ee3e1")
+
+[node name="our_first_card" type="AnimatedSprite2D" parent="our_first_card"]
+position = Vector2(88, 130)
+scale = Vector2(4, 4.0459)
+sprite_frames = SubResource("SpriteFrames_p0lan")
+animation = &"10carreau"
+
+[node name="our_second_card" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -484.0
+offset_top = -377.0
+offset_right = -304.0
+offset_bottom = -117.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_ee3e1")
+
+[node name="our_second_card" type="AnimatedSprite2D" parent="our_second_card"]
+position = Vector2(88, 130)
+scale = Vector2(4, 4.0459)
+sprite_frames = SubResource("SpriteFrames_p0lan")
+animation = &"10carreau"
+
+[node name="hit_or_stand" type="Panel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -426.0
+offset_top = -720.0
+offset_right = 426.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_5sje3")
+
+[node name="Hit" type="Button" parent="hit_or_stand"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -10.0
+offset_right = 300.0
+offset_bottom = 270.0
+grow_vertical = 2
+pivot_offset = Vector2(150, 150)
+theme_override_colors/font_disabled_color = Color(1, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(1, 0, 0, 1)
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(1, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(1, 0, 0, 1)
+theme_override_constants/outline_size = 23
+theme_override_font_sizes/font_size = 48
+theme_override_styles/focus = SubResource("StyleBoxEmpty_h75oj")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_71hcn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_vgl5r")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_6lmhw")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_60tjx")
+icon = ExtResource("666_gt3xw")
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("5_wuc4u")
+
+[node name="Stand" type="Button" parent="hit_or_stand"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -300.0
+offset_top = -10.0
+offset_bottom = 270.0
+grow_horizontal = 0
+grow_vertical = 2
+pivot_offset = Vector2(150, 150)
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 48
+theme_override_styles/focus = SubResource("StyleBoxEmpty_jvy1y")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_b5hds")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_oy8ak")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_gxclu")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_wuc4u")
+icon = ExtResource("667_o60lt")
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("5_wuc4u")
+
+[node name="Label" type="Label" parent="hit_or_stand"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -47.0
+offset_top = 106.0
+offset_right = 49.0
+offset_bottom = 154.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 23
+theme_override_font_sizes/font_size = 48
+text = "OR"
+
+[node name="hit_label" type="Label" parent="hit_or_stand"]
+layout_mode = 0
+offset_left = 84.0
+offset_top = 652.0
+offset_right = 216.0
+offset_bottom = 700.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 23
+theme_override_font_sizes/font_size = 48
+text = "HIT"
+
+[node name="stand_label" type="Label" parent="hit_or_stand"]
+layout_mode = 0
+offset_left = 589.0
+offset_top = 652.0
+offset_right = 829.0
+offset_bottom = 700.0
+theme_override_constants/outline_size = 23
+theme_override_font_sizes/font_size = 48
+text = "STAND"
+
+[node name="Panel" type="Panel" parent="hit_or_stand"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -63.5
+offset_top = -41.5
+offset_right = 63.5
+offset_bottom = 41.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_sx44t")
+
+[node name="Label" type="Label" parent="hit_or_stand/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -48.0
+offset_top = -24.0
+offset_right = 48.0
+offset_bottom = 24.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 48
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="WIN" type="Panel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -228.0
+offset_top = -516.0
+offset_right = 229.0
+offset_bottom = -321.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_jyu1d")
+
+[node name="WIN" type="Label" parent="WIN"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -228.0
+offset_right = 228.0
+offset_bottom = 64.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.968627, 0.717647, 0.133333, 1)
+theme_override_constants/outline_size = 24
+theme_override_font_sizes/font_size = 64
+text = "YOU WIN!"
+
+[node name="Multiplier" type="Label" parent="WIN"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -64.0
+offset_top = -15.0
+offset_right = 64.0
+offset_bottom = 49.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.968627, 0.717647, 0.133333, 1)
+theme_override_constants/outline_size = 24
+theme_override_font_sizes/font_size = 64
+text = "2X"
+
+[node name="LOSE" type="Panel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -228.0
+offset_top = -516.0
+offset_right = 229.0
+offset_bottom = -403.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_88uwn")
+
+[node name="LOSE" type="Label" parent="LOSE"]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -228.0
+offset_top = -32.0
+offset_right = 228.0
+offset_bottom = 32.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.662745, 0.266667, 0.258824, 1)
+theme_override_constants/outline_size = 24
+theme_override_font_sizes/font_size = 64
+text = "Ah ..."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="LOSE"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -292.294
+offset_top = -250.0
+offset_right = 292.294
+offset_bottom = 250.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("676_d705r")
+expand_mode = 1
+
+[node name="CANTEXIT" type="Panel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -510.0
+offset_top = -510.0
+offset_right = 510.0
+offset_bottom = -310.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(510, 100)
+theme_override_styles/panel = SubResource("StyleBoxFlat_w71b8")
+
+[node name="CANTEXIT" type="Label" parent="CANTEXIT"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -447.5
+offset_top = -32.0
+offset_right = 447.5
+offset_bottom = 32.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 24
+theme_override_font_sizes/font_size = 45
+text = "Can't exit during a bet"
+
+[node name="our_card_pos1" type="Panel" parent="."]
+visible = false
+custom_minimum_size = Vector2(180, 260)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -184.0
+offset_top = 218.0
+offset_right = -4.0
+offset_bottom = 478.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="our_card_pos2" type="Panel" parent="."]
+visible = false
+custom_minimum_size = Vector2(180, 260)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -99.0
+offset_top = 218.0
+offset_right = 81.0
+offset_bottom = 478.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="dealer_card_pos1" type="Panel" parent="."]
+visible = false
+custom_minimum_size = Vector2(180, 260)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -187.0
+offset_top = -360.0
+offset_right = -7.0
+offset_bottom = -100.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="dealer_card_pos2" type="Panel" parent="."]
+visible = false
+custom_minimum_size = Vector2(180, 260)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -101.0
+offset_top = -360.0
+offset_right = 79.0
+offset_bottom = -100.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="card_sound" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(531, 957)
+stream = ExtResource("678_8wl3f")
+volume_db = 20.0
+
+[node name="card_flip" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(531, 964)
+stream = ExtResource("679_mh04v")
+volume_db = 15.0
+
+[node name="music" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(551, 957)
+stream = ExtResource("680_jkxxx")
+volume_db = 10.0
+autoplay = true
+parameters/looping = true
+
+[node name="coin" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(550, 951)
+stream = ExtResource("681_rc0rt")
+volume_db = 10.0
+
+[node name="lose" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(553, 951)
+stream = ExtResource("682_147m4")
+
+[node name="button" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(539, 956)
+stream = ExtResource("683_v6v32")
+
+[node name="cant_exit" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(539, 956)
+stream = ExtResource("684_rir32")
+
+[node name="win" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(540, 957)
+stream = ExtResource("685_gipqp")
+
+[connection signal="pressed" from="Exit_button" to="." method="_on_exit_button_pressed"]
+[connection signal="value_changed" from="Bets/bet_slider" to="Bets" method="_on_bet_slider_value_changed"]
+[connection signal="pressed" from="Bets/play_button" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="hit_or_stand/Hit" to="." method="_on_hit_pressed"]
+[connection signal="pressed" from="hit_or_stand/Stand" to="." method="_on_stand_pressed"]

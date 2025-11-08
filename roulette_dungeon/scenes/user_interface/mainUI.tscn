@@ -1,0 +1,709 @@
+[gd_scene load_steps=63 format=3 uid="uid://bk5hjmx4eeky8"]
+
+[ext_resource type="Script" uid="uid://draiyte6juf4b" path="res://roulette_dungeon/scripts/user_interface/main_ui.gd" id="1_fmtun"]
+[ext_resource type="PackedScene" uid="uid://csgjdlv8ktr64" path="res://roulette_dungeon/scenes/user_interface/fightscene/fight.tscn" id="2_fmtun"]
+[ext_resource type="Texture2D" uid="uid://cqwpemedlby3v" path="res://roulette_dungeon/assets/user_interface/fightscene/back10010-export.png" id="2_wag0f"]
+[ext_resource type="Script" uid="uid://5t1or08vqn1u" path="res://roulette_dungeon/scripts/user_interface/scroll_container.gd" id="3_p2e07"]
+[ext_resource type="PackedScene" uid="uid://b47evddma55iv" path="res://roulette_dungeon/scenes/user_interface/weapons.tscn" id="4_4kui4"]
+[ext_resource type="PackedScene" uid="uid://dgfwdsv3k4ak8" path="res://roulette_dungeon/scenes/user_interface/gamblingscene/gambling.tscn" id="5_p2e07"]
+[ext_resource type="Texture2D" uid="uid://c5wavyve7g835" path="res://roulette_dungeon/assets/user_interface/mainUI/gambler.png" id="6_p2e07"]
+[ext_resource type="StyleBox" uid="uid://br3qngv7dsaxt" path="res://roulette_dungeon/assets/tres/buttons_theme/classic.tres" id="7_3m85a"]
+[ext_resource type="Script" uid="uid://bw0x0ywdwnpul" path="res://roulette_dungeon/scripts/user_interface/buttons/goods/energy.gd" id="8_xjaao"]
+[ext_resource type="Texture2D" uid="uid://l0o12txmjflj" path="res://roulette_dungeon/assets/user_interface/mainUI/luck1-export-export-export.png" id="9_1qvr4"]
+[ext_resource type="Script" uid="uid://l8e38gyiiccs" path="res://roulette_dungeon/scripts/user_interface/buttons/goods/gold.gd" id="10_hvg26"]
+[ext_resource type="Script" uid="uid://b3ol73bj0vso1" path="res://roulette_dungeon/scripts/user_interface/buttons/game_mode/fight.gd" id="11_p2e07"]
+[ext_resource type="Texture2D" uid="uid://rnc8gs7quqwc" path="res://roulette_dungeon/assets/user_interface/weaponsscene/Sprite-0002.png" id="11_wag0f"]
+[ext_resource type="Script" uid="uid://dcuohjeqhs0w4" path="res://roulette_dungeon/scripts/user_interface/buttons/goods/poker_coin.gd" id="12_x6bni"]
+[ext_resource type="Script" uid="uid://psmxt8kqlomg" path="res://roulette_dungeon/scripts/user_interface/buttons/game_mode/shop.gd" id="14_r4bcn"]
+[ext_resource type="Texture2D" uid="uid://d2vh2s0hrofwq" path="res://roulette_dungeon/assets/user_interface/mainUI/bar-export.png" id="15_ryqfm"]
+[ext_resource type="Script" uid="uid://lparw7v2ao3e" path="res://roulette_dungeon/scripts/user_interface/buttons/game_mode/gamble.gd" id="16_lyoco"]
+[ext_resource type="Texture2D" uid="uid://h42vt0t3tsws" path="res://roulette_dungeon/assets/user_interface/mainUI/gamble2.png" id="17_rswgw"]
+[ext_resource type="Script" uid="uid://b1ni0oc8mtslx" path="res://roulette_dungeon/scripts/user_interface/buttons/game_mode/weapons.gd" id="20_bjc01"]
+[ext_resource type="Texture2D" uid="uid://ct5mxiexpayhs" path="res://roulette_dungeon/assets/user_interface/mainUI/pokeeeeerr.png" id="20_wag0f"]
+[ext_resource type="Script" uid="uid://udc4k8vhaak3" path="res://roulette_dungeon/scripts/user_interface/buttons/game_mode/event.gd" id="21_mcy6n"]
+[ext_resource type="Texture2D" uid="uid://dwvpwunxyub0e" path="res://roulette_dungeon/assets/user_interface/mainUI/next2.png" id="22_ktna7"]
+[ext_resource type="Texture2D" uid="uid://dfji5xpkt2qfq" path="res://roulette_dungeon/assets/user_interface/mainUI/dollar1-00.png" id="22_wag0f"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3m85a"]
+bg_color = Color(0.752941, 0.517647, 0.988235, 1)
+shadow_size = 5
+shadow_offset = Vector2(0, -5)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6t6b0"]
+bg_color = Color(0.627451, 0.407843, 1, 1)
+shadow_offset = Vector2(3, 0)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_j63gx"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vo4tr"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fhk5d"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xjaao"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 9
+border_width_right = 9
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_p2e07"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3m85a"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_xjaao"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_1qvr4"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bguc6"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1qvr4"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 11
+border_width_right = 11
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_hvg26"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ipxfx"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_x6bni"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vo8hp"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_oj17m"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wag0f"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kdi6n"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_r4bcn"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ryqfm"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p2e07"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.1, 0.1, 0.1, 0.3)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="Theme" id="Theme_n7lap"]
+Button/colors/icon_normal_color = Color(1, 1, 1, 1)
+Button/colors/icon_pressed_color = Color(1, 1, 1, 1)
+Button/styles/disabled = SubResource("StyleBoxFlat_p2e07")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_xhxey"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_os6co"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_iw1sf"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_35esh"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fr76s"]
+
+[sub_resource type="FontVariation" id="FontVariation_twtl4"]
+spacing_glyph = 3
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cb8pk"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_btv8k"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bh0qt"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_64crw"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_u5i7m"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rr20p"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_risqo"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nm6c0"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_51t5k"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0ff7f"]
+
+[node name="mainUI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_fmtun")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -768.0
+offset_top = -1200.0
+offset_right = 768.0
+offset_bottom = 1200.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_wag0f")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+horizontal_scroll_mode = 3
+vertical_scroll_mode = 0
+script = ExtResource("3_p2e07")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="sep4" type="Control" parent="ScrollContainer/HBoxContainer"]
+custom_minimum_size = Vector2(1000, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 1
+
+[node name="shop" parent="ScrollContainer/HBoxContainer" instance=ExtResource("2_fmtun")]
+custom_minimum_size = Vector2(1080, 2200)
+layout_mode = 2
+size_flags_vertical = 1
+script = null
+
+[node name="sep1" type="Control" parent="ScrollContainer/HBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 1
+
+[node name="gambling" parent="ScrollContainer/HBoxContainer" instance=ExtResource("5_p2e07")]
+layout_mode = 2
+
+[node name="sep2" type="Control" parent="ScrollContainer/HBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 1
+
+[node name="fight" parent="ScrollContainer/HBoxContainer" instance=ExtResource("2_fmtun")]
+custom_minimum_size = Vector2(1080, 2200)
+layout_mode = 2
+size_flags_vertical = 1
+
+[node name="sep3" type="Control" parent="ScrollContainer/HBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 1
+
+[node name="collection" parent="ScrollContainer/HBoxContainer" instance=ExtResource("4_4kui4")]
+custom_minimum_size = Vector2(1080, 2200)
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="sep5" type="Control" parent="ScrollContainer/HBoxContainer"]
+custom_minimum_size = Vector2(1000, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 1
+
+[node name="game_mode_panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -237.0
+offset_bottom = 728.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_3m85a")
+
+[node name="current_game_mode" type="Panel" parent="."]
+custom_minimum_size = Vector2(350, 0)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -175.0
+offset_top = -237.0
+offset_right = 175.0
+offset_bottom = 627.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_6t6b0")
+
+[node name="game_mode" type="HBoxContainer" parent="."]
+custom_minimum_size = Vector2(0, 160)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -237.0
+offset_bottom = 625.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = -1
+
+[node name="Shop" type="Button" parent="game_mode"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/focus = SubResource("StyleBoxEmpty_j63gx")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_vo4tr")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_fhk5d")
+theme_override_styles/normal = SubResource("StyleBoxFlat_xjaao")
+icon_alignment = 1
+
+[node name="Button" type="Button" parent="game_mode/Shop"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(108, 108)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_p2e07")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_3m85a")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_xjaao")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_1qvr4")
+script = ExtResource("14_r4bcn")
+
+[node name="TextureRect" type="TextureRect" parent="game_mode/Shop/Button"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -90.0
+offset_top = -3.0
+offset_right = 90.0
+offset_bottom = 177.0
+grow_horizontal = 2
+pivot_offset = Vector2(90, 90)
+texture = ExtResource("15_ryqfm")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="game_mode/Shop/Button"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -92.0
+offset_top = 169.0
+offset_right = 93.0
+offset_bottom = 209.0
+grow_horizontal = 2
+pivot_offset = Vector2(95, 20)
+theme_override_constants/outline_size = 18
+theme_override_font_sizes/font_size = 32
+text = "Shop"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="Gamble" type="Button" parent="game_mode"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/focus = SubResource("StyleBoxEmpty_j63gx")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_bguc6")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_fhk5d")
+theme_override_styles/normal = SubResource("StyleBoxFlat_1qvr4")
+icon_alignment = 1
+
+[node name="Button" type="Button" parent="game_mode/Gamble"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(108, 108)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_p2e07")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_3m85a")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_xjaao")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_1qvr4")
+script = ExtResource("16_lyoco")
+
+[node name="TextureRect" type="TextureRect" parent="game_mode/Gamble/Button"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -84.5
+offset_top = 15.0
+offset_right = 85.5
+offset_bottom = 185.0
+grow_horizontal = 2
+pivot_offset = Vector2(90, 90)
+texture = ExtResource("17_rswgw")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="game_mode/Gamble/Button"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -93.5
+offset_top = 169.0
+offset_right = 94.5
+offset_bottom = 209.0
+grow_horizontal = 2
+pivot_offset = Vector2(95, 20)
+theme_override_constants/outline_size = 18
+theme_override_font_sizes/font_size = 32
+text = "Gamble"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="Fight" type="Button" parent="game_mode"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/focus = SubResource("StyleBoxEmpty_hvg26")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ipxfx")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_x6bni")
+theme_override_styles/normal = SubResource("StyleBoxFlat_1qvr4")
+icon_alignment = 1
+
+[node name="Button" type="Button" parent="game_mode/Fight"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(108, 108)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_p2e07")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_3m85a")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_xjaao")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_1qvr4")
+script = ExtResource("11_p2e07")
+
+[node name="TextureRect" type="TextureRect" parent="game_mode/Fight/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.503
+anchor_right = 0.503
+offset_left = -94.151
+offset_top = 32.0
+offset_right = 93.849
+offset_bottom = 152.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(120, 120)
+texture = ExtResource("11_wag0f")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="game_mode/Fight/Button"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -92.0
+offset_top = 169.0
+offset_right = 93.0
+offset_bottom = 209.0
+grow_horizontal = 2
+pivot_offset = Vector2(95, 20)
+theme_override_constants/outline_size = 18
+theme_override_font_sizes/font_size = 32
+text = "Fight"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="Collection" type="Button" parent="game_mode"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/focus = SubResource("StyleBoxEmpty_j63gx")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_vo8hp")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_fhk5d")
+theme_override_styles/normal = SubResource("StyleBoxFlat_1qvr4")
+icon_alignment = 1
+
+[node name="Button" type="Button" parent="game_mode/Collection"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(108, 108)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_p2e07")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_3m85a")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_xjaao")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_1qvr4")
+script = ExtResource("20_bjc01")
+
+[node name="TextureRect" type="TextureRect" parent="game_mode/Collection/Button"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -84.5
+offset_top = 13.0
+offset_right = 85.5
+offset_bottom = 183.0
+grow_horizontal = 2
+pivot_offset = Vector2(90, 90)
+texture = ExtResource("6_p2e07")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="game_mode/Collection/Button"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -145.5
+offset_top = 169.0
+offset_right = 146.5
+offset_bottom = 209.0
+grow_horizontal = 2
+pivot_offset = Vector2(95, 20)
+theme_override_constants/outline_size = 18
+theme_override_font_sizes/font_size = 32
+text = "Collection"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="Events" type="Button" parent="game_mode"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/focus = SubResource("StyleBoxEmpty_j63gx")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_oj17m")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_fhk5d")
+theme_override_styles/normal = SubResource("StyleBoxFlat_1qvr4")
+icon_alignment = 1
+
+[node name="Button" type="Button" parent="game_mode/Events"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(108.5, 78.5)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_wag0f")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_kdi6n")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_r4bcn")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ryqfm")
+script = ExtResource("21_mcy6n")
+
+[node name="TextureRect" type="TextureRect" parent="game_mode/Events/Button"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -100.5
+offset_right = 99.5
+offset_bottom = 200.0
+grow_horizontal = 2
+pivot_offset = Vector2(100, 100)
+texture = ExtResource("22_ktna7")
+expand_mode = 1
+
+[node name="goods" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 56.0
+offset_top = 186.0
+offset_right = -28.0
+offset_bottom = 256.0
+grow_horizontal = 2
+theme_override_constants/separation = 40
+alignment = 1
+
+[node name="Energy" type="Button" parent="goods"]
+custom_minimum_size = Vector2(200, 70)
+layout_mode = 2
+size_flags_vertical = 0
+theme = SubResource("Theme_n7lap")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_xhxey")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_os6co")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_iw1sf")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_35esh")
+action_mode = 0
+expand_icon = true
+metadata/_edit_use_anchors_ = true
+
+[node name="Button" type="Button" parent="goods/Energy"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(118, 35)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_fr76s")
+theme_override_styles/hover = ExtResource("7_3m85a")
+theme_override_styles/pressed = ExtResource("7_3m85a")
+theme_override_styles/normal = ExtResource("7_3m85a")
+script = ExtResource("8_xjaao")
+
+[node name="TextureRect" type="TextureRect" parent="goods/Energy/Button"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 2.0
+offset_top = 1.0
+offset_right = 2.0
+offset_bottom = 1.0
+grow_vertical = 2
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("9_1qvr4")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="Label" type="Label" parent="goods/Energy/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.944915
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = SubResource("FontVariation_twtl4")
+theme_override_font_sizes/font_size = 32
+text = "0/3"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Gold" type="Button" parent="goods"]
+custom_minimum_size = Vector2(250, 70)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+theme = SubResource("Theme_n7lap")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_cb8pk")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_btv8k")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_bh0qt")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_64crw")
+action_mode = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="Button" type="Button" parent="goods/Gold"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(118, 35)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u5i7m")
+theme_override_styles/hover = ExtResource("7_3m85a")
+theme_override_styles/pressed = ExtResource("7_3m85a")
+theme_override_styles/normal = ExtResource("7_3m85a")
+script = ExtResource("10_hvg26")
+
+[node name="TextureRect" type="TextureRect" parent="goods/Gold/Button"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -0.999992
+offset_bottom = -0.999992
+grow_vertical = 2
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("20_wag0f")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="Label" type="Label" parent="goods/Gold/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.00847458
+anchor_right = 0.949153
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = SubResource("FontVariation_twtl4")
+theme_override_font_sizes/font_size = 32
+text = "1000"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="PokerCoin" type="Button" parent="goods"]
+custom_minimum_size = Vector2(190, 70)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+theme = SubResource("Theme_n7lap")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_rr20p")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_risqo")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_nm6c0")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_51t5k")
+action_mode = 0
+
+[node name="Button" type="Button" parent="goods/PokerCoin"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(118, 35)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_0ff7f")
+theme_override_styles/hover = ExtResource("7_3m85a")
+theme_override_styles/pressed = ExtResource("7_3m85a")
+theme_override_styles/normal = ExtResource("7_3m85a")
+script = ExtResource("12_x6bni")
+
+[node name="TextureRect" type="TextureRect" parent="goods/PokerCoin/Button"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 15.0
+offset_top = -4.0
+offset_right = 15.0
+offset_bottom = -4.0
+grow_vertical = 2
+scale = Vector2(0.11, 0.11)
+texture = ExtResource("22_wag0f")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="Label" type="Label" parent="goods/PokerCoin/Button"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -14.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = SubResource("FontVariation_twtl4")
+theme_override_font_sizes/font_size = 32
+text = "  100"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[connection signal="resized" from="." to="." method="_on_resized"]

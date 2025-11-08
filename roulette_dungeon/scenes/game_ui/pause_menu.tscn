@@ -1,0 +1,53 @@
+[gd_scene load_steps=5 format=3 uid="uid://b5q4eqh1we11x"]
+
+[ext_resource type="Script" uid="uid://enakaagw7kx1" path="res://roulette_dungeon/scripts/game_ui/pause_menu.gd" id="1_bx6vd"]
+[ext_resource type="Texture2D" uid="uid://ctw2royuplunv" path="res://roulette_dungeon/assets/user_interface/icons_online/tile_0016.png" id="2_chlgu"]
+[ext_resource type="Texture2D" uid="uid://cgtg4syg4jkvs" path="res://roulette_dungeon/assets/user_interface/icons_online/tile_0028.png" id="3_u1mc1"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_vs81q"]
+font_size = 42
+
+[node name="pause" type="CanvasLayer"]
+process_mode = 3
+script = ExtResource("1_bx6vd")
+
+[node name="Panel" type="Panel" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -65.0
+offset_top = 411.0
+offset_right = 66.0
+offset_bottom = 469.0
+grow_horizontal = 2
+size_flags_horizontal = 4
+text = "PAUSE"
+label_settings = SubResource("LabelSettings_vs81q")
+
+[node name="leave_game" type="Button" parent="."]
+offset_left = 303.0
+offset_top = 1253.0
+offset_right = 403.0
+offset_bottom = 1353.0
+action_mode = 0
+icon = ExtResource("2_chlgu")
+expand_icon = true
+
+[node name="continue" type="Button" parent="."]
+offset_left = 677.0
+offset_top = 1253.0
+offset_right = 777.0
+offset_bottom = 1353.0
+action_mode = 0
+icon = ExtResource("3_u1mc1")
+expand_icon = true
+
+[connection signal="pressed" from="leave_game" to="." method="_on_leave_game_pressed"]
+[connection signal="pressed" from="continue" to="." method="_on_continue_pressed"]

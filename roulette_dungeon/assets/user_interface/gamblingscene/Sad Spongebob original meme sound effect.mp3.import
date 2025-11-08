@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b8eifltxd3dsv"
+path="res://.godot/imported/Sad Spongebob original meme sound effect.mp3-ae8e8237d7178f63b883c581436ca008.mp3str"
+
+[deps]
+
+source_file="res://roulette_dungeon/assets/user_interface/gamblingscene/Sad Spongebob original meme sound effect.mp3"
+dest_files=["res://.godot/imported/Sad Spongebob original meme sound effect.mp3-ae8e8237d7178f63b883c581436ca008.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

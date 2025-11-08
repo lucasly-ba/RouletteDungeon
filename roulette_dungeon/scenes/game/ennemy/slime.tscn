@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://dc44hhj21qq8i"]
+
+[ext_resource type="PackedScene" uid="uid://o7cl4qtiv32x" path="res://roulette_dungeon/scenes/game/ennemy/enemy.tscn" id="1_5njen"]
+[ext_resource type="Script" uid="uid://1ccx31ncyfc2" path="res://roulette_dungeon/scripts/game/ennemy/slime.gd" id="2_p4100"]
+[ext_resource type="Shader" uid="uid://bvcefymw6elp5" path="res://roulette_dungeon/assets/game/ennemy/hit_flash.tres" id="3_kp8dq"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ac3cy"]
+resource_local_to_scene = true
+shader = ExtResource("3_kp8dq")
+shader_parameter/enabled = false
+shader_parameter/tint = Color(1, 1, 1, 1)
+
+[node name="slime" instance=ExtResource("1_5njen")]
+script = ExtResource("2_p4100")
+Health = 30
+Speed = 20
+
+[node name="AnimatedSprite2D" parent="." index="0"]
+material = SubResource("ShaderMaterial_ac3cy")
+
+[node name="CollisionShape2D" parent="." index="1"]
+position = Vector2(0, -5)
+
+[node name="enemy_shape" parent="enemy_hitbox" index="0"]
+position = Vector2(0, -5)

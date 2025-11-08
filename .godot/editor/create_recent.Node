@@ -1,0 +1,14 @@
+Label
+Panel
+AudioStreamPlayer2D
+TextureRect
+HBoxContainer
+TextEdit
+Button
+Timer
+Line2D
+ProgressBar
+AnimatedSprite2D
+ColorRect
+Control
+ScrollContainer

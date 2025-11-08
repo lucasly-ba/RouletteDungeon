@@ -1,0 +1,280 @@
+[gd_scene load_steps=13 format=3 uid="uid://dgfwdsv3k4ak8"]
+
+[ext_resource type="Texture2D" uid="uid://si3rrlmsl6if" path="res://roulette_dungeon/assets/user_interface/gamblingscene/bj.png" id="1_mk1sb"]
+[ext_resource type="Script" uid="uid://bn6rlp8afdgq1" path="res://roulette_dungeon/scripts/user_interface/gamblingscene/gambling.gd" id="1_shri5"]
+[ext_resource type="Texture2D" uid="uid://sprqcue6le1d" path="res://roulette_dungeon/assets/user_interface/gamblingscene/hilo.png" id="2_2n2lq"]
+[ext_resource type="Texture2D" uid="uid://weno81bvley5" path="res://roulette_dungeon/assets/user_interface/gamblingscene/baccarat.png" id="3_d4ao1"]
+[ext_resource type="PackedScene" uid="uid://ds87ohl7wyl8u" path="res://roulette_dungeon/scenes/user_interface/gamblingscene/highlow.tscn" id="5_kqe3k"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k6y2k"]
+bg_color = Color(0.305882, 0, 0.654902, 1)
+border_width_left = 20
+border_width_top = 20
+border_width_right = 20
+border_width_bottom = 20
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2n2lq"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_d4ao1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rs8aa"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_p7hhx"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mk1sb"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2n2lq"]
+bg_color = Color(0.305882, 0, 0.654902, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0, 0, 0, 1)
+
+[node name="gambling" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+script = ExtResource("1_shri5")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+color = Color(0.305882, 0, 0.654902, 1)
+
+[node name="gambling_room" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = -0.117188
+anchor_right = 0.5
+anchor_bottom = -0.117188
+offset_left = -350.0
+offset_top = 603.0
+offset_right = 350.0
+offset_bottom = 803.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_k6y2k")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="gambling_room"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 32
+theme_override_font_sizes/font_size = 56
+text = "Gambling
+room"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Blackjack" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -178.0
+offset_top = 618.0
+offset_right = 178.0
+offset_bottom = 963.0
+grow_horizontal = 2
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_2n2lq")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_d4ao1")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_rs8aa")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_p7hhx")
+
+[node name="Button" type="Button" parent="Blackjack"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_mk1sb")
+theme_override_styles/normal = SubResource("StyleBoxFlat_2n2lq")
+
+[node name="Label" type="Label" parent="Blackjack/Button"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -108.0
+offset_top = -44.0
+offset_right = 108.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 1
+theme_override_constants/outline_size = 24
+theme_override_font_sizes/font_size = 32
+text = "BLACKJACK"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="Blackjack/Button"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -125.0
+offset_top = -144.5
+offset_right = 125.0
+offset_bottom = 105.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_mk1sb")
+expand_mode = 1
+
+[node name="Blackjack2" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -178.0
+offset_top = 1021.0
+offset_right = 178.0
+offset_bottom = 1366.0
+grow_horizontal = 2
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_2n2lq")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_d4ao1")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_rs8aa")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_p7hhx")
+
+[node name="Button" type="Button" parent="Blackjack2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_mk1sb")
+theme_override_styles/normal = SubResource("StyleBoxFlat_2n2lq")
+
+[node name="Label" type="Label" parent="Blackjack2/Button"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -108.0
+offset_top = -44.0
+offset_right = 108.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 1
+theme_override_constants/outline_size = 24
+theme_override_font_sizes/font_size = 32
+text = "HIGHLOW"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="Blackjack2/Button"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -90.0
+offset_top = -147.5
+offset_right = 90.0
+offset_bottom = 104.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_2n2lq")
+expand_mode = 1
+
+[node name="Blackjack3" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -178.0
+offset_top = 1426.0
+offset_right = 178.0
+offset_bottom = 1771.0
+grow_horizontal = 2
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_2n2lq")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_d4ao1")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_rs8aa")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_p7hhx")
+
+[node name="Button" type="Button" parent="Blackjack3"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_mk1sb")
+theme_override_styles/normal = SubResource("StyleBoxFlat_2n2lq")
+
+[node name="Label" type="Label" parent="Blackjack3/Button"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -108.0
+offset_top = -44.0
+offset_right = 108.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 1
+theme_override_constants/outline_size = 24
+theme_override_font_sizes/font_size = 32
+text = "BACCARAT"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="Blackjack3/Button"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -90.0
+offset_top = -147.5
+offset_right = 90.0
+offset_bottom = 104.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_d4ao1")
+expand_mode = 1
+
+[node name="Highlow" parent="." instance=ExtResource("5_kqe3k")]
+visible = false
+z_index = 3
+layout_mode = 1
+
+[connection signal="pressed" from="Blackjack2/Button" to="." method="_on_button_pressed"]

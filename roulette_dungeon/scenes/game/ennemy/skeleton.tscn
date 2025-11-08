@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://vn7ntf135o70"]
+
+[ext_resource type="PackedScene" uid="uid://o7cl4qtiv32x" path="res://roulette_dungeon/scenes/game/ennemy/enemy.tscn" id="1_ohuoq"]
+[ext_resource type="Script" uid="uid://dlvhok86qjtqf" path="res://roulette_dungeon/scripts/game/ennemy/skeleton.gd" id="2_y6b7e"]
+[ext_resource type="Shader" uid="uid://bvcefymw6elp5" path="res://roulette_dungeon/assets/game/ennemy/hit_flash.tres" id="3_k5lfo"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_g5p2l"]
+resource_local_to_scene = true
+shader = ExtResource("3_k5lfo")
+shader_parameter/enabled = false
+shader_parameter/tint = Color(1, 1, 1, 1)
+
+[node name="skeleton" instance=ExtResource("1_ohuoq")]
+script = ExtResource("2_y6b7e")
+Health = 100
+Speed = 40
+
+[node name="AnimatedSprite2D" parent="." index="0"]
+material = SubResource("ShaderMaterial_g5p2l")
+animation = &"skeleton_down_walk"
+
+[node name="enemy_shape" parent="enemy_hitbox" index="0"]
+position = Vector2(0, 0)

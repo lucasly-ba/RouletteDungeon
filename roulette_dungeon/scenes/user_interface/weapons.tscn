@@ -1,0 +1,4559 @@
+[gd_scene load_steps=110 format=3 uid="uid://b47evddma55iv"]
+
+[ext_resource type="Script" uid="uid://cyfqhppwifxnx" path="res://roulette_dungeon/scripts/user_interface/game_modes/collection.gd" id="1_bj71n"]
+[ext_resource type="Texture2D" uid="uid://dgpvh2ee4b0ep" path="res://roulette_dungeon/assets/user_interface/weaponsscene/Sprite-0011.png" id="2_f5d2n"]
+[ext_resource type="StyleBox" uid="uid://dsyibkvewtw1t" path="res://roulette_dungeon/assets/tres/buttons_theme/collection_buttons2.tres" id="3_1s44o"]
+[ext_resource type="Texture2D" uid="uid://b0ygam4h110yo" path="res://roulette_dungeon/assets/user_interface/weaponsscene/objpng-export.png" id="3_d4p05"]
+[ext_resource type="Script" uid="uid://dj1fx3yhudvho" path="res://roulette_dungeon/scripts/user_interface/buttons/others/collection_gamblers.gd" id="3_yleb3"]
+[ext_resource type="Script" uid="uid://c3bopnbr8qbfo" path="res://roulette_dungeon/scripts/user_interface/buttons/others/collection_weapons.gd" id="4_f5d2n"]
+[ext_resource type="StyleBox" uid="uid://2740uasty7y3" path="res://roulette_dungeon/assets/tres/buttons_theme/collection_buttons.tres" id="4_mh11f"]
+[ext_resource type="StyleBox" uid="uid://b73kkwm6h2y1d" path="res://roulette_dungeon/assets/tres/buttons_theme/sort.tres" id="7_f5d2n"]
+[ext_resource type="Script" uid="uid://bseh0b8be14d6" path="res://roulette_dungeon/scripts/user_interface/buttons/others/collection_sort.gd" id="8_3wy2m"]
+[ext_resource type="StyleBox" uid="uid://d3h61jooy2u7i" path="res://roulette_dungeon/assets/tres/buttons_theme/basicwep.tres" id="8_b4vyk"]
+[ext_resource type="Script" uid="uid://gk5ee4df0mlo" path="res://roulette_dungeon/scripts/user_interface/weaponsscroll.gd" id="10_hek2b"]
+[ext_resource type="Texture2D" uid="uid://bmt5n7p73rtup" path="res://roulette_dungeon/assets/user_interface/weaponsscene/arrow.png" id="10_mg8cq"]
+[ext_resource type="Script" uid="uid://b21kirh8tuqy3" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/Control2.gd" id="11_2urn7"]
+[ext_resource type="Script" uid="uid://bfvlafnq85oos" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/daggers.gd" id="11_akjkc"]
+[ext_resource type="StyleBox" uid="uid://drgp3cauih37k" path="res://roulette_dungeon/assets/tres/weaponsfirstpanel.tres" id="11_mh11f"]
+[ext_resource type="Texture2D" uid="uid://dble4wdpq2vrh" path="res://roulette_dungeon/assets/user_interface/weaponsscene/doubleknife.png" id="12_3wy2m"]
+[ext_resource type="Texture2D" uid="uid://b5bijej84i7uq" path="res://roulette_dungeon/assets/user_interface/weaponsscene/Sprite-0004.png" id="12_bj71n"]
+[ext_resource type="Texture2D" uid="uid://jk65tylerbl0" path="res://roulette_dungeon/assets/user_interface/weaponsscene/foooor-export-export-export-export.png" id="12_j1isv"]
+[ext_resource type="Script" uid="uid://ccnemoegf0onx" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/Control3.gd" id="12_kchmb"]
+[ext_resource type="Script" uid="uid://dx38jphe6o8da" path="res://roulette_dungeon/scripts/user_interface/buttons/UI.gd" id="12_u0lwb"]
+[ext_resource type="Script" uid="uid://dnhk73jlpjk4q" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/Control4.gd" id="13_6mlc3"]
+[ext_resource type="Texture2D" uid="uid://bqc3pbjppf0k0" path="res://roulette_dungeon/assets/user_interface/weaponsscene/bomb3-export.png" id="14_i7qfl"]
+[ext_resource type="Script" uid="uid://de7aq8f64chrh" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/Control5.gd" id="14_y27gt"]
+[ext_resource type="Texture2D" uid="uid://duypve5tk57b3" path="res://roulette_dungeon/assets/user_interface/weaponsscene/katanafinal.png" id="15_61emd"]
+[ext_resource type="Texture2D" uid="uid://be6h05h38tcqa" path="res://roulette_dungeon/assets/user_interface/weaponsscene/pomoo2.png" id="15_bj71n"]
+[ext_resource type="Script" uid="uid://bed6jtpxi1toa" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/bomb.gd" id="16_2urn7"]
+[ext_resource type="Texture2D" uid="uid://cnqjwr1on6nvk" path="res://roulette_dungeon/assets/user_interface/weaponsscene/ham3.1.png" id="16_61emd"]
+[ext_resource type="Texture2D" uid="uid://ba6yfevx1ec8b" path="res://roulette_dungeon/assets/user_interface/weaponsscene/lasthaminch.png" id="16_l0sir"]
+[ext_resource type="Texture2D" uid="uid://clhceyp4y34v7" path="res://roulette_dungeon/assets/user_interface/weaponsscene/lucianfinal.png" id="17_g3sip"]
+[ext_resource type="Texture2D" uid="uid://35644hbyq0qk" path="res://roulette_dungeon/assets/user_interface/weaponsscene/FIst-export.png" id="17_jppyn"]
+[ext_resource type="Texture2D" uid="uid://bkhd4fsdyx0q6" path="res://roulette_dungeon/assets/user_interface/weaponsscene/commoonspatule-export.png" id="18_bj71n"]
+[ext_resource type="Script" uid="uid://ckb2w23gu0ytk" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/katana.gd" id="18_p572f"]
+[ext_resource type="Texture2D" uid="uid://d1qlvl45pty5m" path="res://roulette_dungeon/assets/user_interface/weaponsscene/glove-export-export.png" id="19_j1isv"]
+[ext_resource type="Texture2D" uid="uid://cfhu8jvhjncta" path="res://roulette_dungeon/assets/user_interface/weaponsscene/bar0.png" id="19_kchmb"]
+[ext_resource type="StyleBox" uid="uid://byesqgg47ug7t" path="res://roulette_dungeon/assets/tres/weaponsLevelBarPurple.tres" id="19_y27gt"]
+[ext_resource type="Script" uid="uid://bgrg4x3jdq485" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/utils/weapon_number.gd" id="20_6mlc3"]
+[ext_resource type="Texture2D" uid="uid://qxnjyraf0j4s" path="res://roulette_dungeon/assets/user_interface/weaponsscene/lancefinal.png" id="20_j1isv"]
+[ext_resource type="Script" uid="uid://bkeydrwuirq8g" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/hammer.gd" id="20_ppmab"]
+[ext_resource type="StyleBox" uid="uid://dibbvdhdpgv5w" path="res://roulette_dungeon/assets/tres/buttons_theme/rarewep.tres" id="21_5wglj"]
+[ext_resource type="Texture2D" uid="uid://crhrirj8757um" path="res://roulette_dungeon/assets/user_interface/weaponsscene/doubleknife3-export.png" id="22_d4p05"]
+[ext_resource type="Script" uid="uid://cgwaa5lvwadfq" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/gun.gd" id="22_xdeus"]
+[ext_resource type="Texture2D" uid="uid://bp4ne1j643vvk" path="res://roulette_dungeon/assets/user_interface/weaponsscene/bic2-export.png" id="23_hjaf1"]
+[ext_resource type="Texture2D" uid="uid://b6bej7ujeo483" path="res://roulette_dungeon/assets/user_interface/weaponsscene/caillou.png" id="23_l0sir"]
+[ext_resource type="Texture2D" uid="uid://clxmipo6tm8au" path="res://roulette_dungeon/assets/user_interface/weaponsscene/animarrowt1.png" id="23_y2dbq"]
+[ext_resource type="Script" uid="uid://c8fdmqco5xvr7" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/spatule.gd" id="24_kchmb"]
+[ext_resource type="Texture2D" uid="uid://b1hkh01okd0bd" path="res://roulette_dungeon/assets/user_interface/weaponsscene/animarrowt2.png" id="24_ovhei"]
+[ext_resource type="Texture2D" uid="uid://cimj0ltw2cyo1" path="res://roulette_dungeon/assets/user_interface/weaponsscene/animarrowt3.png" id="25_ynxkl"]
+[ext_resource type="Script" uid="uid://dawvwxt3dypei" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/poing.gd" id="26_6mlc3"]
+[ext_resource type="Texture2D" uid="uid://b3rpx8ct83olk" path="res://roulette_dungeon/assets/user_interface/weaponsscene/animarrowt4.png" id="26_iyqrd"]
+[ext_resource type="Texture2D" uid="uid://vgykr3o2c7jv" path="res://roulette_dungeon/assets/user_interface/weaponsscene/animarrowt5.png" id="27_x06ov"]
+[ext_resource type="Texture2D" uid="uid://dywklohm53dqj" path="res://roulette_dungeon/assets/user_interface/weaponsscene/animarrowt6.png" id="28_lwif7"]
+[ext_resource type="Texture2D" uid="uid://n3jl1ehx67a6" path="res://roulette_dungeon/assets/user_interface/weaponsscene/pattiserie-export.png" id="28_u0lwb"]
+[ext_resource type="Script" uid="uid://c2srk5ty8aotl" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/throw.gd" id="28_y27gt"]
+[ext_resource type="Texture2D" uid="uid://bg3f0noebof48" path="res://roulette_dungeon/assets/user_interface/weaponsscene/animarrowt7.png" id="29_t4kvj"]
+[ext_resource type="Texture2D" uid="uid://cqoom65b0m2wg" path="res://roulette_dungeon/assets/user_interface/weaponsscene/animarrowt8.png" id="30_6ng46"]
+[ext_resource type="Texture2D" uid="uid://5a47pb5m1b7p" path="res://roulette_dungeon/assets/user_interface/weaponsscene/ham2.10.png" id="30_61emd"]
+[ext_resource type="StyleBox" uid="uid://cf8esjv1fasr2" path="res://roulette_dungeon/assets/tres/buttons_theme/epicwep.tres" id="30_d4p05"]
+[ext_resource type="Texture2D" uid="uid://dpwrxucrgqhuc" path="res://roulette_dungeon/assets/user_interface/weaponsscene/datt2.png" id="30_nrwyq"]
+[ext_resource type="Script" uid="uid://5wu4j3yp6fho" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/daggers2.gd" id="31_mg8cq"]
+[ext_resource type="Texture2D" uid="uid://yhntw4wp6bqp" path="res://roulette_dungeon/assets/user_interface/weaponsscene/egggg-export-export.png" id="32_rvh1i"]
+[ext_resource type="Script" uid="uid://bntx6rl0xy4am" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/bomb2.gd" id="33_dt6ah"]
+[ext_resource type="Script" uid="uid://bmsbbgtbqr0t7" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/katana2.gd" id="35_l67a2"]
+[ext_resource type="Script" uid="uid://dfxooy642kfh" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/hammer2.gd" id="37_cbsm5"]
+[ext_resource type="Texture2D" uid="uid://d5qbev58j81" path="res://roulette_dungeon/assets/user_interface/weaponsscene/dirtypan2-export-export.png" id="37_ud5ag"]
+[ext_resource type="Script" uid="uid://bleua3m5jra6g" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/gun2.gd" id="39_w3jso"]
+[ext_resource type="Script" uid="uid://b0kvbw31x11g3" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/spatule2.gd" id="41_lw31a"]
+[ext_resource type="Script" uid="uid://byb7d2blplnyk" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/poing2.gd" id="43_rvh1i"]
+[ext_resource type="Script" uid="uid://1uy5rmihfl61" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/throw2.gd" id="45_ovcao"]
+[ext_resource type="Script" uid="uid://cjvwkn0mbvofj" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/daggers3.gd" id="48_y2dbq"]
+[ext_resource type="Texture2D" uid="uid://b3kdxwddyhhf3" path="res://roulette_dungeon/assets/user_interface/weaponsscene/for-export.png" id="50_ovcao"]
+[ext_resource type="Script" uid="uid://dwsuoqxi7hm8p" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/bomb3.gd" id="50_ovhei"]
+[ext_resource type="Script" uid="uid://bhwy0kggni8ct" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/katana3.gd" id="52_ynxkl"]
+[ext_resource type="Script" uid="uid://dwk1abr7hv0o0" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/hammer3.gd" id="54_iyqrd"]
+[ext_resource type="Texture2D" uid="uid://d05cbyhejape2" path="res://roulette_dungeon/assets/user_interface/weaponsscene/desert-export.png" id="54_y2dbq"]
+[ext_resource type="Script" uid="uid://buyepgoaqfs1y" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/gun3.gd" id="56_x06ov"]
+[ext_resource type="Script" uid="uid://b1pngkuyaiuo1" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/spatule3.gd" id="58_lwif7"]
+[ext_resource type="Texture2D" uid="uid://bsj5ro6b4i8wa" path="res://roulette_dungeon/assets/user_interface/weaponsscene/boxe2-export.png" id="58_ovhei"]
+[ext_resource type="Script" uid="uid://drdndb88lhb6h" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/poing3.gd" id="60_t4kvj"]
+[ext_resource type="Script" uid="uid://cdi2j5lnxqf48" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/throw3.gd" id="62_6ng46"]
+[ext_resource type="Script" uid="uid://d063nhur1lqcq" path="res://roulette_dungeon/scripts/user_interface/buttons/weapons/Control6.gd" id="68_mg8cq"]
+[ext_resource type="StyleBox" uid="uid://boi071kv6c006" path="res://roulette_dungeon/assets/tres/fighting_style.tres" id="81_ovhei"]
+[ext_resource type="Texture2D" uid="uid://c0fhh6vwc7mh7" path="res://roulette_dungeon/assets/user_interface/fightscene/exit2.png" id="82_ynxkl"]
+[ext_resource type="Texture2D" uid="uid://ct5mxiexpayhs" path="res://roulette_dungeon/assets/user_interface/mainUI/pokeeeeerr.png" id="83_iyqrd"]
+[ext_resource type="StyleBox" uid="uid://d0d0keoak0y1f" path="res://roulette_dungeon/assets/tres/buttons_theme/upgrade.tres" id="83_x06ov"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lchh1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_l0sir"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0pv51"]
+bg_color = Color(0.5402, 0.00395057, 0.999603, 1)
+border_width_left = 5
+border_width_top = 4
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+shadow_size = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a2jbs"]
+bg_color = Color(0, 0, 0, 0.331)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.541176, 0.00392157, 1, 1)
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3wy2m"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_u0lwb"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nrwyq"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ud5ag"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yi0sg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n2tbv"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_61emd"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_l67a2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_y2dbq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ovhei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_ynxkl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_iyqrd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_x06ov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_lwif7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_t4kvj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_6ng46")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_y2dbq"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ovhei"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_x06ov"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u0lwb"]
+bg_color = Color(0.678431, 0.6, 1, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 5
+shadow_offset = Vector2(0, 5)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_iyqrd"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lwif7"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_t4kvj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6ng46"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ynxkl"]
+bg_color = Color(0.247059, 0.662745, 0.960784, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ud5ag"]
+bg_color = Color(0.798765, 0.600092, 0.994542, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lwif7"]
+bg_color = Color(0.678431, 0.6, 1, 1)
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 5
+shadow_offset = Vector2(0, 5)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ynxkl"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t4kvj"]
+bg_color = Color(0.678431, 0.6, 1, 1)
+border_width_bottom = 5
+
+[node name="weapons" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+script = ExtResource("1_bj71n")
+
+[node name="platform" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.513
+anchor_top = 0.635
+anchor_right = 0.513
+anchor_bottom = 0.635
+offset_left = -431.04
+offset_top = -346.0
+offset_right = 431.96
+offset_bottom = 347.0
+texture = ExtResource("2_f5d2n")
+
+[node name="objs" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.507
+anchor_top = 0.604
+anchor_right = 0.507
+anchor_bottom = 0.604
+offset_left = -318.56
+offset_top = -248.8
+offset_right = 318.44
+offset_bottom = 0.199951
+texture = ExtResource("3_d4p05")
+
+[node name="gamblers_button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.541
+anchor_right = 0.819
+offset_left = -0.280029
+offset_top = 310.0
+offset_right = -0.520081
+offset_bottom = 435.0
+pivot_offset = Vector2(150, 100)
+mouse_filter = 1
+theme_override_constants/outline_size = 14
+theme_override_font_sizes/font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_lchh1")
+theme_override_styles/hover = ExtResource("3_1s44o")
+theme_override_styles/pressed = ExtResource("3_1s44o")
+theme_override_styles/normal = ExtResource("3_1s44o")
+toggle_mode = true
+text = "Gamblers"
+script = ExtResource("3_yleb3")
+
+[node name="weapons_button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.179
+anchor_right = 0.456
+offset_left = -0.320007
+offset_top = 310.0
+offset_right = 0.518951
+offset_bottom = 435.0
+pivot_offset = Vector2(150, 100)
+mouse_filter = 1
+theme_override_constants/outline_size = 14
+theme_override_font_sizes/font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_l0sir")
+theme_override_styles/hover = ExtResource("4_mh11f")
+theme_override_styles/pressed = ExtResource("4_mh11f")
+theme_override_styles/normal = ExtResource("4_mh11f")
+toggle_mode = true
+button_pressed = true
+text = "Weapons"
+script = ExtResource("4_f5d2n")
+
+[node name="Bar" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+offset_top = 433.0
+offset_bottom = 533.001
+grow_horizontal = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_0pv51")
+metadata/_edit_use_anchors_ = true
+
+[node name="Possessed" type="Panel" parent="."]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+anchor_left = 0.012
+anchor_right = 0.988
+offset_left = -0.288
+offset_top = 568.999
+offset_right = 0.287964
+offset_bottom = 669.0
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_a2jbs")
+
+[node name="sort_label" type="Label" parent="Possessed"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 14
+theme_override_font_sizes/font_size = 32
+text = "   Possessed: 15/20"
+vertical_alignment = 1
+language = "en"
+
+[node name="sort_button" type="Button" parent="Possessed"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.845
+anchor_top = 0.484979
+anchor_right = 0.845
+anchor_bottom = 0.484979
+offset_left = -145.0
+offset_top = -37.4969
+offset_right = 145.0
+offset_bottom = 37.5038
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(145, 37.5)
+theme_override_constants/outline_size = 12
+theme_override_font_sizes/font_size = 26
+theme_override_styles/focus = SubResource("StyleBoxEmpty_3wy2m")
+theme_override_styles/hover = ExtResource("7_f5d2n")
+theme_override_styles/pressed = ExtResource("7_f5d2n")
+theme_override_styles/normal = ExtResource("7_f5d2n")
+text = " Par niveau"
+script = ExtResource("8_3wy2m")
+metadata/_edit_use_anchors_ = true
+
+[node name="ascending_button" type="Button" parent="Possessed"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.595455
+anchor_top = 0.109999
+anchor_right = 0.69691
+anchor_bottom = 0.859992
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(53.5, 37.5)
+theme_override_constants/outline_size = 8
+theme_override_font_sizes/font_size = 23
+theme_override_styles/focus = SubResource("StyleBoxEmpty_3wy2m")
+theme_override_styles/hover = ExtResource("7_f5d2n")
+theme_override_styles/pressed = ExtResource("7_f5d2n")
+theme_override_styles/normal = ExtResource("7_f5d2n")
+script = ExtResource("8_3wy2m")
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect" type="TextureRect" parent="Possessed/ascending_button"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -37.5
+offset_top = -23.082
+offset_right = 37.5
+offset_bottom = 23.082
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("10_mg8cq")
+
+[node name="Weapons" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -540.0
+offset_top = 719.0
+offset_right = 548.0
+offset_bottom = 11136.0
+grow_horizontal = 2
+grow_vertical = 2
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+script = ExtResource("10_hek2b")
+
+[node name="GridContainer" type="GridContainer" parent="Weapons"]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 6
+theme_override_constants/h_separation = 27
+theme_override_constants/v_separation = 91
+columns = 4
+
+[node name="Control" type="Control" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(0, 500)
+layout_mode = 2
+script = ExtResource("11_2urn7")
+
+[node name="Control2" type="Control" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(0, 500)
+layout_mode = 2
+script = ExtResource("12_kchmb")
+
+[node name="Control3" type="Control" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(0, 500)
+layout_mode = 2
+script = ExtResource("13_6mlc3")
+
+[node name="Control4" type="Control" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(0, 500)
+layout_mode = 2
+script = ExtResource("14_y27gt")
+
+[node name="daggers" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_nrwyq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ud5ag")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_yi0sg")
+expand_icon = true
+script = ExtResource("11_akjkc")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/daggers"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("8_b4vyk")
+theme_override_styles/pressed = ExtResource("8_b4vyk")
+theme_override_styles/normal = ExtResource("8_b4vyk")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/daggers/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0521739
+anchor_top = 0.0739087
+anchor_right = 0.944714
+anchor_bottom = 0.962233
+offset_right = 818.716
+offset_bottom = 819.685
+grow_horizontal = 2
+grow_vertical = 2
+rotation = -0.00236719
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("12_j1isv")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/daggers/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/daggers/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/daggers/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/daggers/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/daggers/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/daggers/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/daggers/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/daggers/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="bomb" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("16_2urn7")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/bomb"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("8_b4vyk")
+theme_override_styles/pressed = ExtResource("8_b4vyk")
+theme_override_styles/normal = ExtResource("8_b4vyk")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/bomb/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.117391
+anchor_top = 0.0999958
+anchor_right = 0.863478
+anchor_bottom = 0.946257
+offset_right = 543.4
+offset_bottom = 616.36
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("32_rvh1i")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/bomb/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/bomb/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/bomb/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/bomb/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/bomb/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/bomb/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/bomb/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/bomb/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="katana" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("18_p572f")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/katana"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("8_b4vyk")
+theme_override_styles/pressed = ExtResource("8_b4vyk")
+theme_override_styles/normal = ExtResource("8_b4vyk")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/katana/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.273913
+anchor_top = 0.0869523
+anchor_right = 0.667304
+anchor_bottom = 0.779909
+offset_left = -4.95911e-05
+offset_right = 257.52
+offset_bottom = 453.62
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.26, 0.26)
+texture = ExtResource("15_bj71n")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/katana/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/katana/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/katana/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/katana/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/katana/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/katana/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/katana/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/katana/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="hammer" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("20_ppmab")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/hammer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("8_b4vyk")
+theme_override_styles/pressed = ExtResource("8_b4vyk")
+theme_override_styles/normal = ExtResource("8_b4vyk")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/hammer/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.195652
+anchor_top = 0.047822
+anchor_right = 0.783391
+anchor_bottom = 0.933735
+offset_left = -1.90735e-05
+offset_top = -3.62396e-05
+offset_right = 615.82
+offset_bottom = 928.24
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.18, 0.18)
+texture = ExtResource("16_l0sir")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/hammer/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/hammer/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/hammer/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/hammer/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/hammer/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/hammer/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/hammer/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/hammer/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="gun" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("22_xdeus")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/gun"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("8_b4vyk")
+theme_override_styles/pressed = ExtResource("8_b4vyk")
+theme_override_styles/normal = ExtResource("8_b4vyk")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/gun/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0521739
+anchor_top = 0.117387
+anchor_right = 0.946174
+anchor_bottom = 0.846391
+offset_top = 1.33514e-05
+offset_right = 688.38
+offset_bottom = 561.333
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.23, 0.23)
+texture = ExtResource("12_bj71n")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/gun/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/gun/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/gun/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/gun/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/gun/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/gun/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/gun/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/gun/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="spatule" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("24_kchmb")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/spatule"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("8_b4vyk")
+theme_override_styles/pressed = ExtResource("8_b4vyk")
+theme_override_styles/normal = ExtResource("8_b4vyk")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/spatule/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.282609
+anchor_top = 0.0695608
+anchor_right = 0.716609
+anchor_bottom = 0.943561
+offset_top = 3.91006e-05
+offset_right = 334.18
+offset_bottom = 672.98
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.23, 0.23)
+texture = ExtResource("18_bj71n")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/spatule/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/spatule/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/spatule/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/spatule/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/spatule/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/spatule/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/spatule/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/spatule/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="poing" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("26_6mlc3")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/poing"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("8_b4vyk")
+theme_override_styles/pressed = ExtResource("8_b4vyk")
+theme_override_styles/normal = ExtResource("8_b4vyk")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/poing/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0826087
+anchor_top = 0.0130391
+anchor_right = 0.973044
+anchor_bottom = 0.903474
+offset_top = 3.05176e-05
+offset_right = 819.2
+offset_bottom = 819.2
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("17_jppyn")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/poing/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/poing/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/poing/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/poing/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/poing/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/poing/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/poing/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/poing/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="throw" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("28_y27gt")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/throw"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("8_b4vyk")
+theme_override_styles/pressed = ExtResource("8_b4vyk")
+theme_override_styles/normal = ExtResource("8_b4vyk")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/throw/Button"]
+texture_filter = 3
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.356522
+anchor_top = 0.0391261
+anchor_right = 0.635652
+anchor_bottom = 0.927822
+offset_left = -6.10352e-05
+offset_top = 2.09808e-05
+offset_right = 256.8
+offset_bottom = 817.6
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("23_hjaf1")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/throw/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/throw/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/throw/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/throw/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/throw/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/throw/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/throw/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/throw/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="daggers2" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("31_mg8cq")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/daggers2"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("21_5wglj")
+theme_override_styles/pressed = ExtResource("21_5wglj")
+theme_override_styles/normal = ExtResource("21_5wglj")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/daggers2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0826087
+anchor_top = 0.0521739
+anchor_right = 0.922826
+anchor_bottom = 0.883696
+offset_right = 579.75
+offset_bottom = 573.75
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("22_d4p05")
+stretch_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/daggers2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/daggers2/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/daggers2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/daggers2/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/daggers2/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/daggers2/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/daggers2/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/daggers2/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="bomb2" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("33_dt6ah")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/bomb2"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("21_5wglj")
+theme_override_styles/pressed = ExtResource("21_5wglj")
+theme_override_styles/normal = ExtResource("21_5wglj")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/bomb2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.00869446
+anchor_top = 0.0043477
+anchor_right = 1.03165
+anchor_bottom = 0.971652
+offset_left = -0.000275135
+offset_top = 2.99215e-05
+offset_right = 757.72
+offset_bottom = 704.52
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("23_l0sir")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/bomb2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/bomb2/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/bomb2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/bomb2/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/bomb2/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/bomb2/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/bomb2/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/bomb2/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="katana2" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("35_l67a2")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/katana2"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("21_5wglj")
+theme_override_styles/pressed = ExtResource("21_5wglj")
+theme_override_styles/normal = ExtResource("21_5wglj")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/katana2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0521739
+anchor_top = 0.0304346
+anchor_right = 0.942696
+anchor_bottom = 0.935304
+offset_top = 3.14713e-05
+offset_right = 726.18
+offset_bottom = 737.88
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.22, 0.22)
+texture = ExtResource("50_ovcao")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/katana2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/katana2/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/katana2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/katana2/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/katana2/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/katana2/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/katana2/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/katana2/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="hammer2" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("37_cbsm5")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/hammer2"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("21_5wglj")
+theme_override_styles/pressed = ExtResource("21_5wglj")
+theme_override_styles/normal = ExtResource("21_5wglj")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/hammer2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0391304
+anchor_top = -0.00435207
+anchor_right = 0.946131
+anchor_bottom = 0.912647
+offset_right = 698.391
+offset_bottom = 706.089
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.23, 0.23)
+texture = ExtResource("30_61emd")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/hammer2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/hammer2/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/hammer2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/hammer2/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/hammer2/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/hammer2/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/hammer2/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/hammer2/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="gun2" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("39_w3jso")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/gun2"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("21_5wglj")
+theme_override_styles/pressed = ExtResource("21_5wglj")
+theme_override_styles/normal = ExtResource("21_5wglj")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/gun2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0391304
+anchor_top = 0.156517
+anchor_right = 0.978435
+anchor_bottom = 0.866257
+offset_top = 0.000114441
+offset_right = 765.96
+offset_bottom = 578.76
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.22, 0.22)
+texture = ExtResource("54_y2dbq")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/gun2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/gun2/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/gun2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/gun2/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/gun2/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/gun2/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/gun2/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/gun2/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="spatule2" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("41_lw31a")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/spatule2"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("21_5wglj")
+theme_override_styles/pressed = ExtResource("21_5wglj")
+theme_override_styles/normal = ExtResource("21_5wglj")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/spatule2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0565218
+anchor_right = 1.01478
+anchor_bottom = 0.959996
+offset_left = -0.000319481
+offset_top = -0.000488281
+offset_right = 330.6
+offset_bottom = 331.2
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("28_u0lwb")
+stretch_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/spatule2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/spatule2/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/spatule2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/spatule2/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/spatule2/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/spatule2/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/spatule2/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/spatule2/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="poing2" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("43_rvh1i")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/poing2"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("21_5wglj")
+theme_override_styles/pressed = ExtResource("21_5wglj")
+theme_override_styles/normal = ExtResource("21_5wglj")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/poing2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0434783
+anchor_top = 0.0434739
+anchor_right = 0.935913
+anchor_bottom = 0.863213
+offset_top = 2.67029e-05
+offset_right = 727.74
+offset_bottom = 668.46
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.22, 0.22)
+texture = ExtResource("58_ovhei")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/poing2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/poing2/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/poing2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/poing2/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/poing2/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/poing2/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/poing2/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/poing2/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="throw2" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("45_ovcao")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/throw2"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("21_5wglj")
+theme_override_styles/pressed = ExtResource("21_5wglj")
+theme_override_styles/normal = ExtResource("21_5wglj")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/throw2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0130436
+anchor_top = 0.117391
+anchor_right = 0.990435
+anchor_bottom = 0.748348
+offset_left = -2.81334e-05
+offset_top = 7.05719e-05
+offset_right = 1180.2
+offset_bottom = 761.88
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.16, 0.16)
+texture = ExtResource("30_nrwyq")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/throw2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/throw2/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/throw2/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/throw2/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/throw2/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/throw2/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/throw2/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/throw2/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="daggers3" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("48_y2dbq")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/daggers3"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("30_d4p05")
+theme_override_styles/pressed = ExtResource("30_d4p05")
+theme_override_styles/normal = ExtResource("30_d4p05")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/daggers3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0217391
+anchor_right = 0.883478
+anchor_bottom = 0.83217
+offset_left = -3.09944e-05
+offset_top = -0.000488281
+offset_right = 792.8
+offset_bottom = 765.6
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.22, 0.22)
+texture = ExtResource("12_3wy2m")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/daggers3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/daggers3/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/daggers3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/daggers3/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/daggers3/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/daggers3/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/daggers3/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/daggers3/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="bomb3" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("50_ovhei")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/bomb3"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("30_d4p05")
+theme_override_styles/pressed = ExtResource("30_d4p05")
+theme_override_styles/normal = ExtResource("30_d4p05")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/bomb3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.0347826
+anchor_top = -0.00435198
+anchor_right = 1.03152
+anchor_bottom = 1.00978
+offset_left = -0.000185013
+offset_top = -2.11e-05
+offset_right = 735.75
+offset_bottom = 699.75
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("14_i7qfl")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/bomb3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/bomb3/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/bomb3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/bomb3/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/bomb3/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/bomb3/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/bomb3/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/bomb3/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="katana3" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("52_ynxkl")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/katana3"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("30_d4p05")
+theme_override_styles/pressed = ExtResource("30_d4p05")
+theme_override_styles/normal = ExtResource("30_d4p05")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/katana3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0478269
+anchor_top = -0.1
+anchor_right = 1.03152
+anchor_bottom = 0.948913
+offset_left = -0.000185966
+offset_right = 678.75
+offset_bottom = 723.75
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("15_61emd")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/katana3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/katana3/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/katana3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/katana3/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/katana3/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/katana3/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/katana3/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/katana3/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="hammer3" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("54_iyqrd")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/hammer3"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("30_d4p05")
+theme_override_styles/pressed = ExtResource("30_d4p05")
+theme_override_styles/normal = ExtResource("30_d4p05")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/hammer3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0565218
+anchor_top = -0.0434826
+anchor_right = 1.04674
+anchor_bottom = 1.0076
+offset_left = -1.43051e-05
+offset_top = -0.000466347
+offset_right = 683.25
+offset_bottom = 725.251
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("16_61emd")
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/hammer3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/hammer3/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/hammer3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/hammer3/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/hammer3/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/hammer3/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/hammer3/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/hammer3/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="gun3" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("56_x06ov")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/gun3"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("30_d4p05")
+theme_override_styles/pressed = ExtResource("30_d4p05")
+theme_override_styles/normal = ExtResource("30_d4p05")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/gun3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.0913043
+anchor_top = 0.0652174
+anchor_right = 1.09717
+anchor_bottom = 0.836739
+offset_left = -0.000457764
+offset_right = 507.65
+offset_bottom = 329.55
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("17_g3sip")
+stretch_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/gun3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/gun3/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/gun3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/gun3/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/gun3/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/gun3/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/gun3/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/gun3/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="spatule3" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("58_lwif7")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/spatule3"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("30_d4p05")
+theme_override_styles/pressed = ExtResource("30_d4p05")
+theme_override_styles/normal = ExtResource("30_d4p05")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/spatule3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.0173894
+anchor_top = -0.186957
+anchor_right = 1.14017
+anchor_bottom = 0.970608
+offset_left = -0.0004282
+offset_top = 0.000110626
+offset_right = 757.76
+offset_bottom = 757.76
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.26, 0.26)
+texture = ExtResource("37_ud5ag")
+stretch_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/spatule3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/spatule3/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/spatule3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/spatule3/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/spatule3/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/spatule3/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/spatule3/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/spatule3/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="poing3" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("60_t4kvj")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/poing3"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("30_d4p05")
+theme_override_styles/pressed = ExtResource("30_d4p05")
+theme_override_styles/normal = ExtResource("30_d4p05")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/poing3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0173913
+anchor_top = 0.0608696
+anchor_right = 0.99513
+anchor_bottom = 0.909217
+offset_left = -6.00815e-05
+offset_right = 712.12
+offset_bottom = 617.88
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("19_j1isv")
+stretch_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/poing3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/poing3/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/poing3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/poing3/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/poing3/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/poing3/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/poing3/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/poing3/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="throw3" type="Button" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_y2dbq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ovhei")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_x06ov")
+expand_icon = true
+script = ExtResource("62_6ng46")
+
+[node name="Button" type="Button" parent="Weapons/GridContainer/throw3"]
+custom_minimum_size = Vector2(230, 230)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(115, 115)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u0lwb")
+theme_override_styles/hover = ExtResource("30_d4p05")
+theme_override_styles/pressed = ExtResource("30_d4p05")
+theme_override_styles/normal = ExtResource("30_d4p05")
+expand_icon = true
+script = ExtResource("12_u0lwb")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/throw3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0173913
+anchor_top = 0.00869141
+anchor_right = 1.02913
+anchor_bottom = 0.9933
+offset_left = -6.00815e-05
+offset_right = 662.3
+offset_bottom = 644.54
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.26, 0.26)
+texture = ExtResource("20_j1isv")
+stretch_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Level" type="Panel" parent="Weapons/GridContainer/throw3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.769565
+anchor_right = 0.9
+anchor_bottom = 0.921739
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Label" type="Label" parent="Weapons/GridContainer/throw3/Button/Level"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LevelBar" type="Panel" parent="Weapons/GridContainer/throw3/Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.969565
+anchor_right = 1.0
+anchor_bottom = 1.23478
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2tbv")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/throw3/Button/LevelBar"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -20.0
+offset_right = 100.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("19_y27gt")
+
+[node name="Panel" type="Panel" parent="Weapons/GridContainer/throw3/Button/LevelBar/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_61emd")
+
+[node name="TextureRect" type="TextureRect" parent="Weapons/GridContainer/throw3/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = -10.4998
+offset_right = 88.0
+offset_bottom = 9.50024
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19_kchmb")
+
+[node name="WeaponNumber" type="Label" parent="Weapons/GridContainer/throw3/Button/LevelBar/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -8.0
+offset_right = 38.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/font_size = 21
+text = "0/5"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("20_6mlc3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Weapons/GridContainer/throw3/Button/LevelBar"]
+visible = false
+position = Vector2(225, 22)
+scale = Vector2(1.7, 1.7)
+sprite_frames = SubResource("SpriteFrames_l67a2")
+frame_progress = 0.377317
+
+[node name="Control5" type="Control" parent="Weapons/GridContainer"]
+custom_minimum_size = Vector2(0, 10000)
+layout_mode = 2
+script = ExtResource("68_mg8cq")
+
+[node name="Gamblers" type="ScrollContainer" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 470.0
+offset_bottom = -160.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="info" type="Control" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="daggers" type="Panel" parent="info"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="info/daggers"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -500.0
+offset_top = -710.0
+offset_right = 500.0
+offset_bottom = 710.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = ExtResource("11_mh11f")
+
+[node name="Panel" type="Panel" parent="info/daggers/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.0633803
+anchor_right = 0.895
+anchor_bottom = 0.848592
+offset_right = 5.0
+offset_bottom = -22.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_u0lwb")
+
+[node name="exit_parameters" type="Button" parent="info/daggers/Panel/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.993711
+anchor_top = -0.070852
+anchor_right = 1.1195
+anchor_bottom = 0.0169785
+pivot_offset = Vector2(50, 50)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_iyqrd")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_lwif7")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_t4kvj")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_6ng46")
+icon = ExtResource("82_ynxkl")
+expand_icon = true
+metadata/_edit_use_anchors_ = true
+
+[node name="photo" type="TextureRect" parent="info/daggers/Panel/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.406289
+anchor_top = -0.0304933
+anchor_right = 0.594969
+anchor_bottom = 0.104036
+grow_horizontal = 2
+texture = ExtResource("22_d4p05")
+expand_mode = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="name" type="Label" parent="info/daggers/Panel/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.135
+anchor_right = 0.5
+anchor_bottom = 0.135
+offset_left = -223.5
+offset_top = -16.525
+offset_right = 224.5
+offset_bottom = 15.475
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 18
+theme_override_font_sizes/font_size = 32
+text = "Kitchen knives"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="level" type="Label" parent="info/daggers/Panel/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.179
+anchor_right = 0.5
+anchor_bottom = 0.179
+offset_left = -74.5
+offset_top = -11.585
+offset_right = 75.5
+offset_bottom = 12.415
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 0, 1, 1)
+theme_override_constants/outline_size = 12
+theme_override_font_sizes/font_size = 24
+text = "Level 1"
+
+[node name="rarity" type="Panel" parent="info/daggers/Panel/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.226415
+anchor_top = 0.206278
+anchor_right = 0.477987
+anchor_bottom = 0.251121
+offset_left = 1.00021
+offset_top = 0.000183105
+offset_right = 1.0004
+offset_bottom = -0.000427246
+theme_override_styles/panel = SubResource("StyleBoxFlat_ynxkl")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="info/daggers/Panel/Panel/rarity"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 14
+theme_override_font_sizes/font_size = 24
+text = "Rare"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="fighting_style" type="Panel" parent="info/daggers/Panel/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.516981
+anchor_top = 0.206278
+anchor_right = 0.768553
+anchor_bottom = 0.251121
+offset_left = -3.05176e-05
+offset_bottom = 3.05176e-05
+theme_override_styles/panel = ExtResource("81_ovhei")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="info/daggers/Panel/Panel/fighting_style"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 14
+theme_override_font_sizes/font_size = 24
+text = "Melee"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="description" type="Panel" parent="info/daggers/Panel/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0603774
+anchor_top = 0.273543
+anchor_right = 0.94088
+anchor_bottom = 0.33722
+offset_top = 3.05176e-05
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ud5ag")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="info/daggers/Panel/Panel/description"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 12
+theme_override_font_sizes/font_size = 20
+text = "Let him cook."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="stats_button" type="Button" parent="info/daggers/Panel/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -395.0
+offset_top = 470.5
+offset_right = -7.0
+offset_bottom = 570.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 16
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_lwif7")
+text = "Stats"
+
+[node name="upgrade_button" type="Button" parent="info/daggers/Panel/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.501
+anchor_top = 1.0
+anchor_right = 0.501
+anchor_bottom = 1.0
+offset_left = -199.8
+offset_top = 43.0
+offset_right = 200.2
+offset_bottom = 193.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ynxkl")
+theme_override_styles/hover_mirrored = ExtResource("83_x06ov")
+theme_override_styles/pressed = ExtResource("83_x06ov")
+theme_override_styles/normal = ExtResource("83_x06ov")
+
+[node name="upgrade" type="Label" parent="info/daggers/Panel/Panel/upgrade_button"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -112.0
+offset_top = -48.0
+offset_right = 112.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 16
+theme_override_font_sizes/font_size = 32
+text = "Upgrade"
+
+[node name="dollars" type="Label" parent="info/daggers/Panel/Panel/upgrade_button"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = 11.0
+offset_right = 1.0
+offset_bottom = 43.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 0.794667, 0.12, 1)
+theme_override_constants/outline_size = 16
+theme_override_font_sizes/font_size = 32
+text = "100"
+
+[node name="dollars_img" type="TextureRect" parent="info/daggers/Panel/Panel/upgrade_button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5425
+anchor_top = 0.44
+anchor_right = 0.73
+anchor_bottom = 0.94
+texture = ExtResource("83_iyqrd")
+expand_mode = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="abilities_button" type="Button" parent="info/daggers/Panel/Panel"]
+layout_mode = 0
+offset_left = 395.0
+offset_top = 1009.0
+offset_right = 795.0
+offset_bottom = 1109.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_t4kvj")
+text = "Abilities"
+
+[connection signal="toggled" from="gamblers_button" to="." method="_on_gamblers_button_toggled"]
+[connection signal="toggled" from="weapons_button" to="." method="_on_weapons_button_toggled"]
+[connection signal="pressed" from="Possessed/sort_button" to="." method="_on_sort_button_pressed"]
+[connection signal="pressed" from="Possessed/ascending_button" to="." method="_on_ascending_button_pressed"]
+[connection signal="pressed" from="Weapons/GridContainer/daggers2/Button" to="." method="_on_button_pressed"]

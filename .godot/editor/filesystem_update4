@@ -1,0 +1,15 @@
+res://roulette_dungeon/scripts/user_interface/gamblingscene/blackjack.gd
+res://roulette_dungeon/scenes/user_interface/gamblingscene/blackjack.tscn
+res://roulette_dungeon/assets/tres/buttons_theme/basicwep.tres
+res://roulette_dungeon/assets/tres/weaponsfirstpanel.tres
+res://roulette_dungeon/assets/tres/weaponsLevelBarPurple.tres
+res://roulette_dungeon/assets/tres/buttons_theme/rarewep.tres
+res://roulette_dungeon/assets/tres/buttons_theme/epicwep.tres
+res://roulette_dungeon/assets/tres/fighting_style.tres
+res://roulette_dungeon/assets/tres/buttons_theme/upgrade.tres
+res://roulette_dungeon/assets/tres/gamblinggoods.tres
+res://roulette_dungeon/assets/tres/playbutttonhighlow.tres
+res://roulette_dungeon/scenes/user_interface/weapons.tscn
+res://roulette_dungeon/scenes/user_interface/gamblingscene/highlow.tscn
+res://roulette_dungeon/scenes/user_interface/gamblingscene/gambling.tscn
+res://roulette_dungeon/scripts/user_interface/gamblingscene/highlow/highlow.gd
